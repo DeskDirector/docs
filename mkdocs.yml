@@ -1,4 +1,4 @@
 site_name: DeskDirector Docs
 pages:
-    - Home: index.md
+- Home: index.md
 theme: readthedocs
