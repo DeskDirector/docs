@@ -17,3 +17,5 @@ Again, there are a few ways to do this:
 
 ## Next steps
 * [Creating a chat session](./creating_a_chat_session.md)
+* [Handling chat requests](./handling_chat_requests.md)
+* [Changing your presence](./changing_your_presence.md)
