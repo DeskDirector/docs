@@ -1,6 +1,7 @@
 # Changing your presence
 
-## TECH
+## Tech
+
 It is possible in TECH to force your [presence](../../glossary/p/presence.md) to `Away` or `Busy`.
 
 You can do this by clicking your avatar on the top-left of the app:

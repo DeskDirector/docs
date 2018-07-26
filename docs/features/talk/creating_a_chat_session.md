@@ -1,5 +1,9 @@
 # Creating a Chat Session
 
+## Tech
+
+Tech users can only create chat sessions from a ticket at this stage and only if that ticket has an online contact assigned to the ticket. This is what's known as a push-chat, where a chat session is created with a target user.
+
 ## Portal
 
 Portal users can create [chat sessions](../../glossary/c/chat_session.md) in 2 places:
@@ -14,7 +18,3 @@ Portal users can now request to chat before they have created a ticket. They can
 ### Post-ticket chat
 
 Users can also chat on an existing ticket by heading to `Open Tickets > {ticket} > Chat Icon`. These chat sessions will have the ticket number attached to them so members/resources will be able to easily pull up the relevant ticket. Post-ticket chat sessions cannot be created on closed tickets.
-
-## Tech
-
-Tech users can only create chat sessions from a ticket at this stage and only if that ticket has an online contact assigned to the ticket. This is what's known as a push-chat, where a chat session is created with a target user.
