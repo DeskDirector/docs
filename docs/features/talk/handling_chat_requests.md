@@ -20,7 +20,7 @@ When you click `Join` on the chat request notification a chat window will pop up
 
 ![Chat window](./img/chat_window.png)
 
-### Ending chat requests
+### Ending chat sessions
 
 Once you have solved the customers request, you can end the chat session. To do this, click the menu button on the chat window. Depending on what type of chat request it is you will have different options to close the session.
 
@@ -53,3 +53,41 @@ and fill out the dialog:
 The process for following up on callbacks is very similar to abandoned chat requests, but you will be given more information from the client. They will provide you with a phone number to ring and optionally, a message. You can click on these phone numbers directly from the chat session card to call using your phone system software.
 
 ## Portal
+
+### Receiving chat requests
+
+Chat request notifications will appear in the centre of the application, forcing users to interact with the dialog.
+
+![Chat Request Dialog](./img/portal_chat_request_dialog.png)
+
+Chat requests will also create a Web Notification or a OS Desktop Notification if the installed client is running.
+
+![Chat Request Web Notification](./img/portal_chat_request_web_notification.png)
+
+![Chat Request Desktop Notification](./img/portal_chat_request_desktop_notification.png)
+
+### Joining chat requests
+
+When you click `Join` on the chat request dialog a chat window will pop up at the bottom of the screen. From there your customer will be able to chat with your engineer.
+
+![Chat Window](./img/portal_chat_window.png)
+
+### Ending and leaving chat sessions
+
+There are only a few situations where the Portal user will be able to end their own chat session.
+
+- When they have created a new chat request, but no one has answered within a certain timeframe.
+
+![Chat Dialog - No one there](./img/portal_chat_window_no_one_there.png)
+
+- When they have created a new chat request, but it is currently outside of your support hours, as configured inside of your `Office Hours`.
+
+![Chat Dialog - Outside support hours](./img/portal_chat_window_outside_support_hours.png)
+
+- When they have been communicating with an engineer, but there has not been any chat activity for more than 1 hour.
+
+![Chat Dialog - No activity](./img/portal_chat_window_no_activity.png)
+
+In all other situations, the burden is on the engineer to formally complete the conversation. Once an engineer has ended a chat session, the user will be presented with the ability to leave.
+
+![Chat Dialog - Chat ended by engineer](./img/portal_chat_window_engineer_ended.png)

@@ -27,3 +27,13 @@ From the chat history details page you can view the chat log as well as all the 
 ![chat history details](./img/chat_history_details.png)
 
 ## Portal
+
+### From a ticket's timeline
+
+Portal users will be able to view their past chat sessions via their ticket history.
+
+The chat history will appear as a timeline item on the corresponding ticket that it was associated with.
+
+This means that users will not be able to view Pre Ticket chats that did not get associated with a ticket.
+
+![Portal chat history timeline item](./img/chat_history_timeline_item.png)
