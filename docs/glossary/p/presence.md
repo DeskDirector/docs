@@ -8,7 +8,7 @@ The user is available to chat with. We have seen activity from them in the last 
 
 ## Away
 
-We haven't seen any activity the user in the last 10 minutes. They are not available to chat with.
+We haven't seen any activity from the user in the last 10 minutes. They are not available to chat with.
 
 ## Busy
 
