@@ -36,4 +36,4 @@ The chat history will appear as a timeline item on the corresponding ticket that
 
 This means that users will not be able to view Pre Ticket chats that did not get associated with a ticket.
 
-![Portal chat history timeline item](./img/chat_history_timeline_item.png)
+![Portal chat history timeline item](./img/portal_chat_history_timeline_item.png)
