@@ -25,3 +25,4 @@ Everything your helpdesk technician requires is all in one place and nothing els
 * Never lose track of tickets with multiple in-screen tabs that persist
 * See your customers presence (requires DD Talk)
 * Format & standardise using markdown for a shared, professional & branded response within the Customer Portal
+* Create and enforce Standard operating procedures (SOPs_
