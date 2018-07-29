@@ -4,6 +4,10 @@
 
 Tech users can only create chat sessions from a ticket at this stage and only if that ticket has an online contact assigned to the ticket. This is what's known as a push-chat, where a chat session is created with a target user.
 
+![Tech push chat](./img/tech_push_chat.png)
+
+Note that you will only be able to send a push chat request if the user is `Online`.
+
 ## Portal
 
 Portal users can create [chat sessions](../../glossary/c/chat_session.md) in 2 places:
