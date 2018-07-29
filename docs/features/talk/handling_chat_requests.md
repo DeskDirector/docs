@@ -22,7 +22,11 @@ When you click `Join` on the chat request notification a chat window will pop up
 
 ### Ending chat sessions
 
-Once you have solved the customers request, you can end the chat session. To do this, click the menu button on the chat window. Depending on what type of chat request it is you will have different options to close the session.
+Once you have solved the customers request, you can end the chat session. To do this, click the menu button on the chat window:
+
+![Chat window menu button](./img/chat_window_menu_button.png)
+
+Depending on what type of chat request it is you will have different options to close the session.
 
 #### Pre-ticket chat
 
