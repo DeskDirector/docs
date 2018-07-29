@@ -17,4 +17,4 @@ Portal users can now request to chat before they have created a ticket. They can
 
 ### Post-ticket chat
 
-Users can also chat on an existing ticket by heading to `Open Tickets > {ticket} > Chat Icon`. These chat sessions will have the ticket number attached to them so members/resources will be able to easily pull up the relevant ticket. Users can only have on active ticket chat open, per ticket, at any one time. 'Active' is defined as being in either the [waiting](../../glossary/c/chat_session.md) or [handled](../../glossary/c/chat_session.md) state. Post-ticket chat sessions cannot be created on closed tickets.
+Users can also chat on an existing ticket by heading to `Open Tickets > {ticket} > Chat Icon`. These chat sessions will have the ticket number attached to them so members/resources will be able to easily pull up the relevant ticket. Users can only have one active ticket chat open, per ticket, at any one time. 'Active' is defined as being in either the [waiting](../../glossary/c/chat_session.md) or [handled](../../glossary/c/chat_session.md) state. Post-ticket chat sessions cannot be created on closed tickets.
