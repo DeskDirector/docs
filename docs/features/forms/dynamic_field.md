@@ -51,6 +51,17 @@ Response of payload must according to following `JSON` schema. It is case insens
 }
 ```
 
+### Error Response
+
+Any service API error should according to following schema. If error format is incorrect, portal should display generic error.
+
+```
+{
+ error: string,
+ errorDescription: string
+}
+```
+
 ## FAQ
 
 Q: What happen to API response that's contain more than 30 items?
@@ -64,3 +75,6 @@ A: Similar as name, on form submission, extra charactors will be chopped off.
 
 Q: What if the identifier is essential and it is more than 50 chars? What can we do about it?
 A: You can hash those identifiers into a fixed length, then store inside a key value pair data table.
+
+Q: What if dynamic field is required, but given API is broken or throw error?
+A: Form should allow submit ticket without answer been full filled, error should be submit alongside with ticket.
