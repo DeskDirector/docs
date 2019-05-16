@@ -74,3 +74,7 @@ Built-in web service that is supports dynamic field is contacts list and priorit
 ### Dynamic Field - single-select `api_single_select`
 
 This is under dynamic field category too, end user can only select one list item, instead of multiple.
+
+## Dynamic Field documentation
+
+For dynamic field's API design blue print, you can find it [here](dynamic_field.md)
