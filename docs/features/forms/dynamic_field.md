@@ -62,6 +62,17 @@ Any service API error should according to following schema. If error format is i
 }
 ```
 
+If an error is returned from the API, the form will allow the user to skip the question.
+The error will be submitted as their answer to the question, in the same format as any other Choice type answer.
+e.g.
+```
+{
+ name: `Error: ${error}\n Error Description: ${errorDescription}`,
+ identifier: 'api_error',
+ selected: true
+}
+```
+
 ## FAQ
 
 Q: What happen to API response that's contain more than 30 items?
