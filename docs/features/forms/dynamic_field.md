@@ -51,6 +51,43 @@ Response of payload must according to following `JSON` schema. It is case insens
 }
 ```
 
+### Fallback "Other" Choice
+Due to the inherently unreliable nature of web services, an escape option is provided to the user for all dynamic fields.
+This is so a user won't be prevented from completing a form in the event of API failure or the inability to find the correct choice (e.g. the contact they are looking for is not presented in the list, even though it should be).
+
+
+The format of the other choice will be:
+```
+{
+    "name": "Other",
+    "identifier": "{field_identifier}_other",
+    "selected": true
+}
+```
+
+In the case where the "Other" choice is selected, a new choice will appear in the `choices` collection on the field and their answer will be placed into the `value` property on the field.
+
+e.g.
+```
+{
+    "type": "api_single_choice",
+    "name": "Choose a contact",
+    "identifier": "d4ptmn",
+    "required": false,
+    "choices": [
+        {
+            "name": "Other",
+            "identifier": "d4ptmn_other",
+            "selected": true
+        }
+    ],
+    "meta": {
+        "render": "radio"
+    },
+    "value": "Bob Smith"
+}
+```
+
 ### Error Response
 
 Any service API error should according to following schema. If error format is incorrect, portal should display generic error.
@@ -63,13 +100,20 @@ Any service API error should according to following schema. If error format is i
 ```
 
 If an error is returned from the API, the form will allow the user to skip the question.
-The error will be submitted as their answer to the question, in the same format as any other Choice type answer.
-e.g.
+They will be presented with an "Other" choice.
+
+The error will be reported to Application Insights.
+
 ```
 {
- name: `Error: ${error}\n Error Description: ${errorDescription}`,
- identifier: 'api_error',
- selected: true
+ "name": 'DynamicFieldError';
+ "customDimensions": {
+  "form_entity_id": string;
+  "field_identifier": string;
+  "field_type": 'api_multi_select' | 'api_single_select';
+  "url": string;
+  [queryParamKey: string]: string;
+ }
 }
 ```
 
