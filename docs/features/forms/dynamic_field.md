@@ -120,7 +120,7 @@ The error will be reported to Application Insights.
 ## FAQ
 
 Q: What happen to API response that's contain more than 30 items?
-A: Dropdown of the dynamic field will only display first 30 items. From user experience point of view, toom any items will give hard time for end user to scan through. it is best to provide search capability at API level.
+A: Dropdown of the dynamic field will only display first 30 items. From user experience point of view, too many items will give hard time for end user to scan through. it is best to provide search capability at API level.
 
 Q: What if one of item has name more than 100 chars?
 A: Dropdown of the dynamic field will only display 100 chars. On form submission, extra charactors will be chopped off.
