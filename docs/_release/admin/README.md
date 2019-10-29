@@ -10,5 +10,3 @@
 * **Improved** Contacts search and list page now restyled and with new capability on filter by company.
 * **Improved** Quick link to remove contacts search and filters.
 * **Improved** Contacts page now retain query history inside browser history
-
-test
