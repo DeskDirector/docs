@@ -1,4 +1,4 @@
-### October 17th 2019 ([1.5.1](release-notes/admin/v1.5.1))
+### October 17th 2019 ([1.5.1](/admin/v2/release-notes/admin/v1.5.1))
 * **ADDED** There is now contacts search and list page under company page
 * **ADDED** Add Knowledge base article site link to the side navigation bar
 * **FIXED** material icons link under menu item edit page is incorrect
