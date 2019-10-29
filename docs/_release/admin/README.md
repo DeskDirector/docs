@@ -2,7 +2,7 @@
 * **ADDED** There is now contacts search and list page under company page
 * **ADDED** Add Knowledge base article site link to the side navigation bar
 * **FIXED** material icons link under menu item edit page is incorrect
-* **Improved** Email template's **error** page now always accessible. 
+* **Improved** Email template's error page now always accessible. 
 * **Improved** Email template's error page now always display count
 * **Improved** Email sample now can be branded
 * **Improved** Forms search list now retain query history inside browser history.
