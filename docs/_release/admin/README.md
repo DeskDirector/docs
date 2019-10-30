@@ -1,3 +1,7 @@
+### October 31th 2019 ([1.6.2](v1.6.2))
+* **Fixed** Navigation after create menu item went to wrong route
+* **Fixed** The menu items link inside menu item edit page point to wrong location
+
 ### October 30th 2019 ([1.6.1](v1.6.1))
 * **Added** New menu item creation and edit page
 * **Added** [Menu item](/portal/menus/menu-items) now can use [OneNote notebook](/portal/notebooks)
