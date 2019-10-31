@@ -1,3 +1,6 @@
+### October 31th 2019 ([1.6.3](v1.6.3))
+* **Improved** Part of home page content now dynamically load in
+
 ### October 31th 2019 ([1.6.2](v1.6.2))
 * **Fixed** Navigation after create menu item went to wrong route
 * **Fixed** The menu items link inside menu item edit page point to wrong location
