@@ -1,4 +1,4 @@
-# December 2nd 2019 ([1.7.1](v1.7.1))
+### December 2nd 2019 ([1.7.1](v1.7.1))
 
 * **ADDED** Setting to change the behaviour of creating initial description for new ticket. (CW Only) - `Server 18.102`
 * **ADDED** You can now edit portal's title inside [portal profile page](/portal/settings/profile)
