@@ -1,3 +1,17 @@
+# December 2nd 2019 ([1.7.1](v1.7.1))
+
+* **ADDED** Setting to change the behaviour of creating initial description for new ticket. (CW Only) - `Server 18.102`
+* **ADDED** You can now edit portal's title inside [portal profile page](/portal/settings/profile)
+* **ADDED** BiggerBrains as type for menu item, improve accessibility of BiggerBrains, make it easier to setup and easier to use. - `Server 18.102`
+* **ADDED** BiggerBrains demo in admin portal. It contains demo courses for different BiggerBrains products. - `Server 18.102`
+* **IMPROVED** Form section's edit fields function now change from dropdown to button. Make it easier to spot and access
+* **IMPROVED** Company Access now rename to Portal Access, as it can more accurate reflect the purpose of the setting page.
+* **IMPROVED** Contact permissions page now display whether given contact is default contact. Default contact has access to all tickets.
+* **FIXED** Contacts search page now persist search term during navigation.
+* **FIXED** Loading indicator always display after a slow loading.
+
+There are few additions which will be available when server 18.102 been general released.
+
 ### October 31th 2019 ([1.6.3](v1.6.3))
 * **Improved** Part of home page content now dynamically load in
 
