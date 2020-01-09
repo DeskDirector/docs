@@ -1,3 +1,15 @@
+### January 9th 2019 ([1.8.1](v1.8.1))
+
+* **ADDED** SMTP email delivery [setting](/system/emails/delivery/smtp) now improved and refactored to be part of new admin console.
+* **ADDED** Email delivery [records page](/system/emails/delivery/records) to monitor and diagnose issue on email delivery.
+* **ADDED** [Email delivery page](/system/emails/delivery) and capability to send test email.
+* **ADDED** Monthly portal usage [report page](/analytics/portal/monthly)
+* **ADDED** Monthly portal usage report on home page.
+* **ADDED** [Service Radar](/analytics/service-radar) for tracking staggering tickets.
+* **IMPROVED** Company(Account) and Contact profile page now automatically verify whether entity still exist in PSA. If they have been deleted, system will remove our synced record. (In old admin console, it was manual trigger, we have now bring back the functionality and change to auto trigger) 
+* **IMPROVED** Dynamic email template's sample size now been increased to 4,000 chars.
+* **FIXED** Menu item editor's icon select dropdown is hide behind other element
+
 ### December 2nd 2019 ([1.7.1](v1.7.1))
 
 * **ADDED** Setting to change the behaviour of creating initial description for new ticket. (CW Only) - `Server 18.102`
