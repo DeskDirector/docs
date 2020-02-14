@@ -3,4 +3,4 @@
 * [Client facing portal](https://help.deskdirector.com/article/5g8fburope-portal-release-notes-web-client) - Web
 * [Client facing portal](https://help.deskdirector.com/article/4uzjpwaiou-dd-portal-changelog) - Windows / Mac
 * [Backend server](https://help.deskdirector.com/article/5ml4ieesph-server-changelog)
-* TECH - upcoming
+* [TECH](/release-notes/tech) ([1.21](/release-notes/tech/v1.21)) - Released on 17th of Feb 2019
