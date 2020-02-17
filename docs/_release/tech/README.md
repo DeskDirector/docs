@@ -1,4 +1,4 @@
-### Feb 17th 2020 ([1.21.1](v1.21))
+### Feb 17th 2020 ([1.21](v1.21))
 
 * **ADDED** New ticket list interface
 * **ADDED** Tags display in ticket list interface
