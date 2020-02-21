@@ -1,3 +1,11 @@
+### Feb 21st 2020 ([1.22](v1.22))
+
+- **ADDED** New tab system
+- **ADDED** Priority filtering on ticket list
+- **IMPROVED** Improve the logic on refresh board and status facet.
+- **IMPROVED** When navigate to ticket, contact or company through link, a temporary tab should now exist to reflect page's current location.
+- **FIXED** Contact and company page's ticket list should now display correctly.
+
 ### Feb 17th 2020 ([1.21](v1.21))
 
 * **ADDED** New ticket list interface
