@@ -1,3 +1,14 @@
+### February 28th 2020 ([1.9.1](v1.9.1))
+
+- **ADDED** BiggerBrains lessons analytics
+- **ADDED** TECH's [release note](/release-notes/tech/v1.22)
+- **ADDED** Experimental gravatar display on contact list
+- **IMPROVED** Autotask integration credential check, it will now display warning if API resource is misconfigured.
+- **IMPROVED** Ensure priority checkbox now have more detailed explanation.
+- **IMPROVED** Contact list filtering now been improved. Permission filter now optional depends on configuration filter choice.
+- **FIXED** Service Radar background task still running after navigate away
+- **FIXED** Test email button not disabled while sending mail.
+
 ### January 9th 2019 ([1.8.1](v1.8.1))
 
 * **ADDED** SMTP email delivery [setting](/system/emails/delivery/smtp) now improved and refactored to be part of new admin console.
