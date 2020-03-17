@@ -10,5 +10,6 @@ And if you're not new, we recommend you check it out anyway as it's a great chan
 
 [Onboarding Center](https://www.deskdirector.com/onboarding)
 
-Enjoy  
+
+Happy deskdirectoring!  
 The Team at DeskDirector
