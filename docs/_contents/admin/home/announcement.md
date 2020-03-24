@@ -6,7 +6,7 @@ We created a [Work From Anywhere Support Center page](https://deskdirector.com/w
 
 We will keep updating and enriching with tools to help you succeed during these unprecedented times. We added it to our support portal menu and your DD Admin Console to keep it 100% accessible at all times.
  
- 
+___
  
 **Our new Onboarding Center is up and running**
 
