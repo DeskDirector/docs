@@ -1,3 +1,7 @@
+### Apr 1 2020 ([v3.11.1](v3.11.1))
+
+* **fixed** an issue where the legacy tickets ui would fail to render correctly and display interpolation strings instead
+
 ### Apr 1 2020 ([v3.11.0](v3.11.0))
 
 * **Added** a way to preview attachments before they are attached to the ticket. This allows users to check their screenshots for sensitive information etc.
