@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Access Token</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css"
+    />
+    <style type="text/css">
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="relative bg-gray-50 overflow-hidden">
+      <div class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full">
+        <div class="relative h-full max-w-screen-xl mx-auto">
+          <svg
+            class="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width="404" height="784" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
+          </svg>
+          <svg
+            class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
+            width="404"
+            height="784"
+            fill="none"
+            viewBox="0 0 404 784"
+          >
+            <defs>
+              <pattern
+                id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width="404" height="784" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
+          </svg>
+        </div>
+      </div>
+
+      <div x-data="{ open: false }" class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+        <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28">
+          <div class="text-center">
+            <h2
+              class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
+            >
+              Hello
+              <br class="xl:hidden" />
+              <span class="text-indigo-600" id="user_name"></span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"
+    ></script>
+    <script type="text/javascript">
+      async function getUser(host, token) {
+        const request = fetch(`${_.trimEnd(host, '/ ')}/api/v2/user/client`, {
+          method: 'GET',
+          headers: {
+            Authorization: `DdAccessToken ${token}`,
+            Accept: 'application/json'
+          }
+        });
+        const response = await request;
+        const result = await response.json();
+        console.log(result);
+        if (result && result.userName) {
+          $('#user_name')
+            .first()
+            .text(result.userName);
+        }
+      }
+
+      var param = new URLSearchParams(document.location.search);
+      const host = param.get('host');
+      const accessToken = param.get('access_token');
+      if (host && accessToken) {
+        getUser(host, accessToken);
+      } else {
+        $('#user_name')
+          .first()
+          .text('missing token');
+      }
+    </script>
+  </body>
+</html>
