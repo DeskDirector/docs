@@ -1,3 +1,16 @@
+### April 6th 2020 ([1.10.1](v1.10.1))
+
+- **ADDED** Email Notification for ticket life cycle
+- **ADDED** Additional branding and link tokens for email templates
+- **ADDED** Email template now have subject template.
+- **ADDED** Office 365 email delivery now supports shared mailbox.
+- **ADDED** New portal release page
+- **ADDED** Export CSV now added on contacts search page.
+- **ADDED** Developer corner page for settings automation and extend portal or TECH functionality.
+- **IMPROVED** Notebook menu item's select notebook modal now have simple search.
+- **FIXED** Many icon related component should display correctly. It was having incorrect width
+- **FIXED** Portal feature preview page's knowledge base article link now been corrected.
+
 ### February 28th 2020 ([1.9.1](v1.9.1))
 
 - **ADDED** BiggerBrains lessons analytics
