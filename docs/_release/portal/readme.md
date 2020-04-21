@@ -1,4 +1,4 @@
-### Apr 21 2020 ([v3.11.0](v3.11))
+### Apr 21 2020 ([v3.11](v3.11))
 
 * **Added** a way to preview attachments before they are attached to the ticket. This allows users to check their screenshots for sensitive information etc.
 * **Added** a countdown dialog before taking a screenshot. This helps users understand that the app will minimise prior to taking the screenshot, and that the app has not crashed.
