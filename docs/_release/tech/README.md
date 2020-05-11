@@ -1,3 +1,16 @@
+### 12th of May 2020 ([1.23.1](v1.23))
+- **FIXED** Infinite loop when setup presence. 
+- **FIXED** Authentication to push notification server may take long time before success. 
+- **FIXED** When paste screenshot from clipboard, it cause ticket note or time entry's text note to go empty.
+
+### 17th of April 2020 ([1.23.0](v1.23))
+
+- **ADDED** Allow attach any form to ticket
+- **IMPROVED** order macro by name
+- **FIXED** Typo in pagination
+- **FIXED** When create macro, last entry input was cached
+- **IMPROVED** always play sound and cast browser notification when new chat session been created
+
 ### Feb 21st 2020 ([1.22](v1.22))
 
 - **ADDED** New tab system
