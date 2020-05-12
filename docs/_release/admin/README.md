@@ -1,3 +1,8 @@
+### 12th of May 2020 ([1.11.2](v1.11.1))
+
+- **ADDED** Initial setup wizard when server first initialized
+- **IMPROVED** ConnectWise setup page's label `Company ID` now changed to `Company Identifier`.
+
 ### April 6th 2020 ([1.10.1](v1.10.1))
 
 - **ADDED** Email Notification for ticket life cycle
