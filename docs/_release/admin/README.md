@@ -1,3 +1,17 @@
+### 9th of June 2020 ([1.12.1](v1.12.1))
+
+- **ADDED** Host Setting to allow personalize the product based on DNS
+- **ADDED** Flag to enable and disable individual approval emails
+- **ADDED** New setting alerts to notify customer if any basic setting are missing for given server. Or any deprecated features that's still been used.
+- **IMPROVED** Email setting now have it's own menu group, and different content been split out to different pages. Make it easier to navigate
+- **IMPROVED** System email event now able to select between default template and custom templates. Legacy templates been removed.
+- **IMPROVED** When create new custom email template or modify exist custom template, hello world sample should now convert to default template content. It gives customer quick and easy start point.
+- **IMPROVED** Admin portal user's email been automatically populated inside email test feature.
+- **IMPROVED** Customer now able to test approval related emails additional to mail auth token email.
+- **IMPROVED** Customer can created multiple custom template for default email event now. e.g. mail auth token email.
+- **IMPROVED** Initialize server wizard received minor improved. Some of page now display loading spinner instead of empty tick box.
+- **FIXED** Many email setting page related route has been changed. Fixed link that's point to incorrect location.
+
 ### 12th of May 2020 ([1.11.2](v1.11.1))
 
 - **ADDED** Initial setup wizard when server first initialized
