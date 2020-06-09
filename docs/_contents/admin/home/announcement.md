@@ -1,11 +1,13 @@
-**Our new Onboarding Center is up and running**
+### PRODUCT UPDATE: version 1.12.1
 
-After much thought and feedback from our awesome community, we've decided to put all of our guidelines together into a collection of onboarding resources, knowledge base articles and best practice tips specifically designed to help you set up your portal as quickly as possible.
+Although we generally keep the Release Updates in its section (side Menu of the Admin Console), we wanted to give you an extra heads up for the latest one.
 
-It's by no means comprehensive and it's not designed to replace our thorough library of KB. Rather, it should help you focus on what needs your immediate attention as opposed to everything else that you can achieve with our awesome solution at a later date.
-It will always be accessible via our [support.deskdirector.com](https://support.deskdirector.com/), we've created a new Onboarding Center menu item.
+[Read the full Release Note Here](release-notes/admin/v1.12.1)
 
-So, if you're new(ish) around here and you missed out on our onboarding emails (can't blame you) fear no more, now we've put all you need in one place.
-And if you're not new, we recommend you check it out anyway as it's a great chance to see if you did all you could with your Portal!
+Here's some of the highlights:
++ **Host Settings**: with this admin Portal release, you can now configure settings based on server DNS
++ **Test Email Templates**: the Admin Portal now allows you to not only test email delivery method, but also to specify which template you want to test
++ **Ticket global events toggle**: we have moved them to a new location. You can toggle approval emails separately.
++ **New email setting section**: System Template.
 
-[Onboarding Center](https://www.deskdirector.com/onboarding)
+Again, the above list is just a super quick rundown of all the goodness we have packed into this release. [Go Read the full Release Note Here](release-notes/admin/v1.12.1).
