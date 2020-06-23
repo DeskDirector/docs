@@ -1,3 +1,11 @@
+### 16th of Jun 2020 ([1.24.1](v1.24))
+- **ADDED** Chat system connection state under user avatar's dropdown
+- **ADDED** Retry countdown on chat push notification connection
+- **ADDED** Assigned resources can be removed from ticket
+- **ADDED** ConnectWise ticket can add or remove CC
+- **IMPROVED** Broadcast now only available to technician that's admin
+- **FIXED** Ticket note doesn't display markdown code block correctly. It was display blank for XML inside code block.
+
 ### 12th of May 2020 ([1.23.1](v1.23))
 - **FIXED** Infinite loop when setup presence. 
 - **FIXED** Authentication to push notification server may take long time before success. 
