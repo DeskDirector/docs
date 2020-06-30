@@ -2,7 +2,7 @@ Welcome to the DeskDirector Admin Portal. This is a new page that we have introd
 
 | Subscribe to our Release Notes and have them sent directly into your inbox |
 | --- |
-| [Click here to subscribe](https://share.hsforms.com/16JksqaETTxW5iY8FnZSUvQ972r) |
- 
+| [Click here to subscribe](https://share.hsforms.com/16JksqaETTxW5iY8FnZSUvQ972r) |  
+  
   
    
