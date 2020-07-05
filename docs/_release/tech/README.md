@@ -1,3 +1,9 @@
+### 6th of July 2020 ([1.25.0](v1.25)
+- **IMPROVED** Logout or unauthorized session should now use new authentication page.
+- **IMPROVED** With introduction of new member/resource role, broadcast page will now display for advanced or admin role.
+- **FIXED** Company list page now respect portal access rule from admin portal.
+- **FIXED** Add new tab icon should now display in white color instead of subtle color.
+
 ### 16th of Jun 2020 ([1.24.1](v1.24))
 - **ADDED** Chat system connection state under user avatar's dropdown
 - **ADDED** Retry countdown on chat push notification connection
