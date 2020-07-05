@@ -1,3 +1,6 @@
+### 1st of July 2020 ([v3.13](v3.13))
+- **IMPROVED** Attachments on ticket detail timeline now display subtle, especially email archive.
+
 ### Jun 15 2020 ([v3.12](v3.12))
 - **IMPROVED** Avatar's position
 - **IMPROVED** attach file from create ticket and add note has different behaviour for ConnectWise user. Add note attachment will change client updated flag to true, where create ticket won't.
