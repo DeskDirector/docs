@@ -1,3 +1,14 @@
+### 6th of July 2020 ([1.13.1](v1.13.1))
+- **ADDED** Test mode for ticket email notification
+- **ADDED** Broadcast variable is now available for approval ticket and ticket life cycle email templates.
+- **ADDED** Default email template for new ticket, ticket closed, status changed and note added event now have broadcast displayed when set.
+- **ADDED** Subscribe to product update now available in admin portal.
+- **ADDED** Introduce advanced role for member/resource. (depends on server release)
+- **IMPROVED** Portal access setting page's URL now change from `company-access` to `portal-access` to reflect correct context.
+- **IMPROVED** Menu item for extension page now have sandbox helper reworked, it is now more obvious.
+- **IMPROVED** Service radar's board selection no longer have unexpected text selection when use `shift` key to select multiple board.
+- **IMPROVED** Admin portal now display alert for customer who uses local SMTP to send email
+
 ### 9th of June 2020 ([1.12.1](v1.12.1))
 
 - **ADDED** Host Setting to allow personalize the product based on DNS
