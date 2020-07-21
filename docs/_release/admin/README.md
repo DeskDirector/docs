@@ -1,3 +1,11 @@
+### 21st of July 2020 ([1.14.1](v1.14.1))
+- **ADDED** Contact ticket access diagnose
+- **ADDED** Visual guide for OneNote notebook publish flow
+- **ADDED** Current month portal usage
+- **ADDED** Past 7 days client portal usage (only available for server 18.129.1+)
+- **IMPROVED** Hide ignore status list for ticket life cycle event setting as advanced setting
+- **IMPROVED** Contact profile name, title, email and phone's display
+
 ### 6th of July 2020 ([1.13.2](v1.13.1))
 - **ADDED** Test mode for ticket email notification
 - **ADDED** Broadcast variable is now available for approval ticket and ticket life cycle email templates.
