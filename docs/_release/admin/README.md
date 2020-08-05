@@ -1,3 +1,10 @@
+### 5th of Aug 2020 ([1.15.1](v1.15.1))
+- **ADDED** Notebook publish progress
+- **ADDED** Advanced email template token for ticket event
+- **ADDED** Server license page
+- **ADDED** Change optional subscription page
+- **FIXED** Links on home page now supports open in new tab.
+
 ### 21st of July 2020 ([1.14.1](v1.14.1))
 - **ADDED** Contact ticket access diagnose
 - **ADDED** Visual guide for OneNote notebook publish flow
