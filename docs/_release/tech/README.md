@@ -1,3 +1,10 @@
+### 28th of Aug 2020 ([1.26.1](v1.26))
+- **ADDED** Internal attachment now display as yellow icon.
+- **IMPROVED** Ticket timeline been reworked. Conversation is much more prominent, where attachment, chat history are subtle. Email archieve will display as very subtle.
+- **IMPROVED** Disable chat for streamline IT
+- **FIXED** Attachment added with internal note or time entry should now added as internal.
+
+
 ### 6th of July 2020 ([1.25.0](v1.25))
 - **IMPROVED** Logout or unauthorized session should now use new authentication page.
 - **IMPROVED** With introduction of new member/resource role, broadcast page will now display for advanced or admin role.
