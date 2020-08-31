@@ -1,3 +1,13 @@
+### 1st of Sep 2020 ([1.16.1](v1.16.1))
+- **ADDED** Native Member/Resource list and configuration
+- **ADDED** Added setting to enable advanced ticket deletion detection for ConnectWise
+- **IMPROVED** Smart ticket's trigger type
+- **IMPROVED** Several page's scroll behaviour.
+- **IMPROVED** Actions on QuoteWerks setting page should be disabled until QuoteWerks integration has been enabled.
+- **IMPROVED** Icon on left side menu now uses SVG instead of icon font. This avoid icon taking unexpected space before font been loaded.
+- **IMPROVED** Add search helper in contact search page.
+- **FIXED** Stripe subscription update link
+
 ### 5th of Aug 2020 ([1.15.1](v1.15.1))
 - **ADDED** Notebook publish progress
 - **ADDED** Advanced email template token for ticket event
