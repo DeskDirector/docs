@@ -1,3 +1,9 @@
+### 17st of Sep 2020 ([1.17.1](v1.17.1))
+- **ADDED** Multi/single select field in form now allow setup default value. Latest client portal will recognize default value.
+- **IMPROVED** When admin portal been embedded inside iframe, side navigation bar will be collapsed by default
+- **FIXED** Condition for text field unable to be saved
+- **FIXED** Conditions for number field unable to be saved
+
 ### 1st of Sep 2020 ([1.16.1](v1.16.1))
 - **ADDED** Native Member/Resource list and configuration
 - **ADDED** Added setting to enable advanced ticket deletion detection for ConnectWise
