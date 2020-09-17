@@ -1,4 +1,4 @@
-# 17th of Sep 2020 ([1.27.1](v1.27))
+### 17th of Sep 2020 ([1.27.1](v1.27))
 - **ADDED** Member with admin permission now able to view service radar in TECH. The functionality exist in admin portal in the past, now embedded inside TECH portal
 - **ADDED** New chat notification test page. Allow test on browser notification and sound.
 - **IMPROVED** Whole chat system inside TECH portal been rewritten.
