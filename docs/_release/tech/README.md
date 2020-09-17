@@ -1,3 +1,15 @@
+# 17th of Sep 2020 ([1.27.1](v1.27))
+- **ADDED** Member with admin permission now able to view service radar in TECH. The functionality exist in admin portal in the past, now embedded inside TECH portal
+- **ADDED** New chat notification test page. Allow test on browser notification and sound.
+- **IMPROVED** Whole chat system inside TECH portal been rewritten.
+- **IMPROVED** User's busy state, as long as it is not intentional, it should switch to online state within seconds. In the past it will take more than 20 seconds to recognize user is back.
+- **IMPROVED** Browser notification now include consistent image. It will use user's image or an chat image based on situation.
+- **IMPROVED** When chat been waited for more than 20 seconds, it will trigger browser and sound notification every 10 seconds, until 90 seconds has past.
+- **IMPROVED** Chat history now have better visual display, chat messages been separated by days then with easier to read time. It also use color to differenciate technician and end user.
+- **IMPROVED** Chat history list is now easier to read and able to filter by chat session state.
+- **FIXED** Chat was not functional when initial recieved, creator of chat is often not been displayed until refresh. This has been fixed within this rewrite.
+- **FIXED** TECH is now able to aware whether current user can see or access a given chat session. It won't popup when chat sesion is not allowed for them to join. Nor they can see chat history that they are not allowed to see.
+
 ### 28th of Aug 2020 ([1.26.1](v1.26))
 - **ADDED** Internal attachment now display as yellow icon.
 - **IMPROVED** Ticket timeline been reworked. Conversation is much more prominent, where attachment, chat history are subtle. Email archieve will display as very subtle.
