@@ -1,5 +1,14 @@
 ### 1st of July 2020 ([v3.13](v3.13))
 - **IMPROVED** Attachments on ticket detail timeline now display subtle, especially email archive.
+- **FIXED** Image attachments was unable to preview inside popup modal.
+- **IMPROVED** (3.13.5) Disable ticket order when user perform search. (search will return most relevant result based on full-text search)
+- **FIXED** (3.13.6) Breadcrumb not working for OneNote notebook integration.
+- **FIXED** (3.13.7) Some of inline image have square breaket around. They have now been removed.
+- **IMPROVED** (3.13.10) Text field, text area, dropdown visual representation been improved. User now able to visually identify input
+- **IMPROVED** (3.13.12) Single select, multiple select, dropdown now supports default value.
+- **ADDED** (3.13.13) Unauthorized or logout should now lead to new login page.
+- **IMPROVED** (3.13.13) Attach 0 byte file should now give user warning
+- **IMPROVED** (3.13.13) Attachment upload failed message should now persist longer. So user able to notice.
 
 ### Jun 15 2020 ([v3.12](v3.12))
 - **IMPROVED** Avatar's position
