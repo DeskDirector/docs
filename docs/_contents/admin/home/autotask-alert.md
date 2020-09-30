@@ -1,7 +1,5 @@
-Autotask introduced integration API 1.6 earlier last year, and they will deprecate and remove the existing integration API 1.5 by end of this year.
+Autotask's latest 2020.3 server release had many improvements also introduced many new settings. One of side issue with new security setting is that contact or resource unable to attach file through DeskDirector portal.
 
-On DeskDirector server release 18.102.x, we will officially move to Autotask integration API 1.6. Customers still using the old resource will see the integration stop working: they are required to create a new API resource before server release.
+To address this issue, you should [create new security level](https://help.deskdirector.com/article/tltfs99ggj#security_level) and [change existing API resource's security level](https://help.deskdirector.com/article/v6b79pnccs).
 
-Please check our article on [how to create API resource for integration API v1.6](https://help.deskdirector.com/article/tltfs99ggj-creating-an-integrator-resource-in-autotask).
-
-**Server release is scheduled as 4th of Dec for Oceanic region, 9th of Dec for USA, Canada, Europe.**
+Here is article on [fix Autotask 2020.3 API resource issue](https://help.deskdirector.com/article/v6b79pnccs)
