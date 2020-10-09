@@ -9,6 +9,13 @@
 - **ADDED** (3.13.13) Unauthorized or logout should now lead to new login page.
 - **IMPROVED** (3.13.13) Attach 0 byte file should now give user warning
 - **IMPROVED** (3.13.13) Attachment upload failed message should now persist longer. So user able to notice.
+- **FIXED** (3.13.14) Portal may encounter issue when upload file in IE Edge legacy
+- **FIXED** (3.13.14) Avoid infinite loop when deep link received no instruction.
+- **FIXED** (3.13.15, 3.13.16) Fixed issue where portal unable to navigate to new auth page
+- **ADDED** (3.13.17) Form help class for iframes. User can easily add iframe with desired width or ratio with CSS class.
+- **IMPROVED** (3.13.17) Form now uses Browser's native date picker, to improve user experience.
+- **IMPROVED** (3.13.18) Improve performance for initial loading on desktop portal.
+- **ADDED** (3.13.19) Added support for Azure AD login
 
 ### Jun 15 2020 ([v3.12](v3.12))
 - **IMPROVED** Avatar's position
