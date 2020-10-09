@@ -1,3 +1,11 @@
+### 9th of Oct 2020 ([1.18](v1.18.1))
+- **ADDED** New webhook setting page
+- **ADDED** Form's webhook now have webhook security page, to explain how to verify income webhooks.
+- **IMPROVED** Company list now come with maximum width to help user scan.
+- **IMPROVED** After update license for optional feature, system will now fetch latest change from license server.
+- **IMPROVED** Contact and company's phone number is now displayed with capability to click and call if it is E164 format.
+- **DELETED** Legacy DeskDirector API page
+
 ### 17st of Sep 2020 ([1.17.1](v1.17.1))
 - **ADDED** Multi/single select field in form now allow setup default value. Latest client portal will recognize default value.
 - **IMPROVED** When admin portal been embedded inside iframe, side navigation bar will be collapsed by default
