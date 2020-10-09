@@ -1,5 +1,5 @@
 ### Product release notes
-* [Admin portal](/release-notes/admin) ([1.17.1](/release-notes/admin/v1.17.1)) - Released on 17st of Sep 2020
+* [Admin portal](/release-notes/admin) ([1.18](/release-notes/admin/v1.18.1)) - Released on 9th of Oct 2020
 * [Client facing portal](/release-notes/portal) ([3.13.13](/release-notes/portal/v3.13)) - Release on 23rd of Sep 2020
 * [Client facing portal](https://help.deskdirector.com/article/4uzjpwaiou) (4.3) - Windows / Mac - Released on 29rd of Sep 2019
 * [Backend server](https://help.deskdirector.com/article/5ml4ieesph-server-changelog)
