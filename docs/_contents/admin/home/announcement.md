@@ -1,9 +1,17 @@
-### PRODUCT UPDATE - Desktop portal
+### PRODUCT UPDATE
 
-Our desktop portal has been using Electron 2.x (Chromium 61) for 2 years, with limitation on PDF display since Electron 3.x, upgrade has been delayed. Recently our development teams setup goal to address several issues with desktop client, and upgraded Electron to 10.x (Chromium 85). We plan on publicly release updates to all customer within next few weeks.
+DeskDirector development team has been working on major updates recently, we are about to upgrade our database. Currently our support portal has been moved to new database and under stress test. We will be migrating all customers to new infrastructure by end of Nov.
 
-Desktop portal 4.4 for Mac released for Oceania on 29th of Sep 2020, and scheduled to be released to USA, CA, EU on 7th of Oct 2020. Desktop portal for Mac brings back system tray feature for Mac.
+What you can expect from such change will be listed below.
 
-Desktop portal 4.4 for Windows has been released, MSI version will be general available on 19th of Oct. 
+* Search tickets will support highlights similar to Google or Bing search engine.
+* Find contacts now respect inactive company/account and portal accesss rule that you have setup.
+* Potentially expand cached tickets to last 12 months instead of last 6 months. (Any tickets that's been updated in last 12 months).
 
-We also have desktop portal 4.5 on release pipeline, combine with latest portal release, Azure AD auto login will be supported.
+On top of database changes, there are also other enhancement in TECH and client portal. We will prepare missing release notes in next few days. Here is some of highlights. (All of them has been released).
+
+* Active Users panel in TECH portal ticket page, you can see who else is looking at ticket, you can even get notified when other technician is typing inside ticket.
+* Display parent and child ticket in ticket page. (TECH and client portal). User can click on parent or child ticket to navigate over.
+* TECH portal's note/time entry input field now display differently based on internal flag.
+* Income chat alert in TECH portal has been improved, notification now also contain company information.
+* Technician can now add note/time entry with desired ticket status.
