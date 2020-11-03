@@ -1,3 +1,7 @@
+### 29th of Oct 2020 ([v3.14](v3.14))
+- **ADDED** Display parent or child ticket inside ticket detail
+- **IMPROVED** Disabled GitHub favorite markdown parse to avoid unexpected time spent on markdown parsing.
+
 ### 1st of July 2020 ([v3.13](v3.13))
 - **IMPROVED** Attachments on ticket detail timeline now display subtle, especially email archive.
 - **FIXED** Image attachments was unable to preview inside popup modal.
