@@ -1,3 +1,13 @@
+### 14th of Oct 2020 ([1.29.1](v1.29))
+- **ADDED** Allow add note or time entry to change status.'
+- **ADDED** Allow add note or time entry without change status.
+- **FIXED** Fixed issue where assign resource will cause ticket information panel to be broken.
+- **IMPROVED** Added requester and timestamp to request more information
+- **ADDED** Added company name to chat related alert.
+- **IMPROVED** Note/Time entry field now change to different color when it is internal.
+- **IMPROVED** Image thumbnail only display for file less than 1.5 mb.
+- **IMPROVED** Change chat log file to internal chat log note
+
 ### 2nd of Oct 2020 ([1.28.1](v1.28))
 - **ADDED** Contact filtering for ticket list
 - **ADDED** Display assigned member filtering under small device (mobile)
