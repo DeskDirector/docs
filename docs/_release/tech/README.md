@@ -9,6 +9,10 @@
 - **IMPROVED** Chat history list is now easier to read and able to filter by chat session state.
 - **FIXED** Chat was not functional when initial recieved, creator of chat is often not been displayed until refresh. This has been fixed within this rewrite.
 - **FIXED** TECH is now able to aware whether current user can see or access a given chat session. It won't popup when chat sesion is not allowed for them to join. Nor they can see chat history that they are not allowed to see.
+- **IMPROVED** Ticket list's pagination now uses count of 50 rather than 20.
+- **ADDED** Browser tab now display ticket name and ID
+- **ADDED** Pinned ticket (tab) now display ticket ID
+- **IMPROVED** Pinned icon now more obvious
 
 ### 28th of Aug 2020 ([1.26.1](v1.26))
 - **ADDED** Internal attachment now display as yellow icon.
