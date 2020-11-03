@@ -1,3 +1,9 @@
+### 28th of Oct 2020 ([1.30.1](v1.30))
+- **ADDED** Ticket details now display other member who is focusing on this ticket
+- **ADDED** Ticket detail now display if other member is typing inside given ticket
+- **ADDED** Highlight support for ticket search. (This requires server v19)
+- **IMPROVED** Active Users section now hide when no other users look at same ticket.
+
 ### 14th of Oct 2020 ([1.29.1](v1.29))
 - **ADDED** Allow add note or time entry to change status.'
 - **ADDED** Allow add note or time entry without change status.
