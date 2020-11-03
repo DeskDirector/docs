@@ -16,6 +16,11 @@
 - **IMPROVED** (3.13.17) Form now uses Browser's native date picker, to improve user experience.
 - **IMPROVED** (3.13.18) Improve performance for initial loading on desktop portal.
 - **ADDED** (3.13.19) Added support for Azure AD login
+- **FIXED** (3.13.20) Callback cancel button cannot be clicked.
+- **IMPROVED** (3.13.21) Request for more information now display the requestor and the timestamp.
+- **FIXED** (3.13.21) BiggerBrain content cannot be displayed due to failed check on x-frame header.
+- **ADDED** (3.13.22) Highlights when search for tickets. (Only functional when server upgrade to v19)
+- **IMPROVED** (3.13.22) Always allow user to leave chat session.
 
 ### Jun 15 2020 ([v3.12](v3.12))
 - **IMPROVED** Avatar's position
