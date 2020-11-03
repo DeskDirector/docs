@@ -1,3 +1,12 @@
+### 2nd of Oct 2020 ([1.28.1](v1.28))
+- **ADDED** Contact filtering for ticket list
+- **ADDED** Display assigned member filtering under small device (mobile)
+- **ADDED** Ticket under ticket list now allow to click on contact name and filter by it.
+- **IMPROVED** Ticket filter's dropdown now bigger and can be easily clicked.
+- **FIXED** Application image assets unable to render
+- **ADDED** Smart scroll to last note that's not entered by current user.
+- **IMPROVED** Ticket list's filter now have improved scrollbar.
+
 ### 17th of Sep 2020 ([1.27.1](v1.27))
 - **ADDED** Member with admin permission now able to view service radar in TECH. The functionality exist in admin portal in the past, now embedded inside TECH portal
 - **ADDED** New chat notification test page. Allow test on browser notification and sound.
