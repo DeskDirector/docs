@@ -1,3 +1,10 @@
+### 3rd of Nov 2020 ([1.31.1](v1.31))
+- **ADDED** Pulse indication on active users section under ticket detail. Make active users more prompt.
+- **IMPROVED** Ticket list page's company filter now open dialog for full company search experience rather than dropdown.
+- **IMPROVED** Ticket list page's contact filter now open dialog for full contact search experience rather than dropdown.
+- **IMPROVED** On ticket list page, UI will try to focus on search field when possible.
+- **FIXED** Leave chat, end chat button was using `div`, this cause it to be clickable even thought they have been disabled.
+
 ### 28th of Oct 2020 ([1.30.1](v1.30))
 - **ADDED** Ticket details now display other member who is focusing on this ticket
 - **ADDED** Ticket detail now display if other member is typing inside given ticket
