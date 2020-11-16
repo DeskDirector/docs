@@ -1,6 +1,13 @@
+### 17th of Nov 2020 ([v3.15](v3.15))
+- **ADDED** Dynamic field inside form now supports delivery previous question answer to target API
+- **IMPROVED** When navigate away from modified form, browser should give alert
+- **IMPROVED** When navigate away from normal request type when user has filled any field, browser should give alert.
+- **FIXED** Change to use date selector from JS framework instead of browser default. This is to fix date selector not working under Safari, and may crash under desktop portal v3.x. 
+
 ### 29th of Oct 2020 ([v3.14](v3.14))
 - **ADDED** Display parent or child ticket inside ticket detail
 - **IMPROVED** Disabled GitHub favorite markdown parse to avoid unexpected time spent on markdown parsing.
+- **IMPROVED** (3.14.2) When chat is disabled for given user and there is no important broadcast, request type panel will automatically navigate to request type list view.
 
 ### 1st of July 2020 ([v3.13](v3.13))
 - **IMPROVED** Attachments on ticket detail timeline now display subtle, especially email archive.
