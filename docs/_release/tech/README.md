@@ -1,3 +1,17 @@
+### 14th of Dec 2020 ([1.32](v1.32))
+- **ADDED** New Broadcast page
+- **ADDED** Broadcast receiver list preview
+- **ADDED** Allow send broadcast by email
+- **ADDED** Email broadcast's delivery tracking
+- **ADDED** Clipboard for ticket detail page. Allow copy portal link to the ticket or ticket number.
+- **ADDED** Display total time spent for given ticket
+- **ADDED** Display time spent for individual time entry. (Mobile compatible)
+- **IMPROVED** Company selection been greatly improved for broadcast filter
+- **IMPROVED** New contact tag filter for broadcast
+- **IMPROVED** Allow create and browse broadcast with mobile
+- **IMPROVED** Ticket timeline and info improvement
+- **FIXED** Avoid navigate to specific note whenever ticket detail page been refreshed.
+
 ### 3rd of Nov 2020 ([1.31.1](v1.31))
 - **ADDED** Pulse indication on active users section under ticket detail. Make active users more prompt.
 - **IMPROVED** Ticket list page's company filter now open dialog for full company search experience rather than dropdown.
