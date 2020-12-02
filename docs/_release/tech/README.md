@@ -4,6 +4,11 @@
 - **IMPROVED** Ticket list page's contact filter now open dialog for full contact search experience rather than dropdown.
 - **IMPROVED** On ticket list page, UI will try to focus on search field when possible.
 - **FIXED** Leave chat, end chat button was using `div`, this cause it to be clickable even thought they have been disabled.
+- **FIXED** (1.31.2) Company filter for ticket unable to select MSP's own company
+- **ADDED** (1.31.3) Add ticket identifier to top of ticket timeline
+- **FIXED** (1.31.3) Fixed issue where same token not been respected in same Macro
+- **FIXED** (1.31.4) Fixed issue where Macro not been populated if no token within
+- **FIXED** (1.31.5) Fixed contact select dialog display contact list item unexpectly.
 
 ### 28th of Oct 2020 ([1.30.1](v1.30))
 - **ADDED** Ticket details now display other member who is focusing on this ticket
