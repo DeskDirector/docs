@@ -1,3 +1,12 @@
+### 12th of Jan 2021 ([1.33](v1.33))
+- **ADDED** Ability to filter tickets by unassigned
+- **ADDED** Ability to filter tickets by assigned to multiple technicians
+- **IMPROVED** Chat window's start point moved from left align to right align. Avoid collapse with ticket filter panel
+- **IMPROVED** Chat session's title now display inside chat window as chat message. (if it is not system generated)
+- **IMPROVED** Chat window's title bar now able to hover to see full chat session name
+- **IMPROVED** Ticket ordering now have most relevant. Which can be used when search term been entered.
+- **IMPROVED** Time related sorting now can be combined with search term
+
 ### 14th of Dec 2020 ([1.32](v1.32))
 - **ADDED** New Broadcast page
 - **ADDED** Broadcast receiver list preview
