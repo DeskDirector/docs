@@ -1,3 +1,7 @@
+### 11th of Jan 2021 ([3.16](v3.16))
+- **IMPROVED** Approval Dialog has been redesigned to make enter multi line note or long text note much easier.
+- **IMPROVED** Allow time based ordering for ticket list when perform full text search.
+
 ### 17th of Nov 2020 ([v3.15](v3.15))
 - **ADDED** Dynamic field inside form now supports delivery previous question answer to target API
 - **IMPROVED** When navigate away from modified form, browser should give alert
