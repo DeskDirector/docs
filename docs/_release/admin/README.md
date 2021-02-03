@@ -1,3 +1,18 @@
+### 16th of Dec 2020 ([1.19](v1.19.1))
+- **ADDED** Member table export as CSV for ConnectWise
+- **ADDED** Contact table export as CSV for ConnectWise
+- **ADDED** Company table export as CSV for ConnectWise
+- **ADDED** Ticket table export as CSV for ConnectWise
+- **ADDED** Member ticket access configuration page (Replace legacy page)
+- **ADDED** Email Broadcast's email template editor
+- **IMPROVED** Service radar will remember last select. (if same browser and device)
+- **FIXED** QuoteWerks's quote list pagination
+- **FIXED** Knowledge base article link for how to use API key
+- **REMOVED** AuthAnvil integration page
+- **REMOVED** ScreenConnect integration page
+- **REMOVED** ConnectWise SOAP setting when setup ConnectWise integration
+
+
 ### 9th of Oct 2020 ([1.18](v1.18.1))
 - **ADDED** New webhook setting page
 - **ADDED** Form's webhook now have webhook security page, to explain how to verify income webhooks.
