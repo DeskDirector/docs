@@ -1,3 +1,8 @@
+### 3rd of Feb 2021 ([1.35](v1.35))
+- **ADDED** Ticket detail now display survey result
+- **ADDED** Failed email broadcast now allow recast
+- **FIXED** Create Email broadcast now recognize master admin, select email template should now work for both admin and master admin.
+
 ### 26th of Jan 2021 ([1.34](v1.34))
 - **IMPROVED** Added typography style for list inside ticket note.
 - **FIXED** Service Radar now display for both admin and master admin
