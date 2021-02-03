@@ -1,3 +1,6 @@
+# 3rd of Feb 2021 ([1.20](v1.20.1))
+- **ADDED** Ticket survey is now available
+
 ### 16th of Dec 2020 ([1.19](v1.19.1))
 - **ADDED** Member table export as CSV for ConnectWise
 - **ADDED** Contact table export as CSV for ConnectWise
