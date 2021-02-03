@@ -1,3 +1,11 @@
+### 3rd of Jan 2021 ([3.18](v3.18))
+- **ADDED** Deep link for survey has been implemented
+- **ADDED** Display survey result within timeline
+- **ADDED** Allow take survey after ticket is closed.
+- **ADDED** Allow to click on survey and view the content.
+- **IMPROVED** User info and phone number edit now been greatly improved. It should be much easier to use under all kind of screens.
+- **FIXED** Logo inside side menu should now be horizontally centered.
+
 ### 26th of Jan 2021 ([3.17](v3.17))
 - **ADDED** New style dependencies to help style portal
 - **IMPROVED** Ticket note display now been improved. Include list, table, image, paragraph etc
