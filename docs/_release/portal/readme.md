@@ -1,3 +1,9 @@
+### 26th of Jan 2021 ([3.17](v3.17))
+- **ADDED** New style dependencies to help style portal
+- **IMPROVED** Ticket note display now been improved. Include list, table, image, paragraph etc
+- **IMPROVED** Upgrade JavaScript dependencies' version
+- **IMPROVED** Webpack been updated to v4 from v3
+
 ### 11th of Jan 2021 ([3.16](v3.16))
 - **IMPROVED** Approval Dialog has been redesigned to make enter multi line note or long text note much easier.
 - **IMPROVED** Allow time based ordering for ticket list when perform full text search.
