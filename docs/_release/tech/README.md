@@ -1,3 +1,11 @@
+### 26th of Jan 2021 ([1.34](v1.34))
+- **IMPROVED** Added typography style for list inside ticket note.
+- **FIXED** Service Radar now display for both admin and master admin
+- **FIXED** Chat is now available for new user type master admin
+- **FIXED** Inline form now display for both advanced member or master admin
+- **FIXED** Add time entry tab on ticket detail now display for master admin.
+- **FIXED** Broadcast now display for master admin
+
 ### 12th of Jan 2021 ([1.33](v1.33))
 - **ADDED** Ability to filter tickets by unassigned
 - **ADDED** Ability to filter tickets by assigned to multiple technicians
