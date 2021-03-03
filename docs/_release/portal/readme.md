@@ -1,3 +1,11 @@
+### 4th of March 2021 ([3.19](v3.19))
+- **ADDED** Portal can now submit custom survey
+- **ADDED** New capability to check for pending surveys
+- **ADDED** Portal now has embedded mode, where toolbar and navigation can be hidden.
+- **ADDED** Portal now supports custom survey deep link.
+- **IMPROVED** Deeplink's state transition no longer recorded within browser's history
+- **FIXED** Chat server issue previous may cause ticket detail unable to render. It has been adjusted to avoid such case from happening.
+
 ### 3rd of Jan 2021 ([3.18](v3.18))
 - **ADDED** Deep link for survey has been implemented
 - **ADDED** Display survey result within timeline
