@@ -1,3 +1,13 @@
+### 4th of Mar 2021 ([1.36](v1.36))
+- **ADDED** Display survey for advanced member
+- **ADDED** TECH now allow to add custom survey into email broadcast
+- **IMPROVED** Toolbar's profile dropdown now have improved max-height. Allow display more content without scroll
+- **IMPROVED** Current technician's chat state for busy now change to Do Not Disturb.
+- **IMPROVED** Service Radar now point to new admin page location.
+- **IMPROVED** Profile drop down, make it shorter, compacter without impact readability
+- **FIXED** Survey Result was unable to render under ticket detail interface.
+- **FIXED** Selected survey question value now display as correct white color.
+
 ### 3rd of Feb 2021 ([1.35](v1.35))
 - **ADDED** Ticket detail now display survey result
 - **ADDED** Failed email broadcast now allow recast
