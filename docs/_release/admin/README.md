@@ -1,3 +1,16 @@
+### 4th of Mar 2021 ([1.22](v1.22.1))
+- **IMPROVED** Menu Group now displays which company or contact has been using the definition.
+- **IMPROVED** Better menu group selection
+- **IMPROVED** Better menu item selection
+- **IMPROVED** Better menu group list display
+- **IMPROVED** Better menu item list display
+- **IMPROVED** Select menu page for company, contact or global now display actual menu group definition
+- **IMPROVED** Text max length validation for text field in dd-form now have more options
+- **IMPROVED** Select custom email template dialog has been improved to auto select already selected template.
+- **IMPROVED** Select custom email template dialog now able to popup new tab to edit custom template
+- **IMPROVED** Allow delete last notebook
+- **FIXED** Analytics page cannot be accessed.
+
 ### 23rd of Feb 2021 ([1.21](v1.21.1))
 - **ADDED** Custom Survey is now available for configure. Email broadcast will soon allow add custom survey during cast.
 - **ADDED** Admin menu search functionality
