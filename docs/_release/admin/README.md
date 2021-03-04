@@ -1,3 +1,13 @@
+### 23rd of Feb 2021 ([1.21](v1.21.1))
+- **ADDED** Custom Survey is now available for configure. Email broadcast will soon allow add custom survey during cast.
+- **ADDED** Admin menu search functionality
+- **ADDED** Member now can be assigned as admin
+- **ADDED** Dark theme for service radar and survey related page
+- **ADDED** Survey now supports negative review notification
+- **IMPROVED** New navigation system, new system support smaller device.
+- **IMPROVED** Admin and Master can both login into admin portal, menu that they can access may differ.
+- **IMPROVED** Error log now became popup dialog
+
 ### 3rd of Feb 2021 ([1.20](v1.20.1))
 - **ADDED** Ticket survey is now available
 
