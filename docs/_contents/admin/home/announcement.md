@@ -1,7 +1,11 @@
 ### PRODUCT UPDATE
 
-With whole Australia region been moved to new database system, we are preparing first major release with this major infrastructure change. TECH portal and admin portal will both receive new features once infrastructure upgrade is done.
+At end of last year, we have upgraded all of our customer instance's database. The new version of database is more efficient at working with data and much more secure.
 
-To showcase what we will delivery in up coming weeks, here is TECH portal release note preview. [TECH 1.32](/release-notes/tech/v1.32). If you have missed previous TECH portal release, you can check it out [here](/release-notes/tech/v1.31).
+On top of that, DeskDirector has recently released several updates to client portal, TECH portal and admin portal. Please check out shortcut links to some of highlights.
 
-Have we forgot about client portal? Certainly not. With recent [dynamic field improvement](https://help.deskdirector.com/article/109t6ieaao-desk-director-forms-dynamic-fields#deliver_answer_from_previous_fields), you can now create dynamic field to populate select based on the answer user has given for other questions.
+* Ticket Survey (TECH [1.35](/configs/release-notes/tech/v1.35), [1.36](/configs/release-notes/tech/v1.36)), (Portal [3.18](/configs/release-notes/portal/v3.18), [3.19](/configs/release-notes/tech/v3.19)), (Admin [1.20](/configs/release-notes/admin/v1.20.1), [1.21](/configs/release-notes/admin/v1.21.1))
+* Menu Group / Item UI/UX improvement. (Admin [1.22](/configs/release-notes/admin/v1.22.1))
+* New Navigation System for Admin. [1.21](/configs/release-notes/admin/v1.21.1)
+* Admin portal search feature [1.21](/configs/release-notes/admin/v1.21.1)
+* Restricted access to admin portal [1.21](/configs/release-notes/admin/v1.21.1)
