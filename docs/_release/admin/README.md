@@ -1,3 +1,13 @@
+### 22nd of Mar 2021 ([1.23](v1.23.1))
+
+- **ADDED** New request type interface
+- **ADDED** Bulk action for request types, include bulk allow company to access request types or disallow.
+- **ADDED** Capability to export current selection as CSV for surveys
+- **IMPROVED** Merge menu group and menu items page with menu system home page
+- **IMPROVED** Select request types now has bulk select by using shift key
+- **IMPROVED** Member's company restriction now can be selected by dialog with capability of bulk select.
+- **IMPROVED** Many horizontal tabs now able to display correctly in smaller device. Such as mobile
+
 ### 4th of Mar 2021 ([1.22](v1.22.1))
 - **IMPROVED** Menu Group now displays which company or contact has been using the definition.
 - **IMPROVED** Better menu group selection
