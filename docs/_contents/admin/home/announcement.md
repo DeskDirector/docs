@@ -9,3 +9,4 @@ On top of that, DeskDirector has recently released several updates to client por
 * New Navigation System for Admin. (Admin [1.21](/configs/release-notes/admin/v1.21.1))
 * Admin portal search feature (Admin [1.21](/configs/release-notes/admin/v1.21.1))
 * Restricted access to admin portal (Admin [1.21](/configs/release-notes/admin/v1.21.1))
+* New Request Type page for admin. (Admin [1.23](/configs/release-notes/admin/v1.23.1))
