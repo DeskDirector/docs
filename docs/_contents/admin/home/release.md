@@ -1,5 +1,5 @@
 ### Product release notes
-* [Admin portal](/release-notes/admin) ([1.22](/configs/release-notes/admin/v1.22.1)) - Released on 4th of March 2021
+* [Admin portal](/release-notes/admin) ([1.23](/configs/release-notes/admin/v1.23.1)) - Released on 22nd of March 2021
 * [Client facing portal](/release-notes/portal) ([3.19](/configs/release-notes/portal/v3.19)) - Released on 4th of March 2021
 * [Client facing portal](https://help.deskdirector.com/article/4uzjpwaiou) (4.7) - Windows / Mac - Released on 17 of Dec 2020
 * [Backend server](https://help.deskdirector.com/article/5ml4ieesph-server-changelog)
