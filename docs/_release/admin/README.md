@@ -1,3 +1,16 @@
+### 12th of April 2021 ([1.24](v1.24.1))
+
+- **ADDED** Request Type group system, where group can apply to company or contact level to override default behaviour.
+- **ADDED** Request Type clone, to allow create new request type based on existing one.
+- **ADDED** Catch all company for contact creation
+- **IMPROVED** Switch tab system to side nav to allow display on different screen size. (contact, company, portal setting etc)
+- **IMPROVED** New inactive contact filter
+- **IMPROVED** New filter for contact search on menu override and request type override.
+- **IMPROVED** Menu group's usage been improved to have pagination support
+- **IMPROVED** Improved company list view, with improvement, state is recorded in URL and survive between website backward and forward transition.
+- **IMPROVED** The cell width of BiggerBrains course will auto resize based on screen size.
+- **FIXED** When change setting for help page under company's feature config page, it will reset request support setting to be reset.
+
 ### 22nd of Mar 2021 ([1.23](v1.23.1))
 
 - **ADDED** New request type interface
