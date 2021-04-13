@@ -1,3 +1,12 @@
+### 14th of April 2021 ([3.20](v3.20))
+- **ADDED** New request type search feature, allow end user to type and find suitable request type.
+- **IMPROVED** Learning menu has been left aligned with visual improvements.
+- **IMPROVED** Ticket list, filter has been left aligned and re-styled. 
+- **IMPROVED** Ticket detail has been left aligned
+- **IMPROVED** Ticket detail's timeline and info columns order has been switched
+- **IMPROVED** Request Type list has been left aligned and re-styled
+- **IMPROVED** Add ticket, include form and wufoo has been left aligned
+
 ### 4th of March 2021 ([3.19](v3.19))
 - **ADDED** Portal can now submit custom survey
 - **ADDED** New capability to check for pending surveys
