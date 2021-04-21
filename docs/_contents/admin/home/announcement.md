@@ -10,3 +10,5 @@ On top of that, DeskDirector has recently released several updates to client por
 * Admin portal search feature (Admin [1.21](/configs/release-notes/admin/v1.21.1))
 * Restricted access to admin portal (Admin [1.21](/configs/release-notes/admin/v1.21.1))
 * New Request Type page for admin. (Admin [1.23](/configs/release-notes/admin/v1.23.1))
+* Autotask add time entry by TECH portal (TECH [1.37](/configs/release-notes/tech/v1.37))
+* TECH portal is now able to preview image attachment (TECH [1.37](/configs/release-notes/tech/v1.37))
