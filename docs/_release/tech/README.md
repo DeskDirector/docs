@@ -1,3 +1,14 @@
+### 21st of April 2021 ([1.37](v1.37))
+- **ADDED** Add time entry for ticket now available for Autotask
+- **ADDED** Go to ticket by ticket number now available for Autotask
+- **ADDED** New feature: copy TECH portal's ticket link
+- **ADDED** Clipboard dialog inside ticket page now also allow to copy HTML link
+- **ADDED** Image preview before image been uploaded with ticket note or time entry
+- **IMPROVED** Redesign of time range input for time entry input
+- **IMPROVED** Improved display of attachment list inside add note and time entry panel.
+- **IMPROVED** Time entry's option select has been improved to use normal HTML select, which resolve some of issue when display under certain mobile.
+- **IMPROVED** Ticket information at right side of timeline has been improved, many information been compressed
+
 ### 4th of Mar 2021 ([1.36](v1.36))
 - **ADDED** Display survey for advanced member
 - **ADDED** TECH now allow to add custom survey into email broadcast
