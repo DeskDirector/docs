@@ -1,3 +1,15 @@
+### 14th of June 2021 ([3.22](v3.22))
+- **ADDED** Support for new feature, user group.
+- **ADDED** User can create ticket under user group
+- **ADDED** Support ConnectWise site as virtual user group
+- **ADDED** Improved approval ticket list, allow quick action from ticket list.
+- **ADDED** Allow quick action on ticket list for closed ticket that require feedback.
+- **ADDED** Allow quick action on ticket list for open ticket that require more info
+- **ADDED** Added advanced tooltip to ticket list.
+- **IMPROVED** Improved experience on browser navigation for ticket list
+- **IMPROVED** Client portal will auto navigation to the ticket after ticket creation.
+- **FIXED** Fixed beta build of the client portal. You can access to beta version of client portal from `/portal/beta`.
+
 ### 4th of May 2021 ([3.21](v3.21))
 - **IMPROVED** Introduce new theme implementation to core feature pages.
 - **IMPROVED** Profile dropdown on navigation bar has been improved
