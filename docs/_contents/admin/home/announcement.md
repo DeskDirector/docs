@@ -1,14 +1,9 @@
 ### PRODUCT UPDATE
 
-At end of last year, we have upgraded all of our customer instance's database. The new version of database is more efficient at working with data and much more secure.
+For first half year of 2021, we have been busy on many new features and improvements. With latest admin portal and client portal release, we are here to announce release of [user group](https://help.deskdirector.com/article/bxd7i1kkw3). You can use it to improve end user experience and allow you to achieve advanced scenarios for your customer.
 
-On top of that, DeskDirector has recently released several updates to client portal, TECH portal and admin portal. Please check out shortcut links to some of highlights.
+We have few more feature release that will be announced within next few months. Stay tuned.
 
-* Ticket Survey (TECH [1.35](/configs/release-notes/tech/v1.35), [1.36](/configs/release-notes/tech/v1.36)), (Portal [3.18](/configs/release-notes/portal/v3.18), [3.19](/configs/release-notes/portal/v3.19)), (Admin [1.20](/configs/release-notes/admin/v1.20.1), [1.21](/configs/release-notes/admin/v1.21.1))
-* Menu Group / Item UI/UX improvement. (Admin [1.22](/configs/release-notes/admin/v1.22.1))
-* New Navigation System for Admin. (Admin [1.21](/configs/release-notes/admin/v1.21.1))
-* Admin portal search feature (Admin [1.21](/configs/release-notes/admin/v1.21.1))
-* Restricted access to admin portal (Admin [1.21](/configs/release-notes/admin/v1.21.1))
-* New Request Type page for admin. (Admin [1.23](/configs/release-notes/admin/v1.23.1))
-* Autotask add time entry by TECH portal (TECH [1.37](/configs/release-notes/tech/v1.37))
-* TECH portal is now able to preview image attachment (TECH [1.37](/configs/release-notes/tech/v1.37))
+* User group (Admin [1.26](/configs/release-notes/admin/v1.26.1), Portal [3.22](/configs/release-notes/portal/v3.22)) 
+* Customizable colour for client portal (Admin [1.25](/configs/release-notes/admin/v1.25.1))
+* Improved side menu and top navigation for client portal (Portal [3.21](/configs/release-notes/portal/v3.21))
