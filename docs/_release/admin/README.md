@@ -1,4 +1,4 @@
-# 31st of May 2021 ([1.25](v1.25.1))
+### 31st of May 2021 ([1.25](v1.25.1))
 
 - **ADDED** Added colour customization for portal branding
 - **ADDED** Added colour customization for host branding
