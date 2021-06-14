@@ -1,3 +1,11 @@
+### 4th of May 2021 ([3.21](v3.21))
+- **IMPROVED** Introduce new theme implementation to core feature pages.
+- **IMPROVED** Profile dropdown on navigation bar has been improved
+- **IMPROVED** If user cannot switch account, navbar will no longer allow dropdown. Remove confusion.
+- **IMPROVED** Redesign switch account's dropdown content, make it easier to read and easier to use.
+- **IMPROVED** Redesign side menu, make sure it has proper web application behaviour. Where you can right click on menu to open it in new tab or copy link.
+- **IMPROVED** Allow chat to work under restricted environment. (custom domain + browser restriction to 3rd party cookie)
+
 ### 14th of April 2021 ([3.20](v3.20))
 - **ADDED** New request type search feature, allow end user to type and find suitable request type.
 - **IMPROVED** Learning menu has been left aligned with visual improvements.
