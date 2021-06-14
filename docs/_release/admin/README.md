@@ -1,3 +1,12 @@
+# 31st of May 2021 ([1.25](v1.25.1))
+
+- **ADDED** Added colour customization for portal branding
+- **ADDED** Added colour customization for host branding
+- **IMPROVED** Split company branding configuration to an separate page
+- **IMPROVED** Simplified theme setting for portal branding.
+- **IMPROVED** Rename portal branding from profile to branding and improve image upload
+- **IMPROVED** Reimplement OAuth setting page.
+
 ### 12th of April 2021 ([1.24](v1.24.1))
 
 - **ADDED** Request Type group system, where group can apply to company or contact level to override default behaviour.
