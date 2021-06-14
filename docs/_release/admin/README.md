@@ -1,3 +1,9 @@
+### 14th of June 2021 ([1.26](v1.26.1))
+
+- **ADDED** Added user group configuration for company
+- **ADDED** Allow assign request type group to user group
+- **IMPROVED** Many list page now automatically scroll to top when navigate between pages. e.g. companies, contacts, members.
+
 ### 31st of May 2021 ([1.25](v1.25.1))
 
 - **ADDED** Added colour customization for portal branding
