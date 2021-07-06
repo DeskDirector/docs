@@ -1,3 +1,7 @@
+### 6th of July 2021 ([3.23](v3.23))
+- **ADDED** Implemented OneNote notebook for user group. You can configure through admin portal.
+- **ADDED** Allow ConnectWise user to filter tickets by site under All tickets user group.
+
 ### 14th of June 2021 ([3.22](v3.22))
 - **ADDED** Support for new feature, user group.
 - **ADDED** User can create ticket under user group
@@ -9,6 +13,9 @@
 - **IMPROVED** Improved experience on browser navigation for ticket list
 - **IMPROVED** Client portal will auto navigation to the ticket after ticket creation.
 - **FIXED** Fixed beta build of the client portal. You can access to beta version of client portal from `/portal/beta`.
+
+**1st of June**
+- **ADDED** Add user to user group dialog now supports mouse click, rather than purely depends on keyboard.
 
 ### 4th of May 2021 ([3.21](v3.21))
 - **IMPROVED** Introduce new theme implementation to core feature pages.
