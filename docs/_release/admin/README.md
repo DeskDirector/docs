@@ -1,3 +1,8 @@
+### 6th of July 2021 ([1.27](v1.27.1))
+
+- **ADDED** Custom domain diagnose page to help resolve issue regarding to DNS setup.
+- **ADDED** Allow assign OneNote notebook to user group.
+
 ### 14th of June 2021 ([1.26](v1.26.1))
 
 - **ADDED** Added user group configuration for company
