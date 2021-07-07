@@ -1,3 +1,51 @@
+### 18th of June 2021 ([1.39](v1.39))
+- **ADDED** Ticket status now display under ticket list
+- **ADDED** Display user group under ticket detail page.
+- **ADDED** Ticket additional info now displayed as popup tooltip in ticket list.
+- **IMPROVED** Improved ticket list visual.
+- **IMPROVED** Improved ticket list's priority colour, to increase colour contrast. Make it easier to read.
+- **IMPROVED** Date age display under ticket list.
+- **IMPROVED** Increase amount of tickets display under ticket list.
+- **IMPROVED** Turn off auto complete for many search input. Microsoft Edge browser been too aggressive on autocomplete.
+
+**18th of June 1.39.2**
+- **FIXED** Ticket list not align well under wide screen.
+
+**22nd of June 1.39.3**
+- **IMPROVED** Added empty state to company's ticket list page.
+- **FIXED** Re-implement company's contacts page.
+
+**23rd of June 1.39.4**
+- **ADDED** Impersonate button and admin portal's shortcut link now been added to contact and company page.
+- **ADDED** Notification for tech portal now go through browser notification or internal app notification.
+- **IMPROVED** Use most relevant as default sort order when search ticket.
+- **FIXED** When notification been received, the count on left side should be updated.
+
+**7th of July 1.39.5**
+- **ADDED** Allow technician to change user group for any given ticket under ticket detail panel.
+
+### 3rd of May 2021 ([1.38](v1.38))
+- **ADDED** Add hard refresh on ticket detail
+- **IMPROVED** Autotask time composer now remember last select of work type and role
+- **IMPROVED** Ticket detail no longer refresh once per min, but refresh depends on change event.
+- **IMPROVED** Chat should now working for customer with custom domain. We have added capability for chat server authentication to use HTTP header rather than cookie.
+
+**4th of May 1.38.2**
+- **FIXED** Fixed priority color not display correctly
+- **FIXED** Navigator under chat history page has not been aligned well
+
+**19th of May 1.38.3**
+- **IMPROVED** Allow ticket owner's name to be selected under ticket detail
+- **IMPROVED** Handle ticket not exist or access forbidden under ticket page. So it can be redirect to ticket list, rather than loading forever.
+- **IMPROVED** Autotask's side info under ticket detail page.
+
+**1st of June 1.38.4**
+- **FIXED** Fixed webhook macro not working for Autotask.
+
+**1st of June 1.38.5**
+- **ADDED** Introduce new tokens for Macro. Such as ticket id, contact id, company id etc.
+- **IMPROVED** Improved macro editor
+
 ### 21st of April 2021 ([1.37](v1.37))
 - **ADDED** Add time entry for ticket now available for Autotask
 - **ADDED** Go to ticket by ticket number now available for Autotask
