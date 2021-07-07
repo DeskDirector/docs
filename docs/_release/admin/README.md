@@ -1,19 +1,19 @@
 ### 6th of July 2021 ([1.27](v1.27.1))
 
-- **ADDED** Custom domain diagnose page to help resolve issue regarding to DNS setup.
-- **ADDED** Allow assign OneNote notebook to user group.
+- **ADDED** Custom domain diagnose page to help resolve issue regarding DNS setup.
+- **ADDED** Allow assigning of OneNote notebook to user group.
 
 ### 14th of June 2021 ([1.26](v1.26.1))
 
 - **ADDED** Added user group configuration for company
-- **ADDED** Allow assign request type group to user group
+- **ADDED** Allow assigning of request type group to user group
 - **IMPROVED** Many list page now automatically scroll to top when navigate between pages. e.g. companies, contacts, members.
 
 ### 31st of May 2021 ([1.25](v1.25.1))
 
 - **ADDED** Added colour customization for portal branding
 - **ADDED** Added colour customization for host branding
-- **IMPROVED** Split company branding configuration to an separate page
+- **IMPROVED** Split company branding configuration to a separate page
 - **IMPROVED** Simplified theme setting for portal branding.
 - **IMPROVED** Rename portal branding from profile to branding and improve image upload
 - **IMPROVED** Reimplement OAuth setting page.
