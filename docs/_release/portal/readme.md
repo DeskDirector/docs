@@ -1,3 +1,14 @@
+### 1st of Sep 2021 ([3.24](v3.24))
+- **ADDED** Display task progress on ticket list.
+- **ADDED** Display task list inside ticket and able to view current state and history
+- **ADDED** Ticket information panel for Autotask now display secondary resources.
+- **ADDED** Ticket information panel for Autotask now display secondary contacts
+- **IMPROVED** Legacy tickets and approval required tickets routes now redirect to new system.
+- **IMPROVED** Legacy ticket route now redirect to new system.
+- **IMPROVED** Standard request type now has attach file improved. Able to drag/drop, also improved copy/paste experience.
+- **IMPROVED** Form request type now has improve copy/paste file experience and able to drag and drop attachment.
+- **FIXED** Attached image can be preview correctly if the size is less than 1KB.
+
 ### 6th of July 2021 ([3.23](v3.23))
 - **ADDED** Implemented OneNote notebook for user group. Can be configured through admin portal.
 - **ADDED** Allow ConnectWise user to filter tickets by site under All tickets user group.
