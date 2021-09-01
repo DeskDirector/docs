@@ -1,3 +1,18 @@
+### 1st of Sep 2021 ([version 1.40](v1.40))
+- **ADDED** Task templates page for advanced agent, admin and master admin
+- **ADDED** Task list display on ticket list
+- **ADDED** Task list display on ticket information panel, allow create, modify, view history.
+- **ADDED** Task list display within ticket timeline, allow modify and view history.
+- **ADDED** Autotask's secondary resource now display under ticket, and able to add or remove.
+- **ADDED** Autotask's additional contacts now display under ticket, and able to add or remove.
+- **ADDED** Max limit indicator for broadcast's tag and company filter.
+- **ADDED** Live dashboard for unassigned tickets and assigned to me tickets count.
+- **IMPROVED** Re-organize ticket comment composer, add forms now under dropdown.
+- **IMPROVED** Added markdown preview for ticket comment composer.
+- **IMPROVED** Browser notification now able to cast once when there are multiple TECH portal tabs open.
+- **FIXED** New broadcast's tag and company filter not display delete button on large screen.
+- **FIXED** Disabled new email broadcast able to paste image into rich text editor through clipboard. It was saved as Base64 and became part of char count. 
+
 ### 18th of June 2021 ([1.39](v1.39))
 - **ADDED** Ticket status now displays under ticket list
 - **ADDED** Display user group under ticket detail page.
