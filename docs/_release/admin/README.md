@@ -1,3 +1,34 @@
+# 1st of Sep 2021 ([1.29](v1.29.1))
+
+- **ADDED** New feature, task templates
+- **ADDED** New feature, batch modify company tags
+- **ADDED** New feature, batch modify contact tags
+- **ADDED** Support for new field condition for Workflows (tag modified event).
+- **ADDED** Ticket survey now support up to 5 questions.
+- **IMPROVED** Improved TECH portal's tab setting page
+- **IMPROVED** Implemented ConnectWise reporting page
+- **IMPROVED** Implemented ConnectWise diagnose entity page to replace old admin page
+- **IMPROVED** Implement Autotask diagnose entity page to replace old admin page
+- **IMPROVED** Improved menu item list to display whether been used by any menu group.
+- **IMPROVED** Improved menu item editor to display list of menu group that's using it.
+- **IMPROVED** New search input for all search list
+- **IMPROVED** Contacts page's search, filter and pagination should now be part of browser history.
+- **IMPROVED** CSAT's survey result page now display neutral as yellow with its own count.
+- **FIXED** Error on holiday setting page.
+- **FIXED** Error on QuoteWerks setting page.
+- **FIXED** Contacts list page's tags filter not working when filter has more than 1 tag.
+- **FIXED** Company page's search, filter should be updated when navigate by browser's forward of backward.
+- **FIXED** Application should have unified responsive point. (device size for when to display)
+
+Version 1.29.2
+- **ADDED** Added embed route for task templates.
+- **FIXED** Task templates should now be shown only for advanced member and up.
+- **FIXED** Task templates link should now visible under all size screen.
+
+### 27th of July 2021 ([1.28](v1.28.1))
+- **ADDED** New feature, workflows.
+- **FIXED** Fixed issue on question and survey result list
+
 ### 6th of July 2021 ([1.27](v1.27.1))
 
 - **ADDED** Custom domain diagnose page to help resolve issue regarding DNS setup.
