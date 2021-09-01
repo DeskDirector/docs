@@ -2,6 +2,16 @@
 - **ADDED** Implemented OneNote notebook for user group. Can be configured through admin portal.
 - **ADDED** Allow ConnectWise user to filter tickets by site under All tickets user group.
 
+20th of July (3.23.2)
+- **FIXED** Fixed ConnectWise's bug. URL Link inside comment sometime contain extra escape char.
+
+13th of Aug (3.23.3)
+- **FIXED** Form field's description not display well for markdown format.
+
+16th of Aug (3.23.4)
+- **IMPROVED** Improve tickets by make order more specific.
+- **IMPROVED** Default ticket order should be descending by last update.
+
 ### 14th of June 2021 ([3.22](v3.22))
 - **ADDED** Support for new feature - user group.
 - **ADDED** User can create ticket under user group
