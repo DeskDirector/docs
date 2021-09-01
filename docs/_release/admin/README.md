@@ -1,4 +1,4 @@
-# 1st of Sep 2021 ([1.29](v1.29.1))
+### 1st of Sep 2021 ([1.29](v1.29.1))
 
 - **ADDED** New feature, task templates
 - **ADDED** New feature, batch modify company tags
