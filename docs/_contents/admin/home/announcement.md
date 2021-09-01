@@ -4,6 +4,10 @@ For first half year of 2021, we have been busy on many new features and improvem
 
 We have few more feature release that will be announced within next few months. Stay tuned.
 
+* Batch modify tags for company and contact list. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
+* Task list (Admin [1.29](/configs/release-notes/admin/v1.29.1), TECH [1.40](/configs/release-notes/tech/v1.40), Portal [3.24](/configs/release-notes/portal/v3.24))
+* Ticket Survey now support up to five questions. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
+* Workflow (Admin [1.28](/configs/release-notes/admin/v1.28.1))
 * User group (Admin [1.26](/configs/release-notes/admin/v1.26.1), Portal [3.22](/configs/release-notes/portal/v3.22), TECH [1.39](/configs/release-notes/tech/v1.39)) 
 * Customizable colour for client portal (Admin [1.25](/configs/release-notes/admin/v1.25.1))
 * Improved side menu and top navigation for client portal (Portal [3.21](/configs/release-notes/portal/v3.21))
