@@ -5,6 +5,7 @@ We have been busy for the first half of 2021, working on several new features an
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
 * Batch modifying tags for company and contact list. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
+* Batch modifying permissions for company and contact list. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
 * Tasks list (Admin [1.29](/configs/release-notes/admin/v1.29.1), TECH [1.40](/configs/release-notes/tech/v1.40), Portal [3.24](/configs/release-notes/portal/v3.24))
 * Ticket Surveys now support up to five questions. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
 * Workflows (Admin [1.28](/configs/release-notes/admin/v1.28.1))
