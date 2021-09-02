@@ -25,6 +25,12 @@ Version 1.29.2
 - **FIXED** Task templates should now be shown only for advanced member and up.
 - **FIXED** Task templates link should now visible under all size screen.
 
+3rd of Sep (version 1.29.3)
+- **ADDED** New feature, batch modify company feature permissions.
+- **ADDED** New feature, batch modify contact feature permissions.
+- **ADDED** Default contact indicator on contact list for ConnectWise
+- **ADDED** Default contact field on company profile for ConnectWise
+
 ### 27th of July 2021 ([1.28](v1.28.1))
 - **ADDED** New feature, workflows.
 - **FIXED** Fixed issue on question and survey result list
