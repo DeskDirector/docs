@@ -31,6 +31,16 @@ Version 1.29.2
 - **ADDED** Default contact indicator on contact list for ConnectWise
 - **ADDED** Default contact field on company profile for ConnectWise
 
+8th of Sep (version 1.29.4)
+- **ADDED** Added support for new chat workflow conditions
+- **ADDED** Added support for dynamic email template's system token
+- **IMPROVED** Improved office hour's week day select button's visual. Allow easier to recognize toggle state change.
+- **IMPROVED** Upgrade chartjs from v2 to v3
+- **FIXED** Portal and BiggerBrains' monthly usage trend has been improved. Current month data no longer randomly drop to second line.
+- **FIXED** Email template's tab lose bottom border when scroll. 
+- **FIXED** Remove `ddPage` directive, we no longer subscribe to scroll event.
+- **FIXED** Resolve deprecated `sass` divide operator
+
 ### 27th of July 2021 ([1.28](v1.28.1))
 - **ADDED** New feature, workflows.
 - **FIXED** Fixed issue on question and survey result list
