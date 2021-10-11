@@ -1,3 +1,24 @@
+### 5th of Oct 2021 ([3.25](v3.25))
+
+- **ADDED** Added support for native file upload for ticket and ticket note. File is uploaded to MSP specific file storage, rather than to PSA. Max size limit changed from 5MB to 15MB for essential and 100MB for dynamic or above.
+- **ADDED** New native file upload now display with ticket note, also it allows carousel display.
+- **ADDED** Added support for new file field. New file field can only use native file upload.
+- **IMPROVED** Attachment dialog been improved. It supports image, video, audio, PDF and also center them.
+- **IMPROVED** Timeline been improved to match with TECH portal. Make note more prompt than sub timeline items. Such as attachment, task list etc.
+- **IMPROVED** Count been removed from statement field.
+- **IMPROVED** Colour of statement title been changed to primary and title will have underline if the char is less or equal to 40 chars. Allow smooth transition from past style.
+- **IMPROVED** Old attachment display been improved, under small device it has better visual representation.
+- **IMPROVED** Autotask's ticket description now displayed under ticket summary within same cell.
+- **IMPROVED** Added sub title under ticket summary to describe ticket identifier and submit time.
+
+7th of Oct 3.25.3
+- **IMPROVED** Center image, video, audio inside file upload preview dialog.
+- **IMPROVED** Add file size limit to file drag and drop zone.
+- **IMPROVED** Hide files when perform action that's not allowed for attach files. e.g. reopen, close, flag etc.
+- **IMPROVED** New file carousel won't reset state when ticket been refreshed.
+- **FIXED** When close, flag, reopen ticket, note should be optional but required.
+
+
 ### 1st of Sep 2021 ([3.24](v3.24))
 - **ADDED** Display task progress on ticket list.
 - **ADDED** Display task list inside ticket and able to view current state and history
