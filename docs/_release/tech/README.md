@@ -1,3 +1,17 @@
+# 7th of Oct 2021 ([version 1.41](v1.41))
+
+- **ADDED** New attached file display in timeline.
+- **ADDED** TECH  portal now able to upload file to file storage based on admin portal's setting.
+- **ADDED** New dialog to view and download file uploaded to file storage.
+- **ADDED** TECH portal now allow file drag and drop for ticket note or time entry
+- **IMPROVED** Improved upload file preview dialog. Allow it to not only preview image but also PDF, video and audio.
+- **IMPROVED** Improved attach file button
+- **IMPROVED** Internal visual now applied to comment preview and comment tab.
+- **IMPROVED** Ticket timeline now contains ticket summary, who logged it and ticket created time. Autotask will also see initial description been attached to same section.
+- **FIXED** Ticket timeline's user avatar and comment not aligned correctly.
+- **FIXED** Autotask's time entry should not effect by internal flag from ticket note.
+
+
 ### 1st of Sep 2021 ([version 1.40](v1.40))
 - **ADDED** Task templates page for advanced agent, admin and master admin
 - **ADDED** Task list display on ticket list
