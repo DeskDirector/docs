@@ -1,3 +1,19 @@
+### 11th of Oct 2021 ([1.30](v1.30.1))
+
+- **ADDED** Dynamic content setting for DeskDirector form's statement field
+- **ADDED** New file field for DeskDirector form
+- **ADDED** New setting for Email template's login token and file download token.
+- **ADDED** New setting to enable file storage for ticket
+- **ADDED** Task templates now able to assign to request type, system will create task list when ticket created by the request type.
+- **ADDED** New setting for SMTP email delivery. Allow define message ID's host
+- **ADDED** Autotask customer now able to access CC notification email event. (Additional contacts)
+- **IMPROVED** Streamline IT member for ConnectWise now able to reset individual board and company access to empty.
+- **IMPROVED** Form editor now able to use under smaller device such as Mobile.
+- **IMPROVED** Form editor's description now uses new markdown parser.
+- **IMPROVED** Dynamic field now supports `HTTP POST` request
+- **IMPROVED** Added markdown preview for form's description editor.
+
+
 ### 1st of Sep 2021 ([1.29](v1.29.1))
 
 - **ADDED** New feature, task templates
