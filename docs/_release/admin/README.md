@@ -1,3 +1,29 @@
+# 26th of Oct 2021 ([1.31](v1.31.1))
+- **ADDED** Delivery Accounts. Allow specify multiple email delivery methods
+- **ADDED** Allow use of SendGrid for email delivery
+- **ADDED** Allow assign delivery account to host setting
+- **ADDED** Allow assign delivery account to board level email setting
+- **ADDED** Allow assign host setting to company level.
+- **ADDED** Allow change default email delivery method
+- **ADDED** Added email test at different location to cover different scenarios.
+- **ADDED** New capability to filter email delivery records
+- **ADDED** Scoped list for email delivery records under email template, 
+- **IMPROVED** Word break under markdown HTML
+- **IMPROVED** Board email event edit page now has its own route. It also has change detection.
+
+version 1.31.2
+- **ADDED** New authentication setting page. Allow turn off client portal's password login.
+- **ADDED** Allow change mail token security level.
+- **ADDED** Ticket email delivery records page.
+- **REMOVED** Legacy mail token page.
+
+version 1.31.3 (27th of Oct)
+- **FIXED** SMTP delivery account edit page unable to change port from 25 to other.
+
+version 1.31.4 (27th of Oct)
+- **ADDED** System template filter for email delivery records.
+- **FIXED** Fixed email delivery records  page, where filter got removed when switch pagination.
+
 ### 11th of Oct 2021 ([1.30](v1.30.1))
 
 - **ADDED** Dynamic content setting for DeskDirector form's statement field
