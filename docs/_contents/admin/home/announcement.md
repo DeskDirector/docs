@@ -4,6 +4,7 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* Allow multiple email delivery account (Admin [1.31](/configs/release-notes/admin/v1.31.1))
 * File field for DeskDirector form. (Admin [1.30](/configs/release-notes/admin/v1.30.1), Portal [3.25](/configs/release-notes/portal/v3.25))
 * File Storage and File link in Email template (Admin [1.30](/configs/release-notes/admin/v1.30.1), Portal [3.25](/configs/release-notes/portal/v3.25), TECH [1.41](/configs/release-notes/tech/v1.41))
 * Task list automation (Admin [1.30](/configs/release-notes/admin/v1.30.1))
