@@ -1,4 +1,4 @@
-# 26th of Oct 2021 ([1.31](v1.31.1))
+### 26th of Oct 2021 ([1.31](v1.31.1))
 - **ADDED** Delivery Accounts. Allow specify multiple email delivery methods
 - **ADDED** Allow use of SendGrid for email delivery
 - **ADDED** Allow assign delivery account to host setting
