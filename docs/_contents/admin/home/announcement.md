@@ -21,6 +21,6 @@ We will be announcing a few more feature releases within the next few months. St
 
 * Legacy chat, old client portal tick UI v1, old menu system, portal v1. With latest release on group tickets, attachments, ticket lists etc. Those old UI became obsolete. We are planning to remove setting under [Feature Preview](/configs/portal/features/preview), also remove API related to those old interface by end of Jan 2022.
 * HUD (Heads up and display). This is an old TECH portal, which we released around 2013 and ended application life on 2017. The only purpose at moment is to serve legacy chat system. Any API related to this platform will be removed.
-* Legacy client portal. More specifically, WPF(C#) client portal which been released and used by customer between 2012 and 2016. All API related to that platform will be released within next few months.
+* Legacy client portal. More specifically, WPF(C#) client portal which been released and used by customer between 2012 and 2016. All API related to that platform will be removed within next few months.
 
 From our internal data, pretty much all users have been switched away from those legacy system. Impact of the deprecation is close to zero.
