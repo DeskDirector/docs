@@ -13,6 +13,8 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* Deep desktop portal integration for TECH portal (TECH [1.42](/configs/release-notes/tech/v1.42))
+* Form result display for ticket note (TECH [1.42](/configs/release-notes/tech/v1.42))
 * Allow multiple email delivery account (Admin [1.31](/configs/release-notes/admin/v1.31.1))
 * File field for DeskDirector form. (Admin [1.30](/configs/release-notes/admin/v1.30.1), Portal [3.25](/configs/release-notes/portal/v3.25))
 * File Storage and File link in Email template (Admin [1.30](/configs/release-notes/admin/v1.30.1), Portal [3.25](/configs/release-notes/portal/v3.25), TECH [1.41](/configs/release-notes/tech/v1.41))
@@ -23,8 +25,6 @@ We will be announcing a few more feature releases within the next few months. St
 * Ticket Surveys now support up to five questions. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
 * Workflows (Admin [1.28](/configs/release-notes/admin/v1.28.1))
 * User groups (Admin [1.26](/configs/release-notes/admin/v1.26.1), Portal [3.22](/configs/release-notes/portal/v3.22), TECH [1.39](/configs/release-notes/tech/v1.39)) 
-* Customizable colour for client portal (Admin [1.25](/configs/release-notes/admin/v1.25.1))
-* Improve tickets list for TECH portal (TECH [1.39](/configs/release-notes/tech/v1.39))
 
 ### Deprecation announcement
 
