@@ -1,3 +1,36 @@
+### 11th of Jan 2022 ([version 1.42](v1.42))
+
+- **ADDED** Integrate with new desktop tech
+- **ADDED** Use desktop tech's event to help detect user idle. Which means even user is not focused on our app, we are still able to track their activity.
+- **ADDED** Use desktop TECH to report chat invite, new chat message, new chat session by using windows notification.
+- **ADDED** Use desktop TECH to trigger windows notification on new push notification.
+- **ADDED** Right click on ticket list under desktop TECH, TECH provide custom context menu to allow open ticket in new tab, new window or in browser.
+- **ADDED** Open in PSA now default open in new tab under desktop TECH
+- **ADDED** Chat session abandoned or callback notification for new TECH desktop portal
+- **ADDED** Added additional telemetry on how user uses TECH portal. Such as how long spend on commenting on each tickets, change status of ticket, etc.
+- **ADDED** New reset functionality for time entry input. It allow user to reset timer.
+- **ADDED** Contact and company's ticket list now support middle mouse click or right click to open new tab in TECH desktop portal
+- **ADDED** Added setting to disable auto start timer.
+- **ADDED** Additional telemetry to track use of global tabs or ticket session tabs.
+- **ADDED** Added telemetry to track impersonation on contact.
+- **ADDED** Allow shift click global or ticket session tab to open raw URL in new browser or desktop TECH portal tab.
+- **ADDED** Added capability to use middle scroll button click to open global tab or ticket session tab in browser or desktop TECH portal.
+- **ADDED** Allow form created ticket note to be open in dialog. It render more close to the state of form editor rather than markdown.
+- **ADDED** Added scroll to top and down button in ticket detail timeline. 
+- **IMPROVED** User idle now after 3 min instead of 5 min.
+- **IMPROVED** Side nav colour and style now match with admin portal. Improve tab colour theme to align with side nav change.
+- **IMPROVED** Impersonation no longer blocked by browser
+- **IMPROVED** Better detection on ticket not exist response from server and avoid infinite loading.
+- **IMPROVED** Added warning when CC been ticked while ticket does not have email in CC list. (ConnectWise)
+- **IMPROVED** Definition of global tabs or ticket session tabs now retrieved through API v2. Prepare of deprecate of API v1.
+- **IMPROVED** Global and ticket session tab can now be opened in new browser or desktop portal tab.
+- **FIXED** Side nav bar's text overflow been fixed
+- **FIXED** Fixed issue where horizontal tabs often not respond when click. Increase click zone. In the past, only text of tab can be clicked.
+- **FIXED** Fixed issue on global and ticket tab open with middle button.
+- **FIXED** If user name contains emoji, the avatar of any ticket note will bug out and cause timeline not line up correctly.
+- **FIXED** Time entry's select field border is missing. Caused by style conflict with form editor.
+- **REMOVED** TECH portal's embed content no longer use DeskDirector server to verify whether it can be embedded. It allows embedded page to render faster than before.
+
 ### 7th of Oct 2021 ([version 1.41](v1.41))
 
 - **ADDED** New attached file display in timeline.
