@@ -13,6 +13,8 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* Ticket surveys now able to trigger earlier based on status config. (Admin [1.32](/configs/release-notes/admin/v1.32.1))
+* Capability to change identifier of form field and choice (Admin [1.32](/configs/release-notes/admin/v1.32.1))
 * Form's choice field now support `other`. (Portal [3.26](/configs/release-notes/portal/v3.26))
 * Deep desktop portal integration for TECH portal (TECH [1.42](/configs/release-notes/tech/v1.42))
 * Form result display for ticket note (TECH [1.42](/configs/release-notes/tech/v1.42), Portal [3.26](/configs/release-notes/portal/v3.26))
