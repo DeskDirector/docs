@@ -1,3 +1,17 @@
+### 17th of Jan 2022 ([1.32](v1.32.1))
+- **ADDED** Implemented desktop portal download page.
+- **ADDED** Workflow editor now supports event for ticket note added by form.
+- **ADDED** Survey editor now supports status trigger. It allows early survey trigger based on status.
+- **ADDED** Form editor now able to change field and choice's identifier.
+- **ADDED** New menu item type. Allow customer to add link to open in new tab rather than embed.
+- **ADDED** Auth configuration page now have config for global magic token.
+- **IMPROVED** Form submission list now able to click on ticket and navigate to TECH portal.
+- **IMPROVED** Add Yes/No field in form editor now have choice identifier change to `yes` and `no`. No longer use random text for identifier.
+- **IMPROVED** Form list page now able to keep search and pagination history.
+- **IMPROVED** Form editor now have better change detection. It no longer based on whether form been touched, but based on whether value been changed.
+- **FIXED** When search for member, contact or company, if user type too fast then press enter, the search term may disappear. 
+- **FIXED** Holidays list now able to navigate to next year if it is after Nov.
+
 ### 26th of Oct 2021 ([1.31](v1.31.1))
 - **ADDED** Delivery Accounts. Allow specify multiple email delivery methods
 - **ADDED** Allow use of SendGrid for email delivery
