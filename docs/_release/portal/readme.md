@@ -1,3 +1,28 @@
+### 16th of Nov 2021 ([3.26](v3.26))
+
+- **ADDED** Desktop portal v5 support on notification, screenshot, user idle state, system info during ticket creation, deeplink
+- **ADDED** Chat related event now able to cast through desktop portal v5's notification system.
+- **ADDED** New menu item support for external link. When user click on such menu item, it will open link in new tab/window.
+- **ADDED** Ticket note that's been created by form now able to open in dialog with advanced rendering to display more close to original form.
+- **ADDED** Added sticky actions into ticket details. Allow user to use ticket actions from any scrolling position. Action include print, scroll up, scroll down and chat.
+- **ADDED** New support for other choice on single, multi choice fields.
+- **ADDED** New support for other choice on dynamic choice fields.
+- **IMPROVED** Re-implemented notification system, allow more accurate tracking new notification and dismiss action.
+- **IMPROVED** Re-implemented global notification (broadcast). Change it from carousel to list. Colour theme now based on broadcast type.
+- **IMPROVED** UI now able to react fast to time or external event. Request type, form, ticket, file upload display now able to switch state faster than before.
+- **IMPROVED** Allow scroll on support page.
+- **IMPROVED** Improved breadcrumb display under different device size.
+- **IMPROVED** For external quote, we no longer embed it. Majority of money related integrations no longer allow embed. Since embed in modern web application is an security hole. Rather than configuration, we will always open quote in different tab/window.
+- **IMPROVED** Learning content no longer use server API to check whether it can be embedded.
+- **IMPROVED** Multi select dynamic choice field will no longer lose selection when user click on manual input.
+- **IMPROVED** Extension page no longer use server to check whether it can be embedded. User should expect faster page load.
+- **IMPROVED** Improved office hours behaviour. Chat no longer allowed if out of office hours. This apply to pre-ticket chat or ticket chat.
+- **IMPROVED** For customer who haven't setup office hours, chat will continue to work. It won't be disabled due to been treated as out of office hours.
+- **FIXED** Form validation has been fixed for file field. Required conditional file field no longer block form submission.
+- **FIXED** Desktop v5's detection was only checked when portal land on specific page. Now changed to any page.
+- **FIXED** Removed unexpected char in support options page.
+- **FIXED** Fixed issue where user avatar won't be able to display if user name contains emoji.
+
 ### 5th of Oct 2021 ([3.25](v3.25))
 
 - **ADDED** Added support for native file upload for ticket and ticket note. File is uploaded to MSP specific file storage, rather than to PSA. Max size limit changed from 5MB to 15MB for essential and 100MB for dynamic or above.
