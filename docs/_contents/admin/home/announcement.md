@@ -1,11 +1,3 @@
-### Log4j Vulnerability
-As of December 10, 2021, a vulnerability has been reported of a widely-used java logging library, log4j. We are aware of this and to confirm, this does not directly impact DeskDirector and its integration with Connectwise/Autotask. 
-
-DeskDirector, from top to bottom, is a .NET shop while log4j is java-based logging library. Please coordinate with your PSA's support for more information or you can read more about it from their respective statements:
-
-* [Autotask - Datto’s Response to Log4Shell](https://www.datto.com/blog/dattos-response-to-log4shell)
-* [ConnectWise Security Update](https://www.connectwise.com/company/trust/advisories)
-
 
 ### PRODUCT UPDATE
 
