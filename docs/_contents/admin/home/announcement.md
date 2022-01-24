@@ -5,6 +5,9 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* Added phone, time field (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
+* Allow multi-entries for phone, date, time, email fields (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
+* Allow date field switch to date time field (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
 * Ticket surveys now able to trigger earlier based on status config. (Admin [1.32](/configs/release-notes/admin/v1.32.1))
 * Capability to change identifier of form field and choice (Admin [1.32](/configs/release-notes/admin/v1.32.1))
 * Form's choice field now support `other`. (Portal [3.26](/configs/release-notes/portal/v3.26))
