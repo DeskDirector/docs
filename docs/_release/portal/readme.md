@@ -1,3 +1,15 @@
+### 24th of Jan 2022 ([3.27](v3.27))
+
+- **ADDED** Added support for form phone field.
+- **ADDED** Added support for form time field
+- **ADDED** Allow date field to collect time data.
+- **ADDED** Allow phone, time, date, email fields to enter more than one entry.
+- **ADDED** Added support for phone, time field result
+- **ADDED** Added support for multiple entries display in form result dialog.
+- **IMPROVED** Support options will display pre-ticket chat on outside of business hours, with disabled state.
+- **IMPROVED** Improved date picker component
+
+
 ### 16th of Nov 2021 ([3.26](v3.26))
 
 - **ADDED** Desktop portal v5 support on notification, screenshot, user idle state, system info during ticket creation, deeplink
