@@ -30,6 +30,10 @@
 - **FIXED** If user name contains emoji, the avatar of any ticket note will bug out and cause timeline not line up correctly.
 - **FIXED** Time entry's select field border is missing. Caused by style conflict with form editor.
 - **REMOVED** TECH portal's embed content no longer use DeskDirector server to verify whether it can be embedded. It allows embedded page to render faster than before.
+- **FIXED** Since introduce of form result dialog, avatar in ticket list or ticket timeline no longer display.
+- **ADDED** Added support for form result on phone, time and date time field
+- **ADDED** Added support for multi entry fields.
+- **IMPROVED** Email and phone field result now have link to open in associated applications.
 
 ### 7th of Oct 2021 ([version 1.41](v1.41))
 
