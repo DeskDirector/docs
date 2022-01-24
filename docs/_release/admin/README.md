@@ -1,3 +1,9 @@
+### 24th of Jan 2022 ([1.33](v1.33.1))
+- **ADDED** You can now add phone or time field into form.
+- **ADDED** Form designer now allow email, phone, date, time field to enter more than one entry.
+- **ADDED** Date field now able to switch to date time field.
+- **IMPROVED** Change password field of SMTP email account to password field. Avoid display raw password.
+
 ### 17th of Jan 2022 ([1.32](v1.32.1))
 - **ADDED** Implemented desktop portal download page.
 - **ADDED** Workflow editor now supports event for ticket note added by form.
