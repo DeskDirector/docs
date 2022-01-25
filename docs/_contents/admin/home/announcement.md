@@ -29,5 +29,7 @@ We will be announcing a few more feature releases within the next few months. St
 * Legacy chat, old client portal tick UI v1, old menu system, portal v1. With latest release on group tickets, attachments, ticket lists etc. Those old UI became obsolete. We are planning to remove setting under [Feature Preview](/configs/portal/features/preview), also remove API related to those old interface by end of Jan 2022.
 * HUD (Heads up and display). This is an old TECH portal, which we released around 2013 and ended application life on 2017. The only purpose at moment is to serve legacy chat system. Any API related to this platform will be removed.
 * Legacy client portal. More specifically, WPF(C#) client portal which been released and used by customer between 2012 and 2016. All API related to that platform will be removed within next few months.
+* Desktop portal version 3.x is now deprecated with limited support. On July of 2022, all support will end on version 3.x. Desktop portal v3 was based on Electron 2.x(Chromium 61/Sep, 2017). Which is Chrome 61. Many new JavaScript functionality will not operate on that old browser version.
+* Desktop portal version 4.x is planned to be deprecated by end of 2022. Version 4 was based on Electron 10.x (Chromium 85/Aug, 2020).
 
-From our internal data, pretty much all users have been switched away from those legacy system. Impact of the deprecation is close to zero.
+For desktop portal, it is best to upgrade to version 4.7. And upgrade to 5.x around July of 2022. Once you have deployed version 5, it is recommend to check and update at least once a year.
