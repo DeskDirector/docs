@@ -1,3 +1,10 @@
+# 1st of Feb 2022 ([3.28](v3.28))
+
+- **ADDED** New home page preview. Included my tickets widget, notifications widget, approval widget, groups widget.
+- **ADDED** Added global tickets search on new home page preview.
+- **IMPROVED** Ticket list's tooltip now display priority.
+- **FIXED** Native files uploaded in ticket now able to render correctly under all device size.
+
 ### 24th of Jan 2022 ([3.27](v3.27))
 
 - **ADDED** Added support for form phone field.
