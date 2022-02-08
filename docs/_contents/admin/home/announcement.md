@@ -1,3 +1,5 @@
+### FEATURE PREVIEW
+We have redesigned request support page and it is planned to be released by end of Feb. Please take look at release note under [client portal 3.28](/configs/release-notes/portal/v3.28).
 
 ### PRODUCT UPDATE
 
