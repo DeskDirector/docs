@@ -7,6 +7,7 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* Brand package in admin portal (Admin [1.34](/configs/release-notes/admin/v1.34.1))
 * Home page in client portal (Portal [3.28](/configs/release-notes/portal/v3.28))
 * Added phone, time field (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
 * Allow multi-entries for phone, date, time, email fields (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
@@ -18,10 +19,6 @@ We will be announcing a few more feature releases within the next few months. St
 * Form result display for ticket note (TECH [1.42](/configs/release-notes/tech/v1.42), Portal [3.26](/configs/release-notes/portal/v3.26))
 * Allow multiple email delivery account (Admin [1.31](/configs/release-notes/admin/v1.31.1))
 * File field for DeskDirector form. (Admin [1.30](/configs/release-notes/admin/v1.30.1), Portal [3.25](/configs/release-notes/portal/v3.25))
-* File Storage and File link in Email template (Admin [1.30](/configs/release-notes/admin/v1.30.1), Portal [3.25](/configs/release-notes/portal/v3.25), TECH [1.41](/configs/release-notes/tech/v1.41))
-* Task list automation (Admin [1.30](/configs/release-notes/admin/v1.30.1))
-* Batch modifying tags for company and contact list. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
-* Batch modifying permissions for company and contact list. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
 * Tasks list (Admin [1.29](/configs/release-notes/admin/v1.29.1), TECH [1.40](/configs/release-notes/tech/v1.40), Portal [3.24](/configs/release-notes/portal/v3.24))
 * Ticket Surveys now support up to five questions. (Admin [1.29](/configs/release-notes/admin/v1.29.1))
 * Workflows (Admin [1.28](/configs/release-notes/admin/v1.28.1))
