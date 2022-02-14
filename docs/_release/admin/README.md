@@ -1,3 +1,9 @@
+# 15th of Feb 2022 ([1.34](v1.34.1))
+- **ADDED** Brand package is a new feature. The system now allows customers to define brand-related settings in a single location, which they can then assign to companies.
+- **ADDED** The Contact User Groups page is now live. The customer can view the user groups to which the given contact has access. 
+- **IMPROVED** Custom style override now available to company level through brand package system.
+- **DELETED** Host configuration page been removed in favour of brand package system. You can now initialize package based on host.
+
 ### 24th of Jan 2022 ([1.33](v1.33.1))
 - **ADDED** You can now add phone or time field into form.
 - **ADDED** Form designer now allow email, phone, date, time field to enter more than one entry.
