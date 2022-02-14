@@ -1,4 +1,4 @@
-# 15th of Feb 2022 ([1.34](v1.34.1))
+### 15th of Feb 2022 ([1.34](v1.34.1))
 - **ADDED** Brand package is a new feature. The system now allows customers to define brand-related settings in a single location, which they can then assign to companies.
 - **ADDED** The Contact User Groups page is now live. The customer can view the user groups to which the given contact has access. 
 - **IMPROVED** Custom style override now available to company level through brand package system.
