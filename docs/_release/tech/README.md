@@ -1,3 +1,15 @@
+### 22nd of Feb 2022 ([version 1.43](v1.43))
+
+- **ADDED** Tickets can now be filtered by task progress state
+- **ADDED** Tickets can now be filtered by whether has due time. (Available for Autotask and ConnectWise)
+- **ADDED** Tickets can now be filtered by assigned to any technician. 
+- **ADDED** Tickets can now be ordered by due time. (Available for Autotask and ConnectWise)
+- **ADDED** Ticket's due time now been displayed under ticket list and ticket detailed view. (Available for Autotask and ConnectWise)
+- **IMPROVED** Assigned to me and unassigned count now respect search term.
+- **IMPROVED** Work type in Autotask time entry now based on user's department.
+- **IMPROVED** Ticket note rendering been improved. Multiple images can be lined up at same line.
+- **FIXED** Timeline's markdown rendering has been fixed for linked image. It no longer result render multiple copy of same image.
+
 ### 11th of Jan 2022 ([version 1.42](v1.42))
 
 - **ADDED** Integrate with new desktop tech
