@@ -1,3 +1,14 @@
+### 28th of Feb 2022 ([1.35](v1.35.1))
+- **ADDED** Audit logs for authentication, company, contact, member
+- **ADDED** Added storage statistic page. Expose database and files storage data.
+- **IMPROVED** Make pagination UI component mobile compatible.
+- **IMPROVED** Menu override page has been improved and UI redesigned.
+- **IMPROVED** Unify several priority color rendering. Ensure all of them have same kind of outcome.
+- **IMPROVED** DeskDirector Microsoft now uses it's own service field API. Which in term powers UI such as request type, service radar, ticket feature setting etc.
+- **IMPROVED** When select custom colour variable, UI now display which color they can type in and search.
+- **FIXED** When custom colour variable been changed in brand package, the expanded group no longer reset.
+- **REMOVED** Old branding related pages has been removed.
+
 ### 15th of Feb 2022 ([1.34](v1.34.1))
 - **ADDED** Brand package is a new feature. The system now allows customers to define brand-related settings in a single location, which they can then assign to companies.
 - **ADDED** The Contact User Groups page is now live. The customer can view the user groups to which the given contact has access. 
