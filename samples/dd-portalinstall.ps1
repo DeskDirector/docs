@@ -44,9 +44,9 @@ Invoke-WebRequest -Uri $appsettings -OutFile $appsettingsLOC
 
 
 # 7. Install Webview2, install Dotnet6, Install Deskdirector Client (with progress bar)
-
-Start-Process -wait -FilePath $output -ArgumentList "/silent /install"
-Start-Process -wait -FilePath $dotnetLOC -ArgumentList "/silent /install"
-Start-Process -wait $output2 -ArgumentList "/quiet /passive"
+  
+Start-Process -wait -FilePath $output -ArgumentList "/silent /install" -Verb RunAs
+Start-Process -wait -FilePath $dotnetLOC -ArgumentList "/silent /install" -Verb RunAs
+Start-Process -wait $output2 -ArgumentList "/quiet /passive" -Verb RunAs
 
 Write-Output "Setup complete"
