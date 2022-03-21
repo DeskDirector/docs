@@ -1,3 +1,13 @@
+### 21st of Mar 2022 ([3.29](v3.29))
+
+- **ADDED** New ticket closed indicator in ticket detail's time line.
+- **ADDED** Release of new home page to replace request support page.
+- **IMPROVED** When creating ticket from my tickets or all tickets, portal will prompt dialog to ask user to choose their intention. The UI will guide them to consider group ticket.
+- **IMPROVED** Business time on home page now called as online chat, chat operating time.
+- **IMPROVED** Client portal no longer offer chat if ticket is closed. The tooltip will indicator user need to reopen ticket before they can chat.
+- **IMPROVED** User groups side navigation bar's scroll bar is now less aggressive on large screen. It only shows when mouse over.
+- **FIXED** Fixed issue where assigned resource may not display correctly for Autotask ticket. When secondary resource is same as primary resource.
+
 ### 1st of Feb 2022 ([3.28](v3.28))
 
 - **ADDED** New home page preview. Included my tickets widget, notifications widget, approval widget, groups widget.
