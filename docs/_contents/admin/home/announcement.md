@@ -7,9 +7,9 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* Home page in client portal (Portal [3.29](/configs/release-notes/portal/v3.29))
 * Audit Logs in admin portal (Admin [1.35](/configs/release-notes/admin/v1.35.1))
 * Brand package in admin portal (Admin [1.34](/configs/release-notes/admin/v1.34.1))
-* Home page in client portal (Portal [3.28](/configs/release-notes/portal/v3.28))
 * Added phone, time field (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
 * Allow multi-entries for phone, date, time, email fields (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
 * Allow date field switch to date time field (Admin [1.33](/configs/release-notes/admin/v1.33.1), Portal [3.27](/configs/release-notes/portal/v3.27))
