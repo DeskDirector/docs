@@ -1,6 +1,3 @@
-### FEATURE PREVIEW
-We have redesigned request support page and it is planned to be released by end of Feb. Please take look at release note under [client portal 3.28](/configs/release-notes/portal/v3.28).
-
 ### PRODUCT UPDATE
 
 We have been busy for the first half of 2021, working on several new features and improvements. With the latest admin portal and client portal release, we announce the [user groups](https://help.deskdirector.com/article/bxd7i1kkw3) feature. This can be used to improve end-user experience and also allows you to achieve [advance scenarios](https://help.deskdirector.com/article/619edy705s-user-group-scenarios) for your clients.
