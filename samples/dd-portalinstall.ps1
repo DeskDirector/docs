@@ -1,5 +1,5 @@
 $urlWebView = "https://go.microsoft.com/fwlink/?linkid=2124701"
-$clientDesktop = "<remote location of DD installer here>"
+$clientDesktop = Read-Host -Prompt 'Input your target location to download Client_desktop_app.msi'
 $dotNet6 = "https://download.visualstudio.microsoft.com/download/pr/bf058765-6f71-4971-aee1-15229d8bfb3e/c3366e6b74bec066487cd643f915274d/windowsdesktop-runtime-6.0.1-win-x64.exe"
 $favicon = Read-Host -Prompt 'Input your target location to download favicon.png'
 $logo = Read-Host -Prompt 'Input your target location to download logo.png'
