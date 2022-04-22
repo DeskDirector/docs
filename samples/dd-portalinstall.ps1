@@ -4,6 +4,7 @@ $dotNet6 = "https://download.visualstudio.microsoft.com/download/pr/bf058765-6f7
 $favicon = Read-Host -Prompt 'Input your target location to download favicon.png'
 $logo = Read-Host -Prompt 'Input your target location to download logo.png'
 $appsettings = Read-Host -Prompt 'Input your target location to download appsettings.json'
+
 $output = "$PSScriptRoot\webview2.exe"
 $output2 = "$PSScriptRoot\client_desktop_app.msi"
 $dotnetLOC = "$PSScriptRoot\windowsdesktop-runtime-6.0.1-win-x64.exe"
@@ -47,6 +48,7 @@ Invoke-WebRequest -Uri $appsettings -OutFile $appsettingsLOC
   
 Start-Process -wait -FilePath $output -ArgumentList "/silent /install" -Verb RunAs
 Start-Process -wait -FilePath $dotnetLOC -ArgumentList "/silent /install" -Verb RunAs
-Start-Process -wait $output2 -ArgumentList "/quiet /passive" -Verb RunAs
+cd $PSScriptRoot
+msiexec.exe /i $output2 /qn
 
 Write-Output "Setup complete"
