@@ -1,3 +1,20 @@
+### 5th of May 2022 ([1.36](v.1.36.1))
+
+- **ADDED** Tech Portal Usage/Billing dashboard is available under `analytics/tech/monthly`
+- **ADDED** Dialogue for member impersonation inside advance diagnose entities
+- **ADDED** ConnectWise version selection inside advance diagnose entities
+- **ADDED** New PSA API error result audit
+- **ADDED** External link menu now able to pass parameter, same as external page
+- **ADDED** ConnectWise customer can now turn off force notification whenever ticket been created or modified
+- **ADDED** Contacts and companies audit log
+- **IMPROVED** User can not filter workflow executions by ticket ID
+- **IMPROVED** New form created now has default title format populated.
+- **IMPROVED** You can not delete form under individual form, rather than user form list.
+- **IMPROVED** Readability of Http results from diagnose entities response
+- **IMPROVED** Http error displays from the response of diagnose entities
+- **FIXED** Storage file explorer now display temporary file correctly.
+- **FIXED** Incorrect display of chart labels on the x-axis
+
 ### 28th of Feb 2022 ([1.35](v1.35.1))
 - **ADDED** Audit logs for authentication, company, contact, member
 - **ADDED** Added storage statistic page. Expose database and files storage data.
