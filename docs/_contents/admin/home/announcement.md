@@ -4,6 +4,7 @@ We have been busy for the first half of 2021, working on several new features an
 
 We will be announcing a few more feature releases within the next few months. Stay tuned.
 
+* TECH portal usage (Admin [1.36](/configs/release-notes/admin/v1.36.1))
 * Home page in client portal (Portal [3.29](/configs/release-notes/portal/v3.29))
 * Audit Logs in admin portal (Admin [1.35](/configs/release-notes/admin/v1.35.1))
 * Brand package in admin portal (Admin [1.34](/configs/release-notes/admin/v1.34.1))
