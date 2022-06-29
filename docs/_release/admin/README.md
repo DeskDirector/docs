@@ -1,4 +1,10 @@
-### 5th of May 2022 ([1.36](v.1.36.1))
+### 29th of June 2022 ([1.37](v1.37.1))
+
+- **ADDED** Interface to configure TECH dynamic ticket content
+- **ADDED** Interface to configure Portal dynamic ticket content
+- **ADDED** Interface to setup Content Security Policy HTTP header to protect against XSS and Clickjacking attack.
+
+### 5th of May 2022 ([1.36](v1.36.1))
 
 - **ADDED** Tech Portal Usage/Billing dashboard is available under `analytics/tech/monthly`
 - **ADDED** Dialogue for member impersonation inside advance diagnose entities
