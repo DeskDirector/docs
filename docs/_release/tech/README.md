@@ -1,4 +1,4 @@
-### 29th of Jun 2022 ([version 1.44](v.1.44))
+### 29th of Jun 2022 ([version 1.44](v1.44))
 
 - **ADDED** PSA ticket link inside ticket detail, make it more prompt
 - **ADDED** Email broadcast can now deliver to users without upper limit. SendGrid and SMTP are able to deliver at much faster rate compare to Office365, due to the Office365 throttling mechanism.
