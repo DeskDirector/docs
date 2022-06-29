@@ -1,3 +1,15 @@
+### 29th of Jun 2022 ([version 1.44](v.1.44))
+
+- **ADDED** PSA ticket link inside ticket detail, make it more prompt
+- **ADDED** Email broadcast can now deliver to users without upper limit. SendGrid and SMTP are able to deliver at much faster rate compare to Office365, due to the Office365 throttling mechanism.
+- **ADDED** Ticket note and time entry now have change detection, browser should warn you if you have unfinished comment.
+- **ADDED** Ticket dynamic content support for ticket, similar to form statement field's dynamic content.
+- **ADDED** User without TECH portal access won't be able to use ticket list page.
+- **IMPROVED** Email broadcast user delivery records has been redesigned, to allow pagination and filter.
+- **IMPROVED** Additional information request by form UI has been improved. It is more align with the new dynamic content in ticket detail.
+- **FIXED** When use TECH portal in desktop version 5, the ticket notification should now navigate the application to its associated ticket.
+- **FIXED** For small size file uploaded through DeskDirector native file system, the thumbnail and preview should now render correctly.
+
 ### 22nd of Feb 2022 ([version 1.43](v1.43))
 
 - **ADDED** Tickets can now be filtered by task progress state
