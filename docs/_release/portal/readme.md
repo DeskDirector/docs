@@ -1,3 +1,6 @@
+### 6th of Jul 2022 ([3.30](v3.30))
+- **ADDED** New feature, ticket dynamic content.
+
 ### 21st of Mar 2022 ([3.29](v3.29))
 
 - **ADDED** New ticket closed indicator in ticket detail's time line.
@@ -7,6 +10,25 @@
 - **IMPROVED** Client portal no longer offer chat if ticket is closed. The tooltip will indicator user need to reopen ticket before they can chat.
 - **IMPROVED** User groups side navigation bar's scroll bar is now less aggressive on large screen. It only shows when mouse over.
 - **FIXED** Fixed issue where assigned resource may not display correctly for Autotask ticket. When secondary resource is same as primary resource.
+
+11th of Apr 2022 (3.29.2)
+- **FIXED** Avoid display office hour on home page unless user has pre-ticket chat enabled
+
+12th of Apr 2022 (3.29.3)
+- **IMPROVED** Format check for form's phone field has been improved
+- **IMPROVED** For form's dynamic field, if response from the dynamic API didn't provide identifier for each option, dynamic field should now display helpful info to assist diagnose.
+
+14th of Apr 2022 (3.29.4)
+- **FIXED** For ConnectWise invoice, the due date should be treat as is, without convert from UTC to local time.
+
+19th of Apr 2022 (3.29.5)
+- **FIXED** ConnectWise invoice, the date should be treated as it is without convert from UTC to local time.
+
+30th of May 2022 (3.29.6)
+- **FIXED** Addressed issue with search not functional on home page (support page).
+
+31st of May 2022 (3.29.8)
+- **FIXED** Natively uploaded file does not display with correct name when image failed to render.
 
 ### 1st of Feb 2022 ([3.28](v3.28))
 
