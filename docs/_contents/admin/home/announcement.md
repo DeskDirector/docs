@@ -2,7 +2,7 @@
 
 We have been busy for the first half of 2021, working on several new features and improvements. With the latest admin portal and client portal release, we announce the [user groups](https://help.deskdirector.com/article/bxd7i1kkw3) feature. This can be used to improve end-user experience and also allows you to achieve [advance scenarios](https://help.deskdirector.com/article/619edy705s-user-group-scenarios) for your clients.
 
-* Ticket Dynamic Content (Admin [1.37](/configs/release-notes/admin/v1.37.1), TECH [1.44](/configs/release-notes/tech/v1.44))
+* Ticket Dynamic Content (Admin [1.37](/configs/release-notes/admin/v1.37.1), TECH [1.44](/configs/release-notes/tech/v1.44), Portal [3.30](/configs/release-notes/portal/v3.30))
 * XSS and Clickjacking protection (Admin [1.37](/configs/release-notes/admin/v1.37.1))
 * TECH portal usage (Admin [1.36](/configs/release-notes/admin/v1.36.1))
 * Home page in client portal (Portal [3.29](/configs/release-notes/portal/v3.29))
