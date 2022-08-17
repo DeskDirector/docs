@@ -1,3 +1,14 @@
+### 17th of Aug 2022 ([1.39](v1.39.1))
+
+- **ADDED** Form editor now able to add new signature field
+- **ADDED** Form JSON editor
+- **ADDED** Customer who pay through Stripe can now access their invoices list under account page.
+- **ADDED** Tag support for User Groups, Surveys, Email templates, Menu groups, Request Groups
+- **ADDED** Tag filter support for menu item list
+- **ADDED** New ticket list page for DeskDirector for Microsoft. (Beta)
+- **IMPROVED** Many list now support auto navigation when pagination.
+- **IMPROVED** Tag input editor now support backspace. When there is no characters to be deleted, it will remove last exist tag.
+
 ### 22nd of July 2022 ([1.38](v1.38.1))
 
 - **ADDED** New page to display loaded workflow.
