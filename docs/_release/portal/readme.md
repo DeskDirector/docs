@@ -1,3 +1,9 @@
+### 16th of Aug 2022 ([3.31](v3.31))
+- **ADDED** Added support for new signature field
+- **ADDED** Allow display signature field in form result dialogue.
+- **IMPROVED** The form statement's dynamic content now able to send field result of previous section to the API end point.
+- **FIXED** The form statement's dynamic content is no longer loaded at start of the form, but when section been accessed.
+
 ### 6th of Jul 2022 ([3.30](v3.30))
 - **ADDED** New feature, ticket dynamic content.
 
