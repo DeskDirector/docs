@@ -1,3 +1,17 @@
+### 22nd of July 2022 ([1.38](v1.38.1))
+
+- **ADDED** New page to display loaded workflow.
+- **ADDED** You can now delete external workflow
+- **ADDED** New notification configuration page to replace legacy page
+- **IMPROVED** On current user refresh, the avatar should be inherit from the past. Avoid avatar to be retrieved again to have temp blank gap.
+- **IMPROVED** Workflow now allow to create up to 100.
+- **IMPROVED** The workflow list now display which one does not have any action
+- **IMPROVED** Text field in form editor now allow have more options for maximum width
+- **IMPROVED** Migrate common style to bootstrap 5
+- **IMPROVED** New breadcrumb style to help breadcrumb display under mobile device
+- **DELETED** Smart Tickets has been removed. The workflow feature is the replacement
+- **DELETED** Extension app setup page under Lab has been removed.
+
 ### 29th of June 2022 ([1.37](v1.37.1))
 
 - **ADDED** Interface to configure TECH dynamic ticket content
