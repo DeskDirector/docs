@@ -1,3 +1,8 @@
+### 16th of Aug 2022 ([version 1.45](v1.45))
+
+- **ADDED** Added support for signature field result display
+- **IMPROVED** Advanced time entry settings now use a date format that is suitable for any culture. 
+
 ### 29th of Jun 2022 ([version 1.44](v1.44))
 
 - **ADDED** PSA ticket link inside ticket detail, make it more prompt
