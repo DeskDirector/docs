@@ -18,6 +18,9 @@
 - **ADDED** New ticket list page for DeskDirector for Microsoft. (Beta)
 - **IMPROVED** Many list now support auto navigation when pagination.
 - **IMPROVED** Tag input editor now support backspace. When there is no characters to be deleted, it will remove last exist tag.
+- **FIXED** When status been removed, the email event configuration will encounter issue on save. Since the status been used no longer exist.
+- **FIXED** DeskDirector for Autotask and Microsoft cannot create custom CC email template. The issue should be addressed.
+- **FIXED** Addressed issue where remove task templates from request type does not work.
 
 ### 22nd of July 2022 ([1.38](v1.38.1))
 
