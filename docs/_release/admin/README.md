@@ -1,3 +1,13 @@
+### 6th of Sep 2022 ([1.40](v1.40.1))
+
+- **ADDED** The UI now allow email event to use any system template. Rather than default template only.
+- **ADDED** New predefined tag configuration, which can be accessed by advanced member, admin or master admin
+- **ADDED** Tag suggestion for any entities that has association with tag.
+- **IMPROVED** Select email template to be used for email event now works well under mobile device.
+- **IMPROVED** Email template editor now uses HTML mode, which allow to collapse email tag. The down side is Liquid variable is no longer highlighted. We should resolve that when we change the code editor in the future.
+- **IMPROVED** Company, contact, request type, forms list has been improved and polished. Those list now have 5 different states, include 2 empty states. Which provide more insights on outcome.
+- **IMPROVED** Company and contact list now works well under mobile device.
+
 ### 17th of Aug 2022 ([1.39](v1.39.1))
 
 - **ADDED** Form editor now able to add new signature field
