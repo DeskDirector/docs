@@ -1,7 +1,18 @@
+### 7th of Sep 2022 ([version 1.46](v1.46))
+
+- **ADDED** Added support for tag suggestion
+- **ADDED** Advanced member, admin or master admin now have access to tag manager
+- **FIXED** DeskDirector for Microsoft no longer display type, sub type and item when create ticket.
+
 ### 16th of Aug 2022 ([version 1.45](v1.45))
 
+- **ADDED** Allow HTML content editor for email broadcast to enter `<hr>`
+- **ADDED** Allow HTML content editor to add image by URL.
 - **ADDED** Added support for signature field result display
 - **IMPROVED** Advanced time entry settings now use a date format that is suitable for any culture. 
+- **IMPROVED** Hide chat diagnose under mobile and tablet device
+- **FIXED** Broadcast's contact tag filter now able to toggle between contains any and contains all.
+- **FIXED** When broadcast been initialized, there are two state showing at same time. Empty state and pending state.
 
 ### 29th of Jun 2022 ([version 1.44](v1.44))
 
