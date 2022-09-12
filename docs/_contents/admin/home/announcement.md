@@ -1,7 +1,6 @@
 ### PRODUCT UPDATE
 
-The feature release list has been an excellent way to share product updates, but it has gradually taken over the entire page and still lacks detailed context.
-As a result, we have moved them to a [separate page](/configs/release-notes/feature-releases) and are only highlighting three of the most recent features here. 
+The feature release list has been an excellent way to share product updates, but it has gradually taken over the entire page and still lacks detailed context. As a result, we have moved them to a [separate page](/configs/release-notes/feature-releases) and are only highlighting three of the most recent features here. 
 
 * Tag suggestion (Admin [1.40](/configs/release-notes/admin/v1.40.1), TECH [1.46](/configs/release-notes/tech/v1.46))
 * Signature Field (Admin [1.39](/configs/release-notes/admin/v1.39.1), TECH [1.45](/configs/release-notes/tech/v1.45), Portal [3.31](/configs/release-notes/portal/v3.31))
