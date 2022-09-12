@@ -1,1 +1,1 @@
-Welcome to the DeskDirector Admin Portal. This is a new page that we have introduced with the [v1.6.1](/release-notes/admin/v1.6.1) release. We are progressively adding content as we go, stay tuned.
+You have arrived at the DeskDirector Admin Portal. This is a brand-new page introduced with the v1.6.1 release. We are gradually adding content as we go, so stay tuned. 
