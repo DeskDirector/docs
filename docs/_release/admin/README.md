@@ -1,3 +1,9 @@
+### 3rd of Oct 2022 ([1.41](v1.41.1))
+
+- **ADDED** Support for new license certificate system.
+- **IMPROVED** Project upgraded to use Angular 14.
+- **IMPROVED** User groups list's empty state has been improved.
+
 ### 6th of Sep 2022 ([1.40](v1.40.1))
 
 - **ADDED** The UI now allow email event to use any system template. Rather than default template only.
