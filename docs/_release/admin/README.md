@@ -1,3 +1,7 @@
+### 7th of Oct, 2022 ([1.42](v1.42.1))
+
+- **ADDED** Task list template now able to mark as for internal use
+
 ### 3rd of Oct 2022 ([1.41](v1.41.1))
 
 - **ADDED** Support for new license certificate system.
