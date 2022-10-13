@@ -1,3 +1,15 @@
+### 6th of Oct 2022 (version 1.47)
+
+- **ADDED** The task list can now be created for internal only
+- **ADDED** The internal task list has its visual difference compare to public task list.
+- **IMPROVED** The portal changed the way to impersonate contact, which resolves issue that it was not working with desktop v5.0.13
+- **ADDED** Ticket timeline now display device info for ticket that was submitted by desktop portal v5.
+- **IMPROVED** The interface used to modify internal task list no longer use yellow theme, it will have internal flag on dialog title.
+- **IMPROVED** Request more info dialog has been redesigned.
+- **IMPROVED** Requested forms UI had several feature improvements.
+- **FIXED** When modify request more info, it might take long time for UI to display change.
+- **FIXED** Form result's dynamic field didn't display as list.
+
 ### 7th of Sep 2022 ([version 1.46](v1.46))
 
 - **ADDED** Added support for tag suggestion
