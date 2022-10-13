@@ -1,4 +1,4 @@
-### 6th of Oct 2022 (version 1.47)
+### 6th of Oct 2022 ([version 1.47](v1.47))
 
 - **ADDED** The task list can now be created for internal only
 - **ADDED** The internal task list has its visual difference compare to public task list.
