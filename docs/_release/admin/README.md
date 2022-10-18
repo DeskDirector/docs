@@ -1,3 +1,9 @@
+### Oct 19th, 2022 ([1.43](v1.43.1))
+
+- **ADDED** Data sync page to display sychronization progress
+- **ADDED** Allow customer to trigger resync on fields
+- **ADDED** Allow DeskDirector support to trigger resync on data such as company, contact, member and ticket.
+
 ### 7th of Oct, 2022 ([1.42](v1.42.1))
 
 - **ADDED** Task list template now able to mark as for internal use
