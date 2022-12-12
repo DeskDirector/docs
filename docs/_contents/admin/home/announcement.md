@@ -13,8 +13,9 @@ More information can be found on [the feature releases page](/configs/release-no
 We'd like to provide an update since the deprecation list was announced 11 months ago. 
 
 * The wufoo form integration has been deprecated for years, and the admin portal setup page will be removed from service by the end of the year. 
-* All legacy chat-related pages, including the feature preview page, have been removed. 
+* All legacy chat-related pages, including the feature preview page, have been removed.
 * We no longer support legacy desktop applications. (HUD - Old TECH, Client portal v1, v2 and v3)
 * We will provide limited support for client portal version 4 by ensuring that all APIs on which it relies are operational. The legacy installer page will be removed from service by the end of the year.
+* Webhook version one has been deprecated for quite some time. Version one webhook is the webhook event that has been marked as legacy. It is preferable to use webhook version two or the most recent workflow to initiate the automation process.
 
 -- The deprecation announcement was last updated on September 12th, 2022. 
