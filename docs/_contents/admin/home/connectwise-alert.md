@@ -1,3 +1,3 @@
-DeskDirector discovered an issue with one of the ConnectWise `2022_2` builds; the bug is currently affecting all cloud customers in Australia and the North American regions. We implemented a workaround and deployed to all ConnectWise customers and also reported the problem. We will work with ConnectWise to resolve the issue. Please read the full issue report [here](https://help.deskdirector.com/article/h31872k058).
+We apologize for the inconvenience, but the ConnectWise Cloud instances in the Australia region are currently experiencing an outage. This outage affects our product, and you may encounter difficulties creating or updating tickets. We are in contact with ConnectWise and will keep you updated on the progress. We appreciate your understanding during this time. Stay informed about the outage through our article [here](https://help.deskdirector.com/article/ihgvyx3ict).
 
-We do not recommend that on-premise ConnectWise customers upgrade to the latest 2022 2 builds. 
+ConnectWise Australia Cloud outage started on 3:54 AM 18th of July AET (10:54 AM 17th of July PT) 2023.
