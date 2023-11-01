@@ -1,3 +1,12 @@
+> We want to inform you about an upcoming upgrade for our Australia region. On November 5, 2023, we will be upgrading to a major database version. This will require scheduled downtime for customers within the Australia region, lasting 2-5 hours, starting at 12:00 PM New Zealand Time.
+>
+> Your understanding and support are greatly appreciated as we work to enhance our software. If you have any questions or concerns, please contact our customer support team.
+>
+> * Australia (Melbourne) 10:00 a.m., Sun, 5 Nov 2023
+> * New Zealand (Auckland) 12:00 noon, Sun, 5 Nov 2023
+> * USA (New York) 7:00 p.m. Sat, 4 Nov 2023
+> * UK 11:00 p.m. Sat, 4 Nov 2023
+
 ### PRODUCT UPDATE
 
 The feature release list has been an excellent way to share product updates, but it has gradually taken over the entire page and still lacks detailed context. As a result, we have moved them to a [separate page](/configs/release-notes/feature-releases) and are only highlighting three of the most recent features here. 
