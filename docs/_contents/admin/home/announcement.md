@@ -2,10 +2,10 @@
 >
 > Your understanding and support are greatly appreciated as we work to enhance our software. If you have any questions or concerns, please contact our customer support team.
 >
-> * Australia (Melbourne) 10:00 a.m., Sun, 5 Nov 2023
-> * New Zealand (Auckland) 12:00 noon, Sun, 5 Nov 2023
-> * USA (New York) 7:00 p.m. Sat, 4 Nov 2023
-> * UK 11:00 p.m. Sat, 4 Nov 2023
+> * Australia (Melbourne) 10:00 a.m., Sun, 19 Nov 2023
+> * New Zealand (Auckland) 12:00 noon, Sun, 19 Nov 2023
+> * USA (New York) 7:00 p.m. Sat, 18 Nov 2023
+> * UK 11:00 p.m. Sat, 18 Nov 2023
 
 ### PRODUCT UPDATE
 
