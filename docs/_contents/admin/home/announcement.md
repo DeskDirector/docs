@@ -1,4 +1,4 @@
-> We want to inform you about an upcoming upgrade for our Australia region. On November 5, 2023, we will be upgrading to a major database version. This will require scheduled downtime for customers within the Australia region, lasting 2-5 hours, starting at 12:00 PM New Zealand Time.
+> We want to inform you about an upcoming upgrade for our Australia region. On November 19, 2023, we will be upgrading to a minor database version. This will require scheduled downtime for customers within the Australia region, lasting 30 to 60 minutes, starting at 12:00 PM New Zealand Time.
 >
 > Your understanding and support are greatly appreciated as we work to enhance our software. If you have any questions or concerns, please contact our customer support team.
 >
