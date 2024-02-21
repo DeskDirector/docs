@@ -9,17 +9,20 @@
 - **FIXED** Legacy Power Automate login through global API key has been fixed.
 - **FIXED** Access token login through deeplink and client portal has been fixed.
 
-20th of Feb (v21.3.2)
+###### 20th of Feb (v21.3.2)
 {.release-note-list}
 - **ADDED** Attachment API now have new `json` mode, the server will return attachment detail when instructed on `json` mode.
 - **FIXED** Personal access token now have `msp` claim for backward compatibility.
 
-20th of Feb (v21.3.3)
+###### 20th of Feb (v21.3.3)
+{.release-note-list}
 - **FIXED** Fixed find ticket API for Power Automate connector
 - **FIXED** Fixed DeskDirector server migration code.
 
-20th of Feb (v31.3.4)
+###### 20th of Feb (v31.3.4)
+{.release-note-list}
 - **FIXED** Fixed client portal get attachment API
 
-21st of Feb (v31.3.5)
+###### 21st of Feb (v31.3.5)
+{.release-note-list}
 - **ADDED** New API to help convert and server GitHub markdown content.
