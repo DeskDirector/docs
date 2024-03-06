@@ -17,3 +17,11 @@
 {.release-note-list}
 - **ADDED** News feed now have expiration, news now became less aggressive.
 - **IMPROVED** Hide news feed if not exist.
+
+###### 21st of Feb (2.10.5)
+{.release-note-list}
+- **IMPROVED** Introduce Toki Iti specific release note and home page content.
+
+###### 7th of Mar (2.10.6)
+{.release-note-list}
+- **FIXED** Fixed DeskDirector engineer unable to diagnose agent related issue.
