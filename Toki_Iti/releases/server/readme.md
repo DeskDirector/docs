@@ -1,4 +1,5 @@
 ### 21st of Mar 2024 (v21.4)
+{.release-note-list}
 - **IMPROVED** Improve the algorithm when generate next integer ID.  Avoid large count jump. Effect entities such as ticket, comment, time entry etc.
 - **IMPROVED** Form is no longer saved in distributed central server, and it is now operate completely within local instance. It improved speed of list, retrieve, update, it also means form data should now saved in regional database.
 - **IMPROVED** New form v4 API to prepare future form and form result change. Improved search, filter of form and form results.
