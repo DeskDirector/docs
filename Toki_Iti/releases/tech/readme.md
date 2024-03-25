@@ -3,6 +3,9 @@
 {.release-note-list}
 - **IMPROVED** Improved contact creation experience. Make it more align with admin portal.
 
+###### 13th of Mar (v2.8.2)
+- **FIXED** Fixed ocassionally dynamic content won't display. 
+
 ### 20th of Feb 2024 ([version 2.7](v2.7))
 
 {.release-note-list}
