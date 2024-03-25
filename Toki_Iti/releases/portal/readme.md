@@ -1,3 +1,8 @@
+### 14th of Mar 2024 ([3.42](v3.42))
+{.release-note-list}
+- **FIXED** Date field's today selection will no longer point to an old date unless reload the page.
+- **FIXED** Fixed ocassionally dynamic content won't display. 
+
 ### 20th of Feb 2024 ([3.41](v3.41))
 {.release-note-list}
 - **IMPROVED** Ticket image attchment can now toggle to enlarge.
