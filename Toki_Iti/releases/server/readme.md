@@ -1,3 +1,17 @@
+### 21st of Mar 2024 (v21.4)
+- **IMPROVED** Improve the algorithm when generate next integer ID.  Avoid large count jump. Effect entities such as ticket, comment, time entry etc.
+- **IMPROVED** Form is no longer saved in distributed central server, and it is now operate completely within local instance. It improved speed of list, retrieve, update, it also means form data should now saved in regional database.
+- **IMPROVED** New form v4 API to prepare future form and form result change. Improved search, filter of form and form results.
+- **ADDED** New delta API for form and form result.
+- **IMPROVED** The form webhook signature secret is no longer shared between forms. You can regenerate secret per individual form.
+- **IMPROVED** Delete form is now soft delete.
+
+###### 22nd of Mar (v21.4.2)
+{.release-note-list}
+- **FIXED** The webhook state filter should now work for form result API
+- **FIXED** Fixed entity ID validation for many service model.
+- **IMPROVED** The time required for server to prepare latest web application update has been greatly reduced. This change benefit admin portal release.
+
 ### 19th of Feb 2024 ([21.3](v21.3))
 
 {.release-note-list}
