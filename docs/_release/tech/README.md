@@ -1,3 +1,8 @@
+### 13th of Apr 2024 ([version 1.56](v1.56))
+
+- IMPROVED Ticket dynamic content now display all content blocks, each of the content block now able to expand and collapse. Only first content block will be expanded by default
+- IMPROVED Ticket dynamic content's description will have maximum height. User can expand on demand. Such behaviour avoid ticket dynamic content block view of actual ticket.
+
 ### 6th of Oct 2022 ([version 1.47](v1.47))
 
 - **ADDED** The task list can now be created for internal only

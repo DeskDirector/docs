@@ -1,3 +1,23 @@
+### 17th of Apr 2024 ([3.44](v3.44))
+- **ADDED** New home page widget to create ticket, make it easier to discover new ticket option.
+- **ADDED** New home page widget to display pending survey, either survey through broadcast campaign or ticket.
+- **IMPROVED** New ticket dialogue when user has access to groups has been improved, to make the flow of the action easier to pick up. Even it means more clicks.
+- **IMPROVED** Select contact dialogue has been improved to match with rest of application interface design. Make the interface more moden.
+- **FIXED** Fixed find tickets page where *referenced me* filter not been recognized through URL. When share URL, the filter won't be recognized.
+
+### 12th of Apr 2024 ([3.43](v3.43))
+- **IMPROVED** Ticket dynamic content now display all content blocks, each of the content block now able to expand and collapse. Only first content block will be expanded by default
+- **IMPROVED** Ticket dynamic content's description will have maximum height. User can expand on demand. Such behaviour avoid ticket dynamic content block view of actual ticket.
+
+### 14th of Mar 2024 ([3.42](v3.42))
+- **FIXED** Date field's today selection will no longer point to an old date unless reload the page.
+- **FIXED** Fixed ocassionally dynamic content won't display. 
+
+### 20th of Feb 2024 ([3.41](v3.41))
+- **IMPROVED** Ticket image attchment can now toggle to enlarge.
+- **IMPROVED** Display instruction when display PDF in Microsoft Teams.
+- **FIXED** Ticket attachment can now be downloaded when embedded within Microsoft Teams. 
+
 ### 16th of Aug 2022 ([3.31](v3.31))
 - **ADDED** Added support for new signature field
 - **ADDED** Allow display signature field in form result dialogue.

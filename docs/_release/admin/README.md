@@ -1,3 +1,9 @@
+### Feb 20th, 2024 ([1.51](v1.51.1))
+
+- **IMPROVED** Improved email template editor and added improved code-completion. MJML and its attribution code-completion is now accurate and precise.
+- **IMPROVED** Many editor or code viewer, such as JSON editor has been improved alongside with email template editor change.
+- **FIXED** Fixed change to form address field won't trigger form chagned event, where save button won't be enabled due to that.
+
 ### Oct 19th, 2022 ([1.43](v1.43.1))
 
 - **ADDED** Data sync page to display sychronization progress
