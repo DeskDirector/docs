@@ -1,3 +1,11 @@
+### 17th of Apr 2024 ([3.44](v3.44))
+{.release-note-list}
+- **ADDED** New home page widget to create ticket, make it easier to discover new ticket option.
+- **ADDED** New home page widget to display pending survey, either survey through broadcast campaign or ticket.
+- **IMPROVED** New ticket dialogue when user has access to groups has been improved, to make the flow of the action easier to pick up. Even it means more clicks.
+- **IMPROVED** Select contact dialogue has been improved to match with rest of application interface design. Make the interface more moden.
+- **FIXED** Fixed find tickets page where *referenced me* filter not been recognized through URL. When share URL, the filter won't be recognized.
+
 ### 12th of Apr 2024 ([3.43](v3.43))
 {.release-note-list}
 - **IMPROVED** Ticket dynamic content now display all content blocks, each of the content block now able to expand and collapse. Only first content block will be expanded by default
