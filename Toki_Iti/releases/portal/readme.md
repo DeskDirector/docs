@@ -1,3 +1,8 @@
+# 12th of Apr 2024 ([3.43](v3.43))
+{.release-note-list}
+- IMPROVED Ticket dynamic content now display all content blocks, each of the content block now able to expand and collapse. Only first content block will be expanded by default
+- IMPROVED Ticket dynamic content's description will have maximum height. User can expand on demand. Such behaviour avoid ticket dynamic content block view of actual ticket.
+
 ### 14th of Mar 2024 ([3.42](v3.42))
 {.release-note-list}
 - **FIXED** Date field's today selection will no longer point to an old date unless reload the page.
