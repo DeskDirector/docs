@@ -1,5 +1,6 @@
 #### Product release notes
-* [Admin portal](/release-notes/admin) ([v2.11](/configs/release-notes/admin)) - Released on 21st of Mar 2024
-* [Client portal](/release-notes/portal) ([3.42](/configs/release-notes/portal/v3.42)) - Released on 14th of Mar 2024
-* [TECH Portal](/release-notes/tech) ([2.8](/configs/release-notes/tech/v2.8)) - Released on 7th of Mar 2024
-* [Backend Server](/release-notes/server)([21.4](/configs/release-notes/server/v21.3)) - Release on 21st of Mar 2024
+* [Admin portal](/configs/release-notes/admin) ([v2.12](/configs/release-notes/admin/v2.12)) - Released on 27th of Mar 2024
+* [Client portal](/configs/release-notes/portal) ([3.44](/configs/release-notes/portal/v3.44)) - Released on 17th of Apr 2024
+* [TECH Portal](/configs/release-notes/tech) ([2.9](/configs/release-notes/tech/v2.9)) - Released on 12th of Apr 2024
+* [Backend Server](/configs/release-notes/server)([21.6](/configs/release-notes/server)) - Release on 15th of Apr 2024
+* [Desktop App](/configs/release-notes/desktop) **5.2.1** - release on 27th of Mar 2024
