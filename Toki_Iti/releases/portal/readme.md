@@ -1,4 +1,4 @@
-# 12th of Apr 2024 ([3.43](v3.43))
+### 12th of Apr 2024 ([3.43](v3.43))
 {.release-note-list}
 - IMPROVED Ticket dynamic content now display all content blocks, each of the content block now able to expand and collapse. Only first content block will be expanded by default
 - IMPROVED Ticket dynamic content's description will have maximum height. User can expand on demand. Such behaviour avoid ticket dynamic content block view of actual ticket.
