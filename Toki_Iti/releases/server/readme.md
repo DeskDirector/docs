@@ -1,3 +1,6 @@
+### 17th of Apr 2024 (v21.7)
+- **ADDED** Added new category `personal_tickets` and `group_tickets` for client portal ticket category filter.
+
 ### 15th of Apr 2024 (v21.6)
 {.release-note-list}
 - **ADDED** TECH portal API v4 to get and manage ticket
