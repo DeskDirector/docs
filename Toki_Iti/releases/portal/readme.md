@@ -1,3 +1,10 @@
+### 17th of Apr 2024 ([3.45](v3.45))
+{.release-note-list}
+- **ADDED** New ticket filter _personal tickets_ and _group tickets_
+- **IMPROVED** Ticket's tooltip has been improved to include additional information, such as ticket create time, contact group it belong to and open, closed state icon.
+- **IMPROVED** Introduce generic icon for _my tickets_ and _all tickets_. Make them more standout and easier to understand.
+- **REMOVED** General group has been removed due to confusion concept.
+
 ### 17th of Apr 2024 ([3.44](v3.44))
 {.release-note-list}
 - **ADDED** New home page widget to create ticket, make it easier to discover new ticket option.
