@@ -1,8 +1,14 @@
+### 17th of Apr 2024 ([3.45](v3.45))
+- **ADDED** New ticket filter _personal tickets_ and _group tickets_
+- **IMPROVED** Ticket's tooltip has been improved to include additional information, such as ticket create time, contact group it belong to and open, closed state icon.
+- **IMPROVED** Introduce generic icon for _my tickets_ and _all tickets_. Make them more standout and easier to understand.
+- **REMOVED** General group has been removed due to confusion concept.
+
 ### 17th of Apr 2024 ([3.44](v3.44))
 - **ADDED** New home page widget to create ticket, make it easier to discover new ticket option.
 - **ADDED** New home page widget to display pending survey, either survey through broadcast campaign or ticket.
 - **IMPROVED** New ticket dialogue when user has access to groups has been improved, to make the flow of the action easier to pick up. Even it means more clicks.
-- **IMPROVED** Select contact dialogue has been improved to match with rest of application interface design. Make the interface more moden.
+- **IMPROVED** Select contact dialogue has been improved to match with rest of application interface design. Make the interface more modern.
 - **FIXED** Fixed find tickets page where *referenced me* filter not been recognized through URL. When share URL, the filter won't be recognized.
 
 ### 12th of Apr 2024 ([3.43](v3.43))
