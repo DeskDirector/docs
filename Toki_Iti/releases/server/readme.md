@@ -1,4 +1,5 @@
 ### 17th of Apr 2024 (v21.7)
+{.release-note-list}
 - **ADDED** Added new category `personal_tickets` and `group_tickets` for client portal ticket category filter.
 
 ### 15th of Apr 2024 (v21.6)
