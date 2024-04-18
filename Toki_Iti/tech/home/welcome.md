@@ -10,4 +10,4 @@ Here's some links that might help you
 - [DD Academy Admin Portal Course](https://ddlearn.thinkific.com/courses/admin-portal)
 
 
-> If you click on the Analytics graph below you can drill into each month and see usage by Company and Contact 
+> If you click on the Analytics graph below you can drill into each month and see usage by Account and Contact 
