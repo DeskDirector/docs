@@ -1,3 +1,12 @@
+### 13th of May 2024 ([version 2.10](v2.10))
+{.release-note-list}
+- **ADDED** Added new supplementary form feature to replace old inline form. Allow attach, remove and modify supplementary form.
+- **IMPROVED** Improved ticket title modification UI.
+- **IMPROVED** Form result now display under a separate route. Allow agent to print form result.
+- **IMPROVED** The form result now also display empty field and separate fields into multiple pages, same as the state when form been submitted.
+- **IMPROVED** Tickets filter has been improved. The UI now always show account filter, and progressively show task progress filter.
+- **IMPROVED** Comment created by form result now has maximum height. The open form result button should be more obvious as well.
+
 ### 12th of Apr 2024 ([version 2.9](v2.9))
 {.release-note-list}
 - **ADDED** When TECH portal query dynamic content end point, it will now also send host information.
