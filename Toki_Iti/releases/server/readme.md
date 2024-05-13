@@ -1,3 +1,18 @@
+### 13th of May 2024 (v21.8)
+{.release-note-list}
+- **ADDED** Added patch API to allow modify comment or time entry's metadata.
+- **ADDED** New client portal v4 API to get form definition
+- **ADDED** New client portal v4 create ticket API
+- **IMPROVED** New inline form now contain pending form progression.
+- **IMPROVED** When adding new inline form, avoid multiple email send to ticket owner. Only request more information email should be send.
+- **IMPROVED** The generated markdown form result when create ticket or add comment now only include field with value. Statement field will no longer be part of markdown.
+- **IMPROVED** Ticket creation response should now include ticket activities. Such as ticket closed or approval granted.
+- **IMPROVED** For client portal ticket action, the server now accept attachments. Such as approval granted, approval declined, fast track, escalate, close ticket, reopen ticket etc.
+- **FIXED** Fixed form API didn't recognize single choice condition operator `select_any`.
+- **FIXED** Fixed issue where use SMTP to send email may enter deadlock, cause the system unable to send ticket email until server restart.
+- **FIXED** Fixed v2 find accounts API included account that agent does not have access to. (category restriction)
+- **REMOVED** Completely removed legacy inline form implementation.
+
 ### 17th of Apr 2024 (v21.7)
 {.release-note-list}
 - **ADDED** Added new category `personal_tickets` and `group_tickets` for client portal ticket category filter.
