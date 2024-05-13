@@ -1,3 +1,17 @@
+### 13th of May 2024 ([4.2.1](v4.2))
+{.release-note-list}
+- **ADDED** Support inline form v2, include display, submit.
+- **ADDED** Ticket deep link now supports new inline form. User will be able to navigate to pending form with ease.
+- **IMPROVED** Comment or ticket description that's created by form or email, now have footer. Allow user browse content of original data.
+- **IMPROVED** Form result's markdown display now have maximum height. Avoid over sized ticket timeline item. User should utilize form result view instead.
+- **IMPROVED** Form result now display under a proper route with pagination through the original form submission. It also include blank field, create visual experience same as the time of submission.
+- **IMPROVED** Ticket action now with better layout. It is no longer a tab system. User can also attach file on any action.
+- **IMPROVED** User can now print form result by hit browser's print under form result page.
+- **IMPROVED** Ticket deep link now accept hash parameter, so user can land on a specific comment or time entry.
+- **FIXED** Fixed ticket facet by contact group didn't update after ticket is closed or reopen.
+- **FIXED** When attach image to ticket by screenshot(win + shift + S), HTML editor no longer render it as inline image. Since it is already part of attachment.
+- **FIXED** HTML editor drop line no longer display when drag and drop file into comment or description
+
 ### 17th of Apr 2024 ([3.45](v3.45))
 {.release-note-list}
 - **ADDED** New ticket filter _personal tickets_ and _group tickets_
