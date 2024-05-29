@@ -1,3 +1,11 @@
+### 30th of May 2024 (v21.9)
+{.release-note-list}
+- **ADDED** New ticket facet API, facet by contact, fact by form.
+- **IMPROVED** Event(Workflow) failure on webhook action will no longer remove that action, but only flag it as suspended.
+- **IMPROVED** Suspended event action will be enabled when enable that event(workflow)
+- **IMPROVED** Change server connection idle time from default 100 seconds to 55 seconds. Prepare for Azure virtual machine environment
+- **IMPROVED** Improve all indexes to index `IsDeleted` instead of index `DeletedAt` field
+
 ### 13th of May 2024 (v21.8)
 {.release-note-list}
 - **ADDED** Added patch API to allow modify comment or time entry's metadata.
