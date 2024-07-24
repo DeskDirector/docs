@@ -1,3 +1,51 @@
+### 24th of July 2024 (v21.11.2)
+{.release-note-list}
+- **IMPROVED** The system will re-initialize RavenDB store if configuration from key vault has been changed.
+
+### 24th of July 2024 (v21.11.1)
+{.release-note-list}
+- **IMPROVED** RavenDB client upgrade to 6.0.104 from 5.3.105, fix any breaking change during upgrade.
+- **IMPROVED** RavenDB X509 Certificate will recycle if store disposed.
+
+### 11th of July 2024 (v21.10.2)
+{.release-note-list}
+- **IMPROVED** When retrieve secret from key vault or secret manager, the system will keep one thread per secret, avoid spam on retrieve secret.
+
+### 10th of July 2024 (v21.10.1)
+{.release-note-list}
+- **IMPROVED** Change chat feature to use new chat dispatcher service.
+
+### 8th of July 2024 (v21.9.8)
+{.release-note-list}
+- **IMPROVED** Change error model for client portal and TECH portal dispatcher service.
+
+### 8th of July 2024 (v21.9.7)
+{.release-note-list}
+- **ADDED** Added client portal and TECH portal's diagnose API
+
+### 21st of Jun 2024 (v21.9.6)
+{.release-note-list}
+- **IMPROVED** Allow intercommunication to hit secret store test API
+
+### 20th of Jun 2024 (v21.9.5)
+{.release-note-list}
+- **IMPROVED** Application Insight should now use connection string instead of `InstrumentationKey`
+
+### 20th of Jun 2024 (v21.9.4)
+{.release-note-list}
+- **ADDED** Internal API to check database health
+
+### 11th of Jun 2024 (v21.9.3)
+{.release-note-list}
+- **IMPROVED** Upgrade secret store library
+
+### 10th of Jun 2024 (v21.9.2)
+{.release-note-list}
+- **IMPROVED** Increase maximum fields per section to 350
+- **IMPROVED** Form migration avoid overwrite existing entry
+- **IMPROVED** Upgrade server dependencies.
+- **IMPROVED** Fix route conflict in Swagger definition
+
 ### 30th of May 2024 (v21.9)
 {.release-note-list}
 - **ADDED** New ticket facet API, facet by contact, fact by form.
