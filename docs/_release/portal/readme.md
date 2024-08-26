@@ -4,6 +4,16 @@
 - **IMPROVED** Introduce generic icon for _my tickets_ and _all tickets_. Make them more standout and easier to understand.
 - **REMOVED** General group has been removed due to confusion concept.
 
+###### 29th of Apr 2024 (3.45.2)
+- **IMPROVED** Improved select contacts dialogue
+
+###### 13th of Aug 2024 (3.45.3)
+- **IMPROVED** Decrease the frequency when query server on home page widget and connection test logic to avoid overheat the server.
+
+###### 22nd of Aug 2024 (3.45.4)
+- **FIXED** Avoid paste image from clipboard will cause image to be inlined inside rich text editor.
+- **IMPROVED** Improved markdown content display for nested list.
+
 ### 17th of Apr 2024 ([3.44](v3.44))
 - **ADDED** New home page widget to create ticket, make it easier to discover new ticket option.
 - **ADDED** New home page widget to display pending survey, either survey through broadcast campaign or ticket.
