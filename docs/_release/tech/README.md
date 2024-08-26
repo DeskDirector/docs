@@ -2,6 +2,9 @@
 
 - **IMPROVED** ConnectWise time entry's default billable option will now respect given ticket's `BillTime` field to provide more accurate default value.
 
+###### 6th of Jun 2024 (1.57.2)
+- **FIXED** Fixed default billable option incorrectly displayed when user landed on ticket page. 
+
 ### 13th of Apr 2024 ([version 1.56](v1.56))
 
 - IMPROVED Ticket dynamic content now display all content blocks, each of the content block now able to expand and collapse. Only first content block will be expanded by default
