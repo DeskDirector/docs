@@ -1,3 +1,50 @@
+### 27th of Aug 2024 (v21.13.1, v21.13.2)
+{.release-note-list}
+- **FIXED** Fixed client portal analytics logic not been executed since Jan 2024. Usage data is missing in admin portal.
+- **IMPROVED** The system email template now separated from PSA version.
+- **FIXED** Add fallback route for public file API. `api/v4/files`
+
+### 20th of Aug 2024 (v21.12.1)
+{.release-note-list}
+- **FIXED** Address issue where Swagger's OpenAPI definition has duplicated operation ID.
+- **DELETED** Removed several fallback route, such as `$grid_count/actual_hours/by/created_at` fallback to `$grid_count/actual_hours/by/create_at`
+
+### 16th of Aug 2024 (v21.11.10)
+{.release-note-list}
+- **ADDED** Added worker thread usage metrics for diagnose performance purpose.
+- **ADDED** Added server dependency service query metrics for diagnose performance purpose.
+- **ADDED** Added several feature metrics to help feature usage analyze
+
+### 14th of Aug 2024 (v21.11.9)
+{.release-note-list}
+- **IMPROVED** Increase .Net's minimum worker thread to improve performance
+
+### 6th of Aug 2024 (v21.11.8)
+{.release-note-list}
+- **ADDED** Added BCC when record email delivery record.
+
+### 31st of July 2024 (v21.11.7)
+{.release-note-list}
+- **IMPROVED** Improved database initialization and maintenance log
+- **IMPROVED** Improve database configuration adjustment logic.
+
+### 26th of July 2024 (v21.11.6)
+{.release-note-list}
+- **IMPROVED** Simplify key vault resolve log
+
+### 26th of July 2024 (v21.11.5)
+{.release-note-list}
+- **IMPROVED** Avoid chat session not found response been logged
+
+### 26th of July 2024 (v21.11.4)
+{.release-note-list}
+- **IMPROVED** Adjust error response payload return back from central distributed service
+
+### 25th of July 2024 (v21.11.3)
+{.release-note-list}
+- **IMPROVED** Server now dispose HTTP request and response stream to make sure resource has been free up as soon as possible.
+- **FIXED** Download file stream should now been correctly disposed.
+
 ### 24th of July 2024 (v21.11.2)
 {.release-note-list}
 - **IMPROVED** The system will re-initialize RavenDB store if configuration from key vault has been changed.
