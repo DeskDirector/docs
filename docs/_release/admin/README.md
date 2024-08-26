@@ -1,8 +1,24 @@
+### 22nd of Aug ([1.53](v1.53.1))
+- **FIXED** ConnectWise's client portal quote access filter now support empty setup.
+
+### 24th of May ([1.52](v1.52.1))
+- **IMPROVED** Improved select form dialogue.
+- **IMPROVED** Improved form list page, provide better filtering experience.
+- **ADDED** Added form related audit logs
+- **IMPROVED** Improved form result list display
+
+###### 27th of May (1.52.2)
+- **IMPROVED** User can now use forward and backward button in form editor when navigate between section/page.
+
 ### Feb 20th, 2024 ([1.51](v1.51.1))
 
 - **IMPROVED** Improved email template editor and added improved code-completion. MJML and its attribution code-completion is now accurate and precise.
 - **IMPROVED** Many editor or code viewer, such as JSON editor has been improved alongside with email template editor change.
 - **FIXED** Fixed change to form address field won't trigger form chagned event, where save button won't be enabled due to that.
+
+###### 8th of May, 2024 (1.51.3)
+- **FIXED** Fix several page allowed to navigate over without correct permission. e.g. brand and email delivery record page
+- **IMPROVED** Improved several page's grammar.
 
 ### Oct 19th, 2022 ([1.43](v1.43.1))
 
