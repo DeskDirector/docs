@@ -7,6 +7,11 @@
 - **IMPROVED** Tickets filter has been improved. The UI now always show account filter, and progressively show task progress filter.
 - **IMPROVED** Comment created by form result now has maximum height. The open form result button should be more obvious as well.
 
+###### 23rd of Aug 2024 (2.10.3)
+{.release-note-list}
+- **IMPROVED** Improve UX on internal comment flag, when switch to time entry while internal flag is on, the UI no longer auto de-flag it, it will now display internal state correctly and block submit time entry until flag has been unticked.
+- **IMPROVED** Remove vulnerability from one of the push notification library.
+
 ### 12th of Apr 2024 ([version 2.9](v2.9))
 {.release-note-list}
 - **ADDED** When TECH portal query dynamic content end point, it will now also send host information.
@@ -23,7 +28,6 @@
 - **FIXED** Fixed ocassionally dynamic content won't display. 
 
 ### 20th of Feb 2024 ([version 2.7](v2.7))
-
 {.release-note-list}
 - **IMPROVED** Ticket image attchment can now toggle to enlarge.
 - **IMPROVED** Display instruction when display PDF in Microsoft Teams.
