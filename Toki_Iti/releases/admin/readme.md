@@ -8,6 +8,9 @@
 - **FIXED** Form changed audit log now able to navigate to actual form by click on target.
 - **FIXED** Time range filter based on date no longer based on UTC time but actual local time.
 
+###### 20th of Aug (2.12.6)
+- **FIXED** Avoid use retired API route for ticket facet by `CreatedAt` field
+
 ###### 18th of Apr (v2.12.2)
 {.release-note-list}
 - **IMPROVED** Find tickets now able to display unread state.
