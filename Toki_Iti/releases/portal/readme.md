@@ -13,9 +13,11 @@
 - **FIXED** HTML editor drop line no longer display when drag and drop file into comment or description
 
 ### 13th of Aug (4.2.2)
+{.release-note-list}
 - **IMPROVED** Decrease the frequency when query server on home page widget and connection test logic to avoid overheat the server.
 
 ### 23rd of Aug (4.2.3, 4.2.4, 4.2.5, 4.2.6)
+{.release-note-list}
 - **IMPROVED** Removed vulnerability from one of dependency library
 - **IMPROVED** Improved nested list display in markdown content 
 
