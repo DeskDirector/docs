@@ -12,6 +12,13 @@
 - **FIXED** When attach image to ticket by screenshot(win + shift + S), HTML editor no longer render it as inline image. Since it is already part of attachment.
 - **FIXED** HTML editor drop line no longer display when drag and drop file into comment or description
 
+### 13th of Aug (4.2.2)
+- **IMPROVED** Decrease the frequency when query server on home page widget and connection test logic to avoid overheat the server.
+
+### 23rd of Aug (4.2.3, 4.2.4, 4.2.5, 4.2.6)
+- **IMPROVED** Removed vulnerability from one of dependency library
+- **IMPROVED** Improved nested list display in markdown content 
+
 ### 17th of Apr 2024 ([3.45](v3.45))
 {.release-note-list}
 - **ADDED** New ticket filter _personal tickets_ and _group tickets_
