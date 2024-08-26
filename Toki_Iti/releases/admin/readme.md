@@ -8,7 +8,20 @@
 - **FIXED** Form changed audit log now able to navigate to actual form by click on target.
 - **FIXED** Time range filter based on date no longer based on UTC time but actual local time.
 
+###### 18th of Apr (2.12.3)
+{.release-note-list}
+- **FIXED** Search contact's account filter display as company filter. Fix naming.
+
+###### 8th of May (2.12.4)
+{.release-note-list}
+- **FIXED** Fixed several page access permission, such as brand and delivery record page.
+
+###### 27th of May (2.12.5)
+{.release-note-list}
+- **IMPROVED** Form editor now support mouse forward and backward button when navigate between section/page.
+
 ###### 20th of Aug (2.12.6)
+{.release-note-list}
 - **FIXED** Avoid use retired API route for ticket facet by `CreatedAt` field
 
 ###### 18th of Apr (v2.12.2)
