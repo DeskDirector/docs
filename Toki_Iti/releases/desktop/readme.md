@@ -1,3 +1,7 @@
+### 24th of Sep, 2024 (v5.3.1)
+- Upgrade to .Net8.0
+- Fix Office365 interactive login.
+
 ### 27th of Mar, 2024 (v5.2.1)
 - Fixed an issue where launching a new browser window asynchronously using JavaScript with an 'about:blank' page did not properly link with the originating window.
 - Enhanced the capability to link new browser tabs with the original tab when opened.
