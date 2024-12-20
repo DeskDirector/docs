@@ -1,3 +1,13 @@
+### 18th of Dec ([1.55](v1.55.1))
+- **ADDED** New interface to manage Office 365 national cloud by register email domain.
+- **IMPROVED** Authentication configuration page should automatically scroll to URL hash tagged content.
+- **IMPROVED** Added tooltip delay to many UI.
+- **IMPROVED** Improved error dialogue, let user aware each error can be expanded.
+- **IMPROVED** Admin consent for Office 365 authentication now supports National Cloud.
+
+### 7th of Oct ([1.54](v1.54.1))
+- **ADDED** Admin portal now display license originated from Azure Marketplace.
+
 ### 22nd of Aug ([1.53](v1.53.1))
 - **FIXED** ConnectWise's client portal quote access filter now support empty setup.
 
