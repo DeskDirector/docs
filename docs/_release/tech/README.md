@@ -1,3 +1,8 @@
+### 19th of Dec 2024 ([version 1.58](v1.58))
+- **ADDED** ConnectWise company status **disallow saving** will display special flag in TECH portal ticket detail view. Above comment input.
+- **ADDED** ConnectWise company status notification message and custom company note will now display in TECH portal's ticket detail view. Above comment input.
+- **ADDED** Allow ConnectWise to filter tickets by status names. User can enter multiple status name separate by `;`.
+
 ### 30th of May 2024 ([version 1.57](v1.57))
 
 - **IMPROVED** ConnectWise time entry's default billable option will now respect given ticket's `BillTime` field to provide more accurate default value.
