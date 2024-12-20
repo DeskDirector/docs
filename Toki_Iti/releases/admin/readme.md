@@ -1,3 +1,12 @@
+### 20th of Nov 2024 ([version 2.14](v2.14))
+{.release-note-list}
+- **IMPROVED** Improved audit logs display. Allow read first 5 lines of event message without open dialogue.
+
+### 4th of Oct 2024 ([version 2.13](v2.13))
+{.release-note-list}
+- **ADDED** Admin portal now display license originated from Azure Marketplace.
+- **IMPROVED** Change server type **Corporation** to **Tokity**
+
 ### 27th of Mar 2024 ([version 2.12](v2.12))
 {.release-note-list}
 - **ADDED** Search or list form can now filter by field count. Such as empty form or none empty form.
