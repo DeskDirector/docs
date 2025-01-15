@@ -1,3 +1,11 @@
+### 16th of Jan 2025 ([1.56](v1.56.1))
+- **ADDED** New UI for Service Type(Request Type) and Service Group(Request Type Group)
+- **IMPROVED** Additional list filter, facet has been introduced for service types.
+- **IMPROVED** Side navigation and tab navigation has been improved on mobile device.
+- **IMPROVED** Browser tab title will change based on the page you are currently viewing.
+- **IMPROVED** Delete service type is only soft delete, it can be restored.
+- **IMPROVED** Default Service Group can be modified under portal configuration page.
+
 ### 18th of Dec ([1.55](v1.55.1))
 - **ADDED** New interface to manage Office 365 national cloud by register email domain.
 - **IMPROVED** Authentication configuration page should automatically scroll to URL hash tagged content.
