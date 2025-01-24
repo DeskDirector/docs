@@ -1,3 +1,24 @@
+### 24th of Jan 2025 (v21.15.1)
+{.release-note-list}
+- **FIXED** Ensured email delivery account information is only cached after successfully refreshing the token. This prevents prolonged system disruptions and enables faster recovery.
+- **ADDED** Implemented National Cloud support for OAuth, email delivery, and email connector services.
+- **IMPROVED** Enhanced patch operations to ensure updates are only applied when properties have actually changed.
+- **IMPROVED** Updated patch operations to log changes at a per-property level for better auditing.
+- **ADDED** Introduced v4 API for contact groups, incorporating the improved service model and enhanced patch operation.
+- **IMPROVED** Enhanced the contact group functionality to include audit logs when entities are modified.
+- **IMPROVED** Updated the system to allow a contact to join up to 50 contact groups. The system now automatically removes disabled contacts from manager lists or disabled contact groups from a contact when their role changes.
+- **IMPROVED** Unified and enhanced the in-memory system cache for contact groups. Manager-related information is no longer saved in the contact cache.
+- **ADDED** Added a new v4 API to retrieve individual ticket comment.
+- **IMPROVED** Updated the patch ticket comment API to support modifying comment content.
+- **IMPROVED** Enhanced the patch time entry API to support editing a time entry's content, as well as its start and end times.
+- **IMPROVED** Optimized the Get Ticket Detail API to allow retrieval of ticket information without including comments, time entries, or activities, reducing HTTP response payloads when needed.
+- **IMPROVED** Adjusted the time entry save functionality to record start and end times with minute-level accuracy instead of millisecond-level accuracy.
+- **IMPROVED** Updated the List Agent API and Get Agent API to be accessible by any agent, while the Patch Agent API now requires a master admin.
+- **ADDED** Added a new API to facet time entries by actual hours worked per ticket.
+- **IMPROVED** Optimized the API for retrieving ticket summaries to avoid loading the last comment unless necessary.
+- **IMPROVED** Enhanced the Find Time Entry API to filter results based on the agent's ticket permissions. This API is now accessible by any agent.
+- **FIXED** Resolved an issue where failed email deliveries incorrectly rendered the database name in the email body.
+
 ### 27th of Aug 2024 (v21.13.1, v21.13.2)
 {.release-note-list}
 - **FIXED** Fixed client portal analytics logic not been executed since Jan 2024. Usage data is missing in admin portal.
