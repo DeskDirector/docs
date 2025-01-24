@@ -19,6 +19,15 @@
 - **IMPROVED** Enhanced the Find Time Entry API to filter results based on the agent's ticket permissions. This API is now accessible by any agent.
 - **FIXED** Resolved an issue where failed email deliveries incorrectly rendered the database name in the email body.
 
+### 14th of Nov 2024 (v21.14.1, v21.14.2)
+{.release-note-list}
+- **IMPROVED** Added metrics to monitor the background task queue for better visibility and performance analysis.
+- **IMPROVED** Optimized server startup processes to enhance launch speed.
+- **FIXED** Resolved an issue where cookies were not being saved during requests in localhost test environments.
+- **FIXED** Addressed a performance bottleneck caused by `ConcurrentDictionary` locking, ensuring more efficient property access and count operations.
+- **IMPROVED** Refactored `HttpClient` to configure defaults, such as timeout and SSL protocols, using a more efficient approach.
+- **FIXED** Ensured conditional fields are correctly included in the form result schema.
+
 ### 27th of Aug 2024 (v21.13.1, v21.13.2)
 {.release-note-list}
 - **FIXED** Fixed client portal analytics logic not been executed since Jan 2024. Usage data is missing in admin portal.
