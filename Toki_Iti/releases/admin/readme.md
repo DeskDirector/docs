@@ -1,3 +1,15 @@
+### 24th of Jan 2025 ([version 2.15](v2.15))
+{.release-note-list}
+- **ADDED** Microsoft OAuth National Cloud setting support.
+- **IMPROVED** Increased the number of tickets displayed on a single page from 50 to 100.
+- **IMPROVED** Upgraded Angular to v19 and updated SCSS to resolve deprecation warnings.
+- **IMPROVED** Replaced dropdown-based side navigation with a canvas-based implementation, improving accessibility for smaller devices and usability for long navigation menus.
+- **IMPROVED** The admin portal now dynamically updates the browser tab title when navigating between routes.
+- **IMPROVED** Enhanced the multi-select interface to improve behavior when the Shift key is held.
+- **ADDED** Introduced a time entry activity list that groups entries by agent, ticket, or account. For each group, the UI displays the total hours worked and the number of time entries submitted within the selected time frame.
+- **ADDED** Added a heat map to visualize actual hours worked by each individual agent.
+- **ADDED** Launched a new "My Overview" page, featuring a personal hours tracking heat map chart.
+
 ### 20th of Nov 2024 ([version 2.14](v2.14))
 {.release-note-list}
 - **IMPROVED** Improved audit logs display. Allow read first 5 lines of event message without open dialogue.
