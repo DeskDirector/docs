@@ -6,6 +6,11 @@
 - **IMPROVED** Delete service type is only soft delete, it can be restored.
 - **IMPROVED** Default Service Group can be modified under portal configuration page.
 
+###### 30th of Jan (1.56.2)
+- **IMPROVED** Added limit indicator for service type's access filter.
+- **IMPROVED** Service type's category facet will ignore category filter, user is able to select multiple categories now.
+- **FIXED** Service type's category facet not always match with latest filter change, this has been fixed by use different approach to get latest filter.
+
 ### 18th of Dec ([1.55](v1.55.1))
 - **ADDED** New interface to manage Office 365 national cloud by register email domain.
 - **IMPROVED** Authentication configuration page should automatically scroll to URL hash tagged content.
