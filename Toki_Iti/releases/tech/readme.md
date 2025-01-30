@@ -1,3 +1,13 @@
+### 30th of Jan 2024 ([version 2.11](v2.11))
+{.release-note-list}
+- **DELETED** Removed the legacy schedule view, which was originally implemented for ConnectWise integration and is no longer needed.  
+- **ADDED** Deep link URLs now support the `#description` fragment, allowing users to scroll directly to the ticket description when opening a ticket.  
+- **ADDED** Users can now copy deep links from a ticket’s description, comments, or time entries, making it easier to share direct links to specific content.  
+- **ADDED** Agents can now modify a ticket’s description if they originally created the ticket.  
+- **ADDED** Agents can now edit their own ticket comments.  
+- **ADDED** Agents can now edit their own time entries, including both the content and the time range they worked.  
+- **IMPROVED** Simplified the start and end time input when creating a time entry. If the entry is on the same day as today, the UI now displays only the time instead of a full date-time format, making it easier to read and use. 
+
 ### 13th of May 2024 ([version 2.10](v2.10))
 {.release-note-list}
 - **ADDED** Added new supplementary form feature to replace old inline form. Allow attach, remove and modify supplementary form.
