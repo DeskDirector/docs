@@ -1,3 +1,12 @@
+### 30th of Jan 2025 (v21.16.1)
+{.release-note-list}
+- **FIXED** An issue in Power Automate's form result connector where the committed form result was incorrectly parsed, causing the server to throw an error.  
+- **FIXED** The C# generic helper classes `Optional<T>` and `OptionalCollection<T>`, which introduce a third state `undefined` for JSON merge patch, were incorrectly represented in the OpenAPI schema. The schema should now generate for `T` directly instead of the `Optional<T>` wrapper class.  
+- **FIXED** When patching a time entry's worked time, the start time is no longer allowed to exceed the time entry's creation time.  
+- **ADDED** The legacy v2 API for creating ticket time entries now supports the `ActualHours` property, aligning it with the v4 API.  
+- **ADDED** The `EnteredBy` property has been added to the ticket's v2 API service model. This enables the TECH portal to allow agents to edit ticket descriptions if they originally created the ticket.  
+- **IMPROVED** The legacy v2 API for creating ticket time entries now uses the v4 API’s service model validation, ensuring consistent validation logic for start and end times across API versions.  
+
 ### 24th of Jan 2025 (v21.15.1)
 {.release-note-list}
 - **FIXED** Ensured email delivery account information is only cached after successfully refreshing the token. This prevents prolonged system disruptions and enables faster recovery.
