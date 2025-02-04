@@ -6,7 +6,15 @@
 - **ADDED** Agents can now modify a ticket’s description if they originally created the ticket.  
 - **ADDED** Agents can now edit their own ticket comments.  
 - **ADDED** Agents can now edit their own time entries, including both the content and the time range they worked.  
-- **IMPROVED** Simplified the start and end time input when creating a time entry. If the entry is on the same day as today, the UI now displays only the time instead of a full date-time format, making it easier to read and use. 
+- **IMPROVED** Simplified the start and end time input when creating a time entry. If the entry is on the same day as today, the UI now displays only the time instead of a full date-time format, making it easier to read and use.
+
+###### 4th of Feb 2.11.3
+{.release-note-list}
+- **ADDED** Ticket timeline items now include an additional state display, alongside internal and public states.  
+  - Communication items created by the current user are highlighted in light blue.
+  - Communication items targeted via a URL hash tag are wrapped with a dark gray border.
+- **ADDED** The ticket description now displays the author's name instead of the ticket owner. A ticket may belong to a contact but could have been created by an agent.
+
 
 ### 13th of May 2024 ([version 2.10](v2.10))
 {.release-note-list}
