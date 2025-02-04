@@ -1,3 +1,10 @@
+### 5th of Feb 2025 ([4.4.1](v4.4))
+{.release-note-list}
+- **ADDED** Ticket timeline items now display a focused state when targeted by a URL hash tag.  
+- **ADDED** Ticket timeline items now visually distinguish items created by the current user.  
+- **ADDED** The ticket description now uses the `author` property to display the avatar and indicate who opened the ticket.  
+- **IMPROVED** AI Assistance now renders responses in chunks, improving UI responsiveness. 
+
 ### 13th of May 2024 ([4.2.1](v4.2))
 {.release-note-list}
 - **ADDED** Support inline form v2, include display, submit.
