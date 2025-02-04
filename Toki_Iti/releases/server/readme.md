@@ -1,3 +1,12 @@
+### 4th of Feb 2025 (v21.17.2)
+- **ADDED** The ticket object now includes an `author` property to record who created the ticket. Unlike the `CreatedBy` property, which is tied to audit logs, the `author` property strictly reflects business logic. The `CreatedBy` field may record the author indirectly, such as when a ticket is created via an API key, system process, or bot.
+- **IMPROVED** Time Entries no longer use the `AssociatedEntity` property. Instead, they now reference the related ticket through the `TicketEntityId` field. The original design was influenced by the ConnectWise system, where time entries could belong to different objects (e.g., meetings). This change reduces technical debt and simplifies system complexity.
+- **IMPROVED** The V2 Ticket API now returns a `metadata` field in preparation for the TECH portal UI.
+- **IMPROVED** The List Time Entries API now includes ticket information in its response.
+- **FIXED** OAuth authentication no longer allows users to log in based on the `OtherMails` property from Microsoft Graph API. The emails stored in `OtherMails` are neither guaranteed to belong to the tenant nor unique within it.
+- **IMPROVED** OpenID authentication now verifies emails recorded in the `ProxyAddresses` property of Microsoft Graph API, allowing users to log in using email aliases.
+- **FIXED** The HiLo algorithm's max value migration for Request Type now correctly finalizes upon successful completion, preventing it from being re-executed unnecessarily.
+
 ### 30th of Jan 2025 (v21.16.1)
 {.release-note-list}
 - **FIXED** An issue in Power Automate's form result connector where the committed form result was incorrectly parsed, causing the server to throw an error.  
