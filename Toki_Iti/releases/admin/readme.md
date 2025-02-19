@@ -9,6 +9,10 @@
 - **ADDED** Introduced a time entry activity list that groups entries by agent, ticket, or account. For each group, the UI displays the total hours worked and the number of time entries submitted within the selected time frame.
 - **ADDED** Added a heat map to visualize actual hours worked by each individual agent.
 - **ADDED** Launched a new "My Overview" page, featuring a personal hours tracking heat map chart.
+- **ADDED** Added a time entries list page, available for current agent, all agents, and individual agents through three different routes. Users can now list time tracked for service tickets.  
+- **ADDED** Added a time sheets page for current and individual agents, allowing users to view time tracked per week. The entries are separated into seven date columns, making it easier to scan through time tracked and identify potential overlapping time entries.  
+- **IMPROVED** Enabled navigation from the hours tracked heat map dashboard to the time entries or time sheets page.  
+- **FIXED** Fixed time range calculation using the `date-fns` library, eliminating errors caused by daylight saving time.  
 
 ### 20th of Nov 2024 ([version 2.14](v2.14))
 {.release-note-list}
