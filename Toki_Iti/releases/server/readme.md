@@ -19,8 +19,6 @@
 - **IMPROVED** OpenID authentication now verifies emails recorded in the `ProxyAddresses` property of Microsoft Graph API, allowing users to log in using email aliases.
 - **FIXED** The HiLo algorithm's max value migration for Request Type now correctly finalizes upon successful completion, preventing it from being re-executed unnecessarily.
 - **FIXED** Fixed ticket task created through Power Automate didn't save into database.
-- **IMPROVED** @deskdirector.com access to super admin has to be verified in manager server.
-- **IMPROVED** Super admin only get cookie for 24 hours, unless they are also local agent.
 - **FIXED** TECH Create ticket API should only allow local agent to use.
 - **FIXED** Allow virtual admin to access time entries API.
 - **IMPROVED** Enhanced the service model for the find/list time entries API. The ticket reference for each time entry now includes permission details, indicating whether the requester has read or write access.
