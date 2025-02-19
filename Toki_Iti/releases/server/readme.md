@@ -1,4 +1,16 @@
-### 4th of Feb 2025 (v21.17.2)
+### 19th of Feb 2025 (v21.18.4)
+{.release-note-list}
+- **ADDED** Introduced the task lists API for the v4 ticket API, enabling the creation and modification of ticket task lists.  
+- **IMPROVED** Enhanced the v4 ticket API to align the `contact` property in the ticket's survey service model with the v4 API style.  
+- **IMPROVED** Updated form and form result APIs to format responses based on the `Prefer` request header, allowing requesters to specify whether descriptions should be converted from Markdown to HTML.
+- **FIXED** Microsoft OAuth and OpenID authentication now verify users against Azure Tenant verified domains, ensuring that authorized users have emails from verified domains. This prevents users from changing their primary email in Exchange to impersonate others.  
+- **IMPROVED** The OAuth and OpenID Authentication API now records invalid emails for a given Microsoft user. An invalid email is one that belongs to an unverified domain.  
+- **ADDED** Early release of TECH v2. As we plan to merge the admin portal and TECH portal in the future, it makes sense to introduce a TECH portal-specific route.  
+- **IMPROVED** Enhanced server compilation to boost runtime performance by enabling `ServerGC` and ready-to-run compilation, improving garbage collection and cold start times.  
+- **FIXED** Fixed GitHub CI/CD for ready-to-run compilation. The GitHub action now runs on `windows-latest` with PowerShell to compress files and uses the Azure PowerShell action to upload them.  
+
+### 4th of Feb 2025 (v21.17.6)
+{.release-note-list}
 - **ADDED** The ticket object now includes an `author` property to record who created the ticket. Unlike the `CreatedBy` property, which is tied to audit logs, the `author` property strictly reflects business logic. The `CreatedBy` field may record the author indirectly, such as when a ticket is created via an API key, system process, or bot.
 - **IMPROVED** Time Entries no longer use the `AssociatedEntity` property. Instead, they now reference the related ticket through the `TicketEntityId` field. The original design was influenced by the ConnectWise system, where time entries could belong to different objects (e.g., meetings). This change reduces technical debt and simplifies system complexity.
 - **IMPROVED** The V2 Ticket API now returns a `metadata` field in preparation for the TECH portal UI.
@@ -6,6 +18,14 @@
 - **FIXED** OAuth authentication no longer allows users to log in based on the `OtherMails` property from Microsoft Graph API. The emails stored in `OtherMails` are neither guaranteed to belong to the tenant nor unique within it.
 - **IMPROVED** OpenID authentication now verifies emails recorded in the `ProxyAddresses` property of Microsoft Graph API, allowing users to log in using email aliases.
 - **FIXED** The HiLo algorithm's max value migration for Request Type now correctly finalizes upon successful completion, preventing it from being re-executed unnecessarily.
+- **FIXED** Fixed ticket task created through Power Automate didn't save into database.
+- **IMPROVED** @deskdirector.com access to super admin has to be verified in manager server.
+- **IMPROVED** Super admin only get cookie for 24 hours, unless they are also local agent.
+- **FIXED** TECH Create ticket API should only allow local agent to use.
+- **FIXED** Allow virtual admin to access time entries API.
+- **IMPROVED** Enhanced the service model for the find/list time entries API. The ticket reference for each time entry now includes permission details, indicating whether the requester has read or write access.
+- **IMPROVED** Added an author property to the communication API's service model. Each community item's associated ticket now includes this property.
+- **FIXED** Fixed an issue in the create contact group API where it incorrectly threw an error on the `name` property, even when it was provided in the request payload.
 
 ### 30th of Jan 2025 (v21.16.1)
 {.release-note-list}
