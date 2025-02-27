@@ -11,6 +11,9 @@
 - **IMPROVED** Service type's category facet will ignore category filter, user is able to select multiple categories now.
 - **FIXED** Service type's category facet not always match with latest filter change, this has been fixed by use different approach to get latest filter.
 
+###### 20th of Feb (1.56.3)
+- **ADDED** Added a UI option to set or unset the default activity member for ConnectWise integration. This ensures the client portal's "flag ticket" feature functions correctly when the contact's company does not have an assigned account manager.  
+
 ### 18th of Dec ([1.55](v1.55.1))
 - **ADDED** New interface to manage Office 365 national cloud by register email domain.
 - **IMPROVED** Authentication configuration page should automatically scroll to URL hash tagged content.
