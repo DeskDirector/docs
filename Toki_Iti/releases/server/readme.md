@@ -1,3 +1,13 @@
+### 24th of Feb 2025 (v21.19.1)
+{.release-note-list}
+- **IMPROVED** Reduced server cold start time by enabling .NET's ReadyToRun (R2R) compilation.  
+- **FIXED** The `Prefer` header is no longer allowed in the form and form result APIs to specify the description format for each question. This change aligns with the original feature design.  
+- **IMPROVED** Enhanced security for the TECH portal API by introducing granular user security profiles. Users now have either read-only or read-and-write permissions for specific entities, replacing the previous broad access model. This allows for more precise permission control, particularly for service tickets.  
+- **ADDED** Introduced a new access permission property in the ticket's `$info`, enabling the UI to recognize the current user's access level for a given ticket.  
+- **ADDED** Introduced a new v4 ticket API to search for assignable agents for a given ticket.  
+- **ADDED** Added two new v4 ticket APIs to retrieve form results linked to a ticket or ticket comment, eliminating the need for the UI to know the form result ID beforehand.  
+- **ADDED** Expanded v4 ticket attachment APIs across various ticket-related entities, including ticket form results, ticket comments, and comment-associated form results. This provides a standardized entity + attachment API structure, simplifying abstraction layer development.  
+
 ### 19th of Feb 2025 (v21.18.4)
 {.release-note-list}
 - **ADDED** Introduced the task lists API for the v4 ticket API, enabling the creation and modification of ticket task lists.  
