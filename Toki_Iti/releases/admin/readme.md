@@ -1,3 +1,28 @@
+### 27th of Feb 2025 ([version 2.17](v2.17))
+{.release-note-list}
+- **IMPROVED** The overview dashboard, which contains multiple charts, now uses the TECH portal API instead of the admin portal API. This ensures that only tickets the current user has access to are returned, allowing navigation to the actual tickets page while maintaining matching ticket counts.  
+- **IMPROVED** Removed the admin portal's home page. The default landing page is now either the ticket list page or the overview dashboard, depending on the user's role and access.  
+- **IMPROVED** The ticket preview panel now triggers a "read ticket" action to mark the ticket as read.  
+- **IMPROVED** Any changes to a ticket are now broadcast through an aggregated event channel, enabling subscribed components to update their data in real-time. This ensures that opening a ticket in the preview panel updates the ticket list page to reflect that the ticket has been read.  
+- **FIXED** Fixed an issue where the "Select Contact" dialog failed to render due to the contact avatar size not supporting decimal values.  
+- **IMPROVED** Enhanced the facet filtering UI for tickets by queue and status. The status selection now allows toggling existing selections and supports multi-selection by holding `Ctrl`.  
+- **ADDED** Introduced multiple new facets for the ticket list, including filtering by priority, tag, source, and service type. Users can choose which facets they are interested in, and selections are preserved in the webpage URL for bookmarking.  
+- **IMPROVED** Improved the "Hours Tracked" page by adding a clearer hover effect to the time entry activity list. The right-side elements now have a direct visual association with the left-side items, enhancing readability.  
+- **IMPROVED** Enhanced the display of GitHub markdown task list items by making them more subtle. Since the checkboxes are disabled, applying an opacity of 0.75 helps set the correct user expectation.  
+- **FIXED** Resolved an issue where markdown lists were rendering incorrectly due to task list items, causing list markers to appear on different lines from their content.  
+- **IMPROVED** The overview dashboard UI now navigates to the ticket list view with the corresponding facet panel applied. For example, clicking on the priority chart will navigate to the ticket list with the priority facet pre-selected.  
+
+### 24th of Feb 2025 ([version 2.16](v2.16))
+{.release-note-list}
+- **FIXED** Resolved time range conversion issues in the UI by using `date-fns` for calculations, ensuring proper handling of daylight saving time.  
+- **IMPROVED** Enhanced the styling of GitHub task list items in markdown, ensuring they blend well with existing `ul` and `ol` list styles.  
+- **ADDED** The ticket service model now includes an `author` property, allowing the UI to display the correct author of the original ticket description instead of defaulting to the ticket owner.  
+- **IMPROVED** Refined the ticket list page's order dropdown. Users now first select a sorting criterion (e.g., name, creation time, last modified time) and then choose the sorting order (ascending or descending). This reduces the total number of options from `2x` to `x+2`, making the dropdown less cluttered.  
+- **ADDED** Introduced a ticket preview panel, enabling various UI components—such as surveys, time entry lists, and timesheets—to open a ticket panel when associated with a specific ticket.  
+- **IMPROVED** Enhanced the ticket preview attachment dialog. Previously, the TECH portal could only display one attachment at a time; now, users can navigate through attachments without closing the dialog.  
+- **IMPROVED** The attachment preview dialog now supports text file previews, including `scss`, `css`, `html`, `TypeScript`, `PowerShell`, and more.  
+- **IMPROVED** Streamlined the left-side navigation by grouping related features under a "Features" category for better organization.
+
 ### 24th of Jan 2025 ([version 2.15](v2.15))
 {.release-note-list}
 - **ADDED** Microsoft OAuth National Cloud setting support.
