@@ -1,3 +1,16 @@
+### 6th of Mar 2025 (v21.20.2)
+{.release-note-list}
+- **IMPROVED** Swagger OpenAPI definition now includes `nullable` information for references and `IOptional<T>` properties.
+- **IMPROVED** Swagger OpenAPI definition now includes string enum definitions.
+- **IMPROVED** Access token signing keys now rotate every 30 days, with non-live keys retained for up to 7 months.
+- **IMPROVED** Introduced a new v4 API to retrieve all public signing keys for access token validation, with tokens recorded in PEM format.
+- **FIXED** Resolved an issue where the access token public signing key v2 API was not functioning correctly.
+- **FIXED** Resolved inconsistent ticket comment size checks.
+- **ADDED** New v4 API to generate access tokens for contacts, agents, and virtual admins.  
+- **IMPROVED** Improved ticket ID extraction from email subjects, allowing fallback from `ticket #{id}` format to `#{id}` format.  
+- **IMPROVED** Enhanced PEM public key API performance by caching the JSON response and providing a content cache header to define refresh intervals.  
+- **FIXED** Fixed access permissions for several v2 and v3 APIs.  
+
 ### 24th of Feb 2025 (v21.19.1)
 {.release-note-list}
 - **IMPROVED** Reduced server cold start time by enabling .NET's ReadyToRun (R2R) compilation.  
