@@ -1,3 +1,9 @@
+### 12th of Mar 2025 ([4.5.1](v4.5))
+{.release-note-list}
+- **ADDED** The AI assistance widget is now generally available and can be configured in the admin portal.
+- **IMPROVED** The ticket description and comment editor now supports using `Tab` to indent and `Shift+Tab` to unindent list items.  
+- **IMPROVED** Enhanced `Tab` key navigation when creating a ticket or adding a comment, allowing seamless movement between input fields. 
+
 ### 5th of Feb 2025 ([4.4.1](v4.4))
 {.release-note-list}
 - **ADDED** Ticket timeline items now display a focused state when targeted by a URL hash tag.  
