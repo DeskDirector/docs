@@ -1,7 +1,12 @@
+### 2nd of Apr 2025 ([version 1.59](v1.59))
+- **ADDED** New Copilot feature to help change the tone of a ticket note or time entry before submission.  
+- **ADDED** New Copilot chat to allow agents to chat with Copilot for any service-related questions or questions regarding the current service ticket.  
+
 ### 19th of Dec 2024 ([version 1.58](v1.58))
 - **ADDED** ConnectWise company status **disallow saving** will display special flag in TECH portal ticket detail view. Above comment input.
 - **ADDED** ConnectWise company status notification message and custom company note will now display in TECH portal's ticket detail view. Above comment input.
 - **ADDED** Allow ConnectWise to filter tickets by status names. User can enter multiple status name separate by `;`.
+- **IMPROVED** Improved format for task list items in markdown content.
 
 ### 30th of May 2024 ([version 1.57](v1.57))
 
