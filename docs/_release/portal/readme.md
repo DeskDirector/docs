@@ -20,7 +20,7 @@
 ###### 27th of Feb 2025 (3.45.5)
 - **IMPROVED** Enhanced the display of task list items in Markdown-generated HTML content.
 
-###### 12th of Mar 2025 (3.45.5)
+###### 12th of Mar 2025 (3.45.6)
 - **IMPROVED** The ticket description and comment editor now supports using `Tab` to indent and `Shift`+`Tab` to unindent list items.
 - **IMPROVED** Enhanced `Tab` key navigation when creating a ticket or adding a comment, allowing seamless movement between input fields.
 
