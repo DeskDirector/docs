@@ -1,4 +1,5 @@
 ### 2nd of Apr 2025 ([version 2.18](v2.18))
+{.release-note-list}
 - **ADDED** Added AI Hub integration  
 - **IMPROVED** The expiration setting for email file download link now has a maximum lifetime of 1 month instead of 6 months.  
 - **IMPROVED** Fine-grained global API key now has an audit log read scope that can be enabled.
