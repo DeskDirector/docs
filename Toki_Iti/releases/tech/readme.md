@@ -1,3 +1,7 @@
+### 2nd of Apr 2024 ([version 2.12](v2.12))
+{.release-note-list}
+- **ADDED** Copilot functionalities are now available for all customers, as long as they have configured the setting in the admin portal.  
+
 ### 30th of Jan 2024 ([version 2.11](v2.11))
 {.release-note-list}
 - **DELETED** Removed the legacy schedule view, which was originally implemented for ConnectWise integration and is no longer needed.  
@@ -7,6 +11,21 @@
 - **ADDED** Agents can now edit their own ticket comments.  
 - **ADDED** Agents can now edit their own time entries, including both the content and the time range they worked.  
 - **IMPROVED** Simplified the start and end time input when creating a time entry. If the entry is on the same day as today, the UI now displays only the time instead of a full date-time format, making it easier to read and use.
+- **ADDED** Allow ticket attachment to be removed
+- **ADDED** Allow comment attachment to be removed
+- **ADDED** Allow time entry attachment to be removed
+- **FIXED** After time entry been created, the start and end time input field not update itself to latest value.
+- **ADDED** Ticket timeline items now include an additional state display, alongside internal and public states.  
+  - Communication items created by the current user are highlighted in light blue.  
+  - Communication items targeted via a URL hash tag are wrapped with a dark gray border.  
+- **ADDED** The ticket description now displays the author's name instead of the ticket owner. A ticket may belong to a contact but could have been created by an agent.  
+- **ADDED** Copilot AI assistance for agents. This feature is currently available only for our support team.  
+- **ADDED** New Copilot feature to help change the tone of a ticket note or time entry before submission.  
+- **FIXED** Fixed an issue where the modify time entry dialog had an incorrect start time limitation.  
+- **FIXED** Fixed an issue where the markdown compiled view didn’t update after Copilot rephrased and replaced existing content.  
+- **IMPROVED** Improved format for task list items in markdown content.
+- **IMPROVED** Decreased the color of task list items in markdown so users can recognize they are disabled.  
+- **FIXED** Fixed an issue with markdown list display style, where the list item marker didn’t align with its content.  
 
 ###### 4th of Feb 2.11.3
 {.release-note-list}
