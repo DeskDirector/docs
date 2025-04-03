@@ -1,3 +1,8 @@
+#### AI Enhancements Across Portals
+AI-powered assistance is now available across both the TECH and client portals, bringing smarter and more efficient support experiences.
+- **Client Portal**: End users can now benefit from AI assistance, which leverages Retrieval-Augmented Generation (RAG) to find the most relevant knowledge base articles and provide accurate, AI-generated responses. This helps users resolve their requests faster and more effectively.
+- **TECH Portal**: Agents now have access to Copilot, which assists in drafting and refining ticket responses. It enables agents to rephrase messages for better clarity or formality and engage in AI-powered conversations for tasks such as summarizing tickets, answering technical questions, or generating task lists—boosting efficiency and productivity.
+
 #### Global API Key & Agent API Key
 Previously, the system relied on a single API key for the entire server, granting unrestricted access to all public APIs. With the introduction of Global API Keys and Agent API Keys, users can now create multiple API keys with tailored permissions, specifying whether each key has read-only or read-write access. This enhancement improves security by limiting access and enables tracking of key usage, including monitoring which entity used a key and when it was last used. 
 [Read full release notes](/configs/release-notes/admin/v2.10)
