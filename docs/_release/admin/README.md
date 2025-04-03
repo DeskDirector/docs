@@ -1,3 +1,7 @@
+### 2nd of Apr 2025 ([1.57](v1.57.1))
+- **ADDED** Added AI Hub integration  
+- **IMPROVED** The expiration setting for email file download link now has a maximum lifetime of 1 month instead of 6 months.  
+
 ### 16th of Jan 2025 ([1.56](v1.56.1))
 - **ADDED** New UI for Service Type(Request Type) and Service Group(Request Type Group)
 - **IMPROVED** Additional list filter, facet has been introduced for service types.
@@ -13,6 +17,9 @@
 
 ###### 20th of Feb (1.56.3)
 - **ADDED** Added a UI option to set or unset the default activity member for ConnectWise integration. This ensures the client portal's "flag ticket" feature functions correctly when the contact's company does not have an assigned account manager.  
+
+###### 5th of Mar (1.56.4)
+- **FIXED** Adjusted UI for status exclusion list in notification configuration to reflect its actual meaning.
 
 ### 18th of Dec ([1.55](v1.55.1))
 - **ADDED** New interface to manage Office 365 national cloud by register email domain.
