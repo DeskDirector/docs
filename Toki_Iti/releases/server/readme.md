@@ -10,6 +10,14 @@
 - **IMPROVED** Improved ticket ID extraction from email subjects, allowing fallback from `ticket #{id}` format to `#{id}` format.  
 - **IMPROVED** Enhanced PEM public key API performance by caching the JSON response and providing a content cache header to define refresh intervals.  
 - **FIXED** Fixed access permissions for several v2 and v3 APIs.  
+- **FIXED** Fixed incorrect access token authorization scheme value, server is unable to launch with incorrect value.
+- **IMPROVED** Improved security by decrease access token signing key's rotation, also cap the download link token at one month.
+- **IMPROVED** Added database as claim into access token
+- **IMPROVED** Added region and system as claim in access token.
+- **ADDED** Server build now support auto generate API client.
+- **ADDED** Allow server CI/CD release build to produce release version of auto generated API client.
+- **IMPROVED** Added support for a pending access token signing key to ensure a smoother transition from the current signing key to the next one.
+- **FIXED** Resolved an issue where the Accounts, Contacts, and Agents public API was unable to process queries.
 
 ### 24th of Feb 2025 (v21.19.1)
 {.release-note-list}
