@@ -1,3 +1,8 @@
+### AI Enhancements Across Portals
+AI-powered assistance is now available across both the TECH and client portals, bringing smarter and more efficient support experiences.
+- **Client Portal**: End users can now benefit from AI assistance, which leverages Retrieval-Augmented Generation (RAG) to find the most relevant knowledge base articles and provide accurate, AI-generated responses. This helps users resolve their requests faster and more effectively.
+- **TECH Portal**: Agents now have access to Copilot, which assists in drafting and refining ticket responses. It enables agents to rephrase messages for better clarity or formality and engage in AI-powered conversations for tasks such as summarizing tickets, answering technical questions, or generating task lists—boosting efficiency and productivity.
+
 ### Tag suggestion
 
 The tag system is an unrestricted way to categorise entities; you do not need to define anything before using it. However, dealing with typos is difficult. You can now predefine tags in this release. The UI will then provide suggestion when you want to filter list by tags or add tags to any entities. ([detail](https://help.deskdirector.com/article/lbs94vp3co), Admin [1.40](/configs/release-notes/admin/v1.40.1), TECH [1.46](/configs/release-notes/tech/v1.46))
