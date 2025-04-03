@@ -1,3 +1,6 @@
+### 2nd of Apr 2024 ([3.46](v3.46))
+- **ADDED** Added AI assistance widget, which provides AI chat assistance to help resolve service requests. It can be configured in the admin portal.
+
 ### 17th of Apr 2024 ([3.45](v3.45))
 - **ADDED** New ticket filter _personal tickets_ and _group tickets_
 - **IMPROVED** Ticket's tooltip has been improved to include additional information, such as ticket create time, contact group it belong to and open, closed state icon.
@@ -13,6 +16,13 @@
 ###### 22nd of Aug 2024 (3.45.4)
 - **FIXED** Avoid paste image from clipboard will cause image to be inlined inside rich text editor.
 - **IMPROVED** Improved markdown content display for nested list.
+
+###### 27th of Feb 2025 (3.45.5)
+- **IMPROVED** Enhanced the display of task list items in Markdown-generated HTML content.
+
+###### 12th of Mar 2025 (3.45.5)
+- **IMPROVED** The ticket description and comment editor now supports using `Tab` to indent and `Shift`+`Tab` to unindent list items.
+- **IMPROVED** Enhanced `Tab` key navigation when creating a ticket or adding a comment, allowing seamless movement between input fields.
 
 ### 17th of Apr 2024 ([3.44](v3.44))
 - **ADDED** New home page widget to create ticket, make it easier to discover new ticket option.
