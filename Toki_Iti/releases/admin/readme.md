@@ -1,3 +1,8 @@
+### 2nd of Apr 2025 ([version 2.18](v2.18))
+- **ADDED** Added AI Hub integration  
+- **IMPROVED** The expiration setting for email file download link now has a maximum lifetime of 1 month instead of 6 months.  
+- **IMPROVED** Fine-grained global API key now has an audit log read scope that can be enabled.
+
 ### 27th of Feb 2025 ([version 2.17](v2.17))
 {.release-note-list}
 - **IMPROVED** The overview dashboard, which contains multiple charts, now uses the TECH portal API instead of the admin portal API. This ensures that only tickets the current user has access to are returned, allowing navigation to the actual tickets page while maintaining matching ticket counts.  
