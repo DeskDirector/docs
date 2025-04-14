@@ -1,19 +1,22 @@
-### 2nd of Apr 2024 ([3.46](v3.46))
+### 10th of Apr 2025 ([3.47](v3.47))
+- **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.
+
+### 2nd of Apr 2025 ([3.46](v3.46))
 - **ADDED** Added AI assistance widget, which provides AI chat assistance to help resolve service requests. It can be configured in the admin portal.
 
-### 17th of Apr 2024 ([3.45](v3.45))
+### 17th of Apr 2025 ([3.45](v3.45))
 - **ADDED** New ticket filter _personal tickets_ and _group tickets_
 - **IMPROVED** Ticket's tooltip has been improved to include additional information, such as ticket create time, contact group it belong to and open, closed state icon.
 - **IMPROVED** Introduce generic icon for _my tickets_ and _all tickets_. Make them more standout and easier to understand.
 - **REMOVED** General group has been removed due to confusion concept.
 
-###### 29th of Apr 2024 (3.45.2)
+###### 29th of Apr 2025 (3.45.2)
 - **IMPROVED** Improved select contacts dialogue
 
-###### 13th of Aug 2024 (3.45.3)
+###### 13th of Aug 2025 (3.45.3)
 - **IMPROVED** Decrease the frequency when query server on home page widget and connection test logic to avoid overheat the server.
 
-###### 22nd of Aug 2024 (3.45.4)
+###### 22nd of Aug 2025 (3.45.4)
 - **FIXED** Avoid paste image from clipboard will cause image to be inlined inside rich text editor.
 - **IMPROVED** Improved markdown content display for nested list.
 
