@@ -1,4 +1,16 @@
-### 6th of Mar 2025 (v21.20.2)
+### 9th of Apr 2025 (v21.21.2)
+{.release-note-list}
+- **ADDED** Added multiple new setting filters to the query accounts API (including `DisableSomethingElse`, `DisableCallback`, and others).
+- **ADDED** Added multiple new setting filters to the query contacts API (including `AllowFastTrack`, `DisableScreenshot`, and others).
+- **ADDED** Introduced a new `Links` property (supporting HTTPS, FTP, WebSocket) for accounts, contacts, and agents, configurable via create/patch APIs.
+- **ADDED** New client portal setting "Ticket Contact Group Policy" allows customers to specify whether new tickets can be created without selecting a contact group.
+- **IMPROVED** Microsoft Teams integration now includes new Microsoft DNS in Content Security Policy headers.
+- **IMPROVED** Access Token signing key expiration period has been standardized from "one month plus 7 days" to 5 weeks for more consistent and predictable time spans.
+- **FIXED** Resolved an issue where the v3 client portal UI setting API retrieved/modified data from legacy storage instead of the new storage location.
+- **FIXED** Client portal configuration API now includes the previously missing Ticket Contact Group Policy setting.
+- **FIXED** Resource Links property is now properly included in Contact, Account, and Agent APIs (previously missing).
+
+### 6th of Mar 2025 (v21.20.11)
 {.release-note-list}
 - **IMPROVED** Swagger OpenAPI definition now includes `nullable` information for references and `IOptional<T>` properties.
 - **IMPROVED** Swagger OpenAPI definition now includes string enum definitions.
@@ -18,6 +30,7 @@
 - **ADDED** Allow server CI/CD release build to produce release version of auto generated API client.
 - **IMPROVED** Added support for a pending access token signing key to ensure a smoother transition from the current signing key to the next one.
 - **FIXED** Resolved an issue where the Accounts, Contacts, and Agents public API was unable to process queries.
+- **ADDED** New setting to allow HTTP requests from specific IP addresses, enabling secure internal network queries from load balancers or Azure Front Door.
 
 ### 24th of Feb 2025 (v21.19.1)
 {.release-note-list}
