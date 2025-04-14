@@ -1,3 +1,7 @@
+### 14th of Apr 2025 ([4.6.1](v4.6))
+{.release-note-list}
+- **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.
+
 ### 12th of Mar 2025 ([4.5.1](v4.5))
 {.release-note-list}
 - **ADDED** The AI assistance widget is now generally available and can be configured in the admin portal.
