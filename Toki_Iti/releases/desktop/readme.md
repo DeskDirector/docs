@@ -1,3 +1,7 @@
+### 18th of Mar, 2025 (v5.3.2)
+- Updated dependency libraries to the latest versions for improved performance and security
+- Signed the installer executable with a new certificate to enhance trust and security.
+
 ### 24th of Sep, 2024 (v5.3.1)
 - Upgrade to .Net8.0
 - Fix Office365 interactive login.
