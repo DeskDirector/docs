@@ -1,3 +1,6 @@
+### 10th of Apr 2025 ([1.58](v1.58.1))
+- **ADDED** Ticket Contact Group Policy setting now available for client portal configuration at both global and company levels.
+
 ### 2nd of Apr 2025 ([1.57](v1.57.1))
 - **ADDED** Added AI Hub integration  
 - **IMPROVED** The expiration setting for email file download link now has a maximum lifetime of 1 month instead of 6 months.  
