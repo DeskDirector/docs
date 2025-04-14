@@ -1,6 +1,12 @@
+### 14th of Apr 2025 ([version 2.19](v2.19))
+{.release-note-list}
+- **ADDED** Resource links fields for contacts, accounts, and agents, enabling customers to store and manage related web links through UI forms.
+- **ADDED** Ticket Contact Group Policy setting now available for client portal configuration at both global and account levels.
+
 ### 2nd of Apr 2025 ([version 2.18](v2.18))
 {.release-note-list}
 - **ADDED** Added AI Hub integration  
+- **ADDED** Added notes fields for contacts and accounts, allowing customers to add descriptive information via UI forms.
 - **IMPROVED** The expiration setting for email file download link now has a maximum lifetime of 1 month instead of 6 months.  
 - **IMPROVED** Fine-grained global API key now has an audit log read scope that can be enabled.
 
