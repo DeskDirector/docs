@@ -1,3 +1,9 @@
+### 22nd of Apr 2025 ([version 2.20](v2.20))
+{.release-note-list}
+- **ADDED** Introduced global category restriction settings for the TECH portal.
+- **ADDED** Customers can now assign queue-specific statuses with soft restrictions, including setting a default status for each queue.
+- **ADDED** Service Type ticket automation now respects queue-specific status configurations.
+
 ### 14th of Apr 2025 ([version 2.19](v2.19))
 {.release-note-list}
 - **ADDED** Resource links fields for contacts, accounts, and agents, enabling customers to store and manage related web links through UI forms.
