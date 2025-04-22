@@ -1,3 +1,15 @@
+### 22nd of Apr 2025 (v21.22)
+{.release-note-list}
+- **ADDED** Customers can now define queue-specific statuses and a default status for a given queue (soft restriction—does not enforce status usage for tickets in the queue).
+- **IMPROVED** New system default ticket category: Tickets without a defined category will now belong to this default category.
+- **IMPROVED** Tickets without a defined queue now automatically belong to the Support queue.
+- **IMPROVED** Agent’s global queue restriction setting now always has a value, providing default setup for new servers (no manual setup needed).
+- **IMPROVED** Agent’s global category restriction setting now cannot be empty, ensuring default configuration for new servers.
+- **IMPROVED** Client portal’s global queue restriction setting now always has a value, enabling default setup for new servers.
+- **IMPROVED** Client portal can now access tickets without an assigned queue; the system will treat these as belonging to the Support queue.
+- **IMPROVED** Ticket v2 API now includes the `deletedAt` field in responses.
+- **FIXED** System now correctly clears memory cache when agent’s global-level settings are modified.
+
 ### 9th of Apr 2025 (v21.21.2)
 {.release-note-list}
 - **ADDED** Added multiple new setting filters to the query accounts API (including `DisableSomethingElse`, `DisableCallback`, and others).
