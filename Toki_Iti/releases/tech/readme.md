@@ -1,3 +1,12 @@
+### 22nd of Apr 2024 ([version 2.13](v2.13))
+{.release-note-list}
+- **ADDED** Create ticket form now automatically pre-populates queue, status, contact, account, or contact group when these values are specified in the referring page URL.
+- **ADDED** When creating a ticket, the UI now only displays statuses that are valid for the selected queue.
+- **ADDED** When modifying an existing ticket, status options now dynamically adjust based on the ticket's current assigned queue.
+- **IMPROVED** Enhanced the disabled state visibility for AI Copilot features, making the Copilot button appear more active.
+- **FIXED** Corrected the AI Copilot settings page link.
+- **FIXED** Resolved an issue where ticket status filters weren't being properly cached.
+
 ### 2nd of Apr 2024 ([version 2.12](v2.12))
 {.release-note-list}
 - **ADDED** Copilot functionalities are now available for all customers, as long as they have configured the setting in the admin portal.  
