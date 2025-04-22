@@ -3,6 +3,7 @@
 - **ADDED** Introduced global category restriction settings for the TECH portal.
 - **ADDED** Customers can now assign queue-specific statuses with soft restrictions, including setting a default status for each queue.
 - **ADDED** Service Type ticket automation now respects queue-specific status configurations.
+- **IMPROVED** Queue-specific status configurations now require at least one open status and one closed status.
 
 ### 14th of Apr 2025 ([version 2.19](v2.19))
 {.release-note-list}
