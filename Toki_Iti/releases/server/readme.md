@@ -1,3 +1,21 @@
+### 26th of May 2025 (v21.24)
+{.release-note-list}
+- **ADDED** Implemented Service Catalogue feature to replace existing request types feature. It has removed limits on how many service types (request types) can be created.
+- **ADDED** Ticket property `RequestType` now changed to `ServiceType`.
+- **ADDED** Account, Contact and Contact group v4 API model now returns `ServiceGroup` instead of `RequestGroup`.
+- **IMPROVED** Deprecated obsolete system menu items, including invoice and quote menu items.
+- **IMPROVED** TECH portal create and patch account API now has same service model as admin API. The properties that can be defined or patched by admin will be enforced at runtime.
+- **IMPROVED** TECH portal create and patch contact API now has same service model as admin API. The properties that can be defined or patched by admin will be enforced at runtime.
+- **IMPROVED** Account and Ticket API results will no longer return empty categories.
+- **IMPROVED** Create or patch account or ticket will ensure categories property is always populated.
+
+### 28th of Apr 2025 (v21.23)
+{.release-note-list}
+- **IMPROVED** Upgraded server project to .NET 9 and adapted to latest changes in database authentication certificate creation logic.
+- **ADDED** Added internal API to allow agents to navigate from Azure Marketplace License management page.
+- **ADDED** Added diagnose API to return database authentication SSL certificate information (including certificate issuer, version, and expiration time).
+- **IMPROVED** Server now uses server garbage collection.
+
 ### 22nd of Apr 2025 (v21.22)
 {.release-note-list}
 - **ADDED** Customers can now define queue-specific statuses and a default status for a given queue (soft restriction—does not enforce status usage for tickets in the queue).
