@@ -1,3 +1,11 @@
+### 23rd of May 2025 ([version 2.21](v2.21))
+{.release-note-list}
+- **ADDED** New Service Catalogue UI (replaces Request Types UI)
+- **ADDED** Bulk editing for service groups and service types
+- **ADDED** Advanced filtering for service types
+- **ADDED** Event list execution count (last 28 days)
+- **IMPROVED** Auto-scroll to top when paginating BiggerBrains courses
+
 ### 22nd of Apr 2025 ([version 2.20](v2.20))
 {.release-note-list}
 - **ADDED** Introduced global category restriction settings for the TECH portal.
