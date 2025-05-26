@@ -1,5 +1,10 @@
 ### 10th of Apr 2025 ([1.58](v1.58.1))
 - **ADDED** Ticket Contact Group Policy setting now available for client portal configuration at both global and company levels.
+- **IMPROVED** Setup wizard is now optional - customers can move away from it
+
+###### 26th of May - 1.58.3
+- **ADDED** Event list now shows execution count (last 28 days)
+- **FIXED** Service types active filter UI display
 
 ### 2nd of Apr 2025 ([1.57](v1.57.1))
 - **ADDED** Added AI Hub integration  
