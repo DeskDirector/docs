@@ -1,3 +1,15 @@
+### 30th of May 2025 (v21.25)
+{.release-note-list}
+- **ADDED** ASP.NET Server now returns a professional 404 page for missing resources, and a structured JSON payload when the requester expects JSON.
+- **IMPROVED** Updated the default branding icon for a refreshed visual identity.
+- **IMPROVED** Enhanced cookie security by honoring expiration timestamps in the cookie content and enforcing a maximum expiration time when sliding expiration is enabled.
+- **IMPROVED** For catch-all accounts, the Client Portal API now limits the contact list to only the current user, preventing cross-visibility between contacts.
+- **FIXED** Cookies now include both issued and expiration timestamps, resolving issues where sliding expiration was previously non-functional.
+- **FIXED** Resolved an issue where the Create Service Type and Create Service Group APIs would throw exceptions.
+- **FIXED** Corrected inaccurate usage values returned by the Find Menu Items API.
+- **FIXED** Resolved an issue where the Find Menu Items API returned usage values as zero when fewer than five menu items existed.
+- **FIXED** Resolved an error in the Client Portal API where requesting service types without specifying a contact group ID would result in a failure due to improper null handling.
+
 ### 26th of May 2025 (v21.24)
 {.release-note-list}
 - **ADDED** Implemented Service Catalogue feature to replace existing request types feature. It has removed limits on how many service types (request types) can be created.
