@@ -1,3 +1,20 @@
+### 6th of Jun 2025 ([version 2.22](v2.22))
+{.release-note-list}
+- **ADDED** Introduced a new Getting Started page to accelerate onboarding. It offers concise guidance for both new setups and familiarization—designed for quick wins without deep dives into documentation.
+- **ADDED** Added batch state update capability to the accounts page.
+- **ADDED** Added batch queue restriction replacement to the accounts page.
+- **ADDED** Added batch patching support for service groups on the accounts page.
+- **ADDED** Added batch patching support for menu groups on the accounts page.
+- **ADDED** Added batch patching support for account features on the accounts page.
+- **IMPROVED** Redesigned the accounts page with a refreshed UI and an enhanced advanced filtering system.
+- **IMPROVED** Enhanced the batch tag modification functionality on the accounts page.
+###### 9th of Jun 2.22.2
+{.release-note-list}
+- **ADDED** Introduced additional topics under the *Advanced* and *Expert* sections on the Getting Started page.
+- **ADDED** Enabled batch modification of an account's type and country.
+- **ADDED** Enabled batch modification of an account's category-based security restrictions.
+- **FIXED** Resolved an issue where account cache was not reset after batch modification, causing individual account pages to display outdated information.
+
 ### 23rd of May 2025 ([version 2.21](v2.21))
 {.release-note-list}
 - **ADDED** New Service Catalogue UI (replaces Request Types UI)
