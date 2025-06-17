@@ -1,3 +1,19 @@
+### 17th of Jun 2025 (v21.26)
+{.release-note-list}
+- **ADDED** Added API to import contacts to a specific account via CSV file.
+- **ADDED** Added API to import agents via CSV file.
+- **ADDED** Added individual contact group API under the global contact groups route.
+- **ADDED** Added `deletedAt` and `deletedBy` properties to contact groups for record-keeping; these do not affect the active state.
+- **IMPROVED** Enhanced the query accounts API: filters for email domains, tenant IDs, and domain SIDs now support "contains all" and "not contains all" operators.
+- **IMPROVED** Improved the query accounts API flag filter: settings such as `ShareTickets` and `AllowFastTrack` can now be queried by `null` to list accounts where these settings are not set and will inherit from the global level.
+- **IMPROVED** Improved the query contacts API flag filter to allow listing contacts with settings inherited from account or global level, similar to the accounts API.
+- **IMPROVED** Unified query filters for the query agents API under both admin and TECH portal routes, allowing the UI to use either API.
+- **IMPROVED** Moved menu group and service group selected values from the contact response to the contact's basic fields. These fields are now included when querying contacts.
+- **IMPROVED** Moved brand package, menu group, and service group selected values in the account response to the account's basic fields. These fields are now included when querying accounts.
+- **IMPROVED** When querying contacts or contact groups, "active" now means effective active. At the account level, it means directive active (e.g., disabling an account disables all its contacts and contact groups at the global level, but not at the account level).
+- **IMPROVED** Allowed contact groups API to be queried by agents or admins. Only admins can create or modify contact groups, but both agents and admins can assign or unassign users within contact groups.
+- **REMOVED** Removed the "enable webhook" setting. The API remains, but webhooks will always be active regardless of the setting.
+
 ### 30th of May 2025 (v21.25)
 {.release-note-list}
 - **ADDED** ASP.NET Server now returns a professional 404 page for missing resources, and a structured JSON payload when the requester expects JSON.
