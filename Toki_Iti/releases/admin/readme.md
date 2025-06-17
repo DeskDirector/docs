@@ -1,3 +1,10 @@
+### 17th of Jun 2025 ([version 2.23](v2.23))
+{.release-note-list}
+- **ADDED** Added support for importing contacts for a specific account via CSV file.
+- **ADDED** Added support for importing agents using a CSV file.
+- **IMPROVED** Enhanced accounts flag filter to display accounts inheriting flag settings from the global level.
+- **IMPROVED** Improved performance when batch modifying service group or menu group settings for accounts.
+
 ### 6th of Jun 2025 ([version 2.22](v2.22))
 {.release-note-list}
 - **ADDED** Introduced a new Getting Started page to accelerate onboarding. It offers concise guidance for both new setups and familiarization—designed for quick wins without deep dives into documentation.
