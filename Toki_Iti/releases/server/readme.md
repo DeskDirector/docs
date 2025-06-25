@@ -1,3 +1,11 @@
+### 25th of Jun 2025 (v21.27)
+{.release-note-list}
+- **ADDED** Added new property in contact DTO to indicate if a contact can access the client portal.
+- **ADDED** Introduced v4 avatar API for contact and agent, supporting avatar upload and deletion.
+- **FIXED** Corrected logic for the `can access client portal` flag in contact index and query projection to ensure accurate values.
+- **FIXED** Updated query for listing assignable agents on tickets to align with changes in the ticket's categories property.
+- **FIXED** Account manager can now only be assigned as contact group manager if they belong to that group.
+
 ### 17th of Jun 2025 (v21.26)
 {.release-note-list}
 - **ADDED** Added API to import contacts to a specific account via CSV file.
