@@ -19,3 +19,18 @@ We'd like to provide an update since the deprecation list was announced 11 month
 * Webhook version one has been deprecated for quite some time. Version one webhook is the webhook event that has been marked as legacy. It is preferable to use webhook version two or the most recent workflow to initiate the automation process.
 
 -- The deprecation announcement was last updated on September 12th, 2022. 
+
+### 🔒 Impersonation Feature Access Update
+
+We have identified a security issue where **Members** were able to view unauthorized tickets by impersonating other contacts. This occurred because the impersonated contacts had different board access permissions.
+
+To address this, we have **disabled the impersonation feature for the following roles**:
+
+* **Member**
+* **Advanced Member**
+
+Going forward, **only Admins and Master Admins** will be able to use the impersonation feature. These roles have the ability to modify board access within the client portal, and are therefore required as a minimum for impersonation privileges.
+
+Thank you for your understanding as we continue to improve platform security.
+
+-- 29th of July 2025
