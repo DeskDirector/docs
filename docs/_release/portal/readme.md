@@ -1,6 +1,15 @@
 ### 10th of Apr 2025 ([3.47](v3.47))
 - **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.
 
+##### 8th of July (3.47.2)
+
+- **FIXED** List display alignment in markdown generated HTML
+- **IMPROVED** Avatar two-letter name generation logic now better handles multiple spaces between first and last name
+
+##### 21th of Aug (3.47.4)
+
+- **IMPROVED** Extension page now has microphone access permissions through iframe's allow attribute
+
 ### 2nd of Apr 2025 ([3.46](v3.46))
 - **ADDED** Added AI assistance widget, which provides AI chat assistance to help resolve service requests. It can be configured in the admin portal.
 
