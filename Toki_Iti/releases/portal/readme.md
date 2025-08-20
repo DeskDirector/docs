@@ -2,6 +2,22 @@
 {.release-note-list}
 - **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.
 
+###### 8th of July (4.6.2)
+
+{.release-note-list}
+- **FIXED** List display alignment in markdown generated HTML
+- **IMPROVED** Avatar two-letter name generation logic now better handles multiple spaces between first and last name
+
+###### 15th of Aug (4.6.4)
+
+{.release-note-list}
+- **IMPROVED** Extension page now has microphone access permissions through iframe's allow attribute
+
+###### 21st of Aug (4.6.5)
+
+{.release-note-list}
+- **IMPROVED** Updated project compilation target to `ES2022`
+
 ### 12th of Mar 2025 ([4.5.1](v4.5))
 {.release-note-list}
 - **ADDED** The AI assistance widget is now generally available and can be configured in the admin portal.
