@@ -1,3 +1,11 @@
+### 18th of Aug 2025 (v21.28)
+{.release-note-list}
+- **ADDED** New clone import feature that allows PSA server or 3rd party scripts to migrate data from customer's previous ticketing system, supporting both one-time and ongoing migrations
+- **FIXED** Contact impersonation is now restricted to admin and master admin users only
+- **FIXED** Event source reporting incorrect events
+- **IMPROVED** Ticket state flow email notifications are now enabled by default
+- **IMPROVED** OAuth login option has been disabled for email domains under Azure National Cloud
+
 ### 25th of Jun 2025 (v21.27)
 {.release-note-list}
 - **ADDED** Added new property in contact DTO to indicate if a contact can access the client portal.
