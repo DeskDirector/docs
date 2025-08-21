@@ -2,6 +2,19 @@
 - **ADDED** New Copilot feature to help change the tone of a ticket note or time entry before submission.  
 - **ADDED** New Copilot chat to allow agents to chat with Copilot for any service-related questions or questions regarding the current service ticket.  
 
+###### 8th of Jul (1.59.4)
+
+- **ADDED** New ticket creation now supports populating title and description through deeplink parameters
+- **FIXED** Ticket due time display for ConnectWise now correctly handles `DateOnly` format without UTC conversion, addressing ConnectWise's UTC format inconsistency
+- **FIXED** API requests now correctly use current URL as base
+- **IMPROVED** Avatar two-letter name generation logic now better handles multiple spaces between first and last name
+- **IMPROVED** Copilot feature enhanced with active session key maintenance
+
+###### 29th of Jul (1.59.6)
+
+- **IMPROVED** UI now restricts contact impersonation to admin and master admin users only
+- **IMPROVED** Added padding to bottom of ticket page
+
 ### 19th of Dec 2024 ([version 1.58](v1.58))
 - **ADDED** ConnectWise company status **disallow saving** will display special flag in TECH portal ticket detail view. Above comment input.
 - **ADDED** ConnectWise company status notification message and custom company note will now display in TECH portal's ticket detail view. Above comment input.
