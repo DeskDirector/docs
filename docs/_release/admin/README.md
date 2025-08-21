@@ -1,3 +1,7 @@
+### 18th of Aug 2025 ([1.59](v1.59.1))
+- **ADDED** Implemented UI for new clone export feature, allowing customers to set up one-time or active data migration to standalone ticketing system Toki Iti
+- **ADDED** New UI to display member count organized by role
+
 ### 10th of Apr 2025 ([1.58](v1.58.1))
 - **ADDED** Ticket Contact Group Policy setting now available for client portal configuration at both global and company levels.
 - **IMPROVED** Setup wizard is now optional - customers can move away from it
@@ -5,6 +9,16 @@
 ###### 26th of May - 1.58.3
 - **ADDED** Event list now shows execution count (last 28 days)
 - **FIXED** Service types active filter UI display
+
+###### 29th of Jul - 1.58.5
+
+- **IMPROVED** Email template editor now includes search capability
+- **IMPROVED** Webhook schema now displays in JSON viewer with syntax highlighting and collapsible/expandable JSON structures
+- **IMPROVED** PSA entity diagnostic UI now uses JSON viewer to display responses
+
+###### 29th of Jul - 1.58.6
+
+- **IMPROVED** UI now restricts contact impersonation to admin and master admin users only
 
 ### 2nd of Apr 2025 ([1.57](v1.57.1))
 - **ADDED** Added AI Hub integration  
