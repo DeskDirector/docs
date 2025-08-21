@@ -1,3 +1,10 @@
+### 18th of Aug 2025 ([version 2.25](v2.25))
+
+{.release-note-list}
+- **ADDED** New UI for clone import feature, allowing customers to enable data migration from other ticketing systems
+- **IMPROVED** Webhook schema now displays in JSON viewer with syntax highlighting and collapsible/expandable JSON structures
+- **IMPROVED** UI now restricts contact impersonation to admin and master admin users only
+
 ### 26th of Jun 2025 ([version 2.24](v2.24))
 {.release-note-list}
 - **ADDED** Added bulk modify features to contact and account contact lists, including batch operations for state, role, tags, queue restrictions, features, service groups, and menu groups.
@@ -9,6 +16,12 @@
 - **REFACTORED** Refactored contacts list and account contacts list to support new filters introduced in the Toki Iti server.
 - **REFACTORED** Rewrote select contacts and select contact modal based on the latest UI specifications, supporting incremental selection instead of just current page selection.
 - **REMOVED** Removed webhook toggle—webhooks are now enabled by default; adding a listening URL is sufficient.
+
+###### 11th of Jul - 2.24.2
+
+- **FIXED** Fixed issue where nullable boolean values could not be reset
+- **IMPROVED** Added browser titles for accounts and contacts routes
+- **IMPROVED** Removed email delivery enabled flag from queue list as server now enables email delivery by default for all queues
 
 ### 17th of Jun 2025 ([version 2.23](v2.23))
 {.release-note-list}
