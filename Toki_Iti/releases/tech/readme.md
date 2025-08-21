@@ -1,3 +1,26 @@
+### 8th of Jul 2025 ([version 2.14](v2.14))
+
+{.release-note-list}
+- **ADDED** Customers can now delete tickets
+- **IMPROVED** Avatar two-letter name generation logic now better handles multiple spaces between first and last name
+- **IMPROVED** Copilot feature enhanced with active session key maintenance
+
+###### 29th of Jul (2.14.3)
+
+{.release-note-list}
+- **IMPROVED** UI now restricts contact impersonation to admin and master admin users only
+
+###### 19th of Aug (2.14.4)
+
+{.release-note-list}
+- **IMPROVED** In-memory cache now properly handles browser application snapshot restoration by correctly checking cache expiration status
+- **IMPROVED** Replaced custom UUID implementation with browser's built-in UUID generator
+
+###### 21st of Aug (2.14.5)
+
+{.release-note-list}
+- **IMPROVED** Added additional logging and handlers to verify in-memory cache behavior, helping diagnose issues where cache cannot expire after browser snapshot restoration
+
 ### 22nd of Apr 2024 ([version 2.13](v2.13))
 {.release-note-list}
 - **ADDED** Create ticket form now automatically pre-populates queue, status, contact, account, or contact group when these values are specified in the referring page URL.
