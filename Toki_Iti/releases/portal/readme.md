@@ -18,6 +18,16 @@
 {.release-note-list}
 - **IMPROVED** Updated project compilation target to `ES2022`
 
+###### 26th of Aug (4.6.6)
+
+{.release-note-list}
+- **FIXED** Fixed AI assistance UI auto-scroll behavior that incorrectly pushed the entire application viewport up in Chromium-based browsers
+
+###### 22nd of Sep (4.6.7)
+
+{.release-note-list}
+- **IMPROVED** Improved date age calculation by changing from real-time difference to calendar date difference
+
 ### 12th of Mar 2025 ([4.5.1](v4.5))
 {.release-note-list}
 - **ADDED** The AI assistance widget is now generally available and can be configured in the admin portal.
