@@ -1,3 +1,12 @@
+### 15th of Sep 2025 ([version 1.60](v1.60))
+- **IMPROVED** Improved date age calculation by changing from real-time difference to calendar date difference
+- **IMPROVED** Improved deep link functionality through intercommunication from Microsoft Teams integration app to match capabilities of direct deep link page access
+- **IMPROVED** Improved Copilot chat conversation to include session ID, enabling the system to store past conversations and analyze them
+- **FIXED** Fixed Copilot chat dialogue's auto scroll behavior pushing the whole dialog up in Chromium-based browsers
+
+###### 19th of Sep - 1.60.2
+- **FIXED** Fixed real-time user activity UI component in ticket page where the user name and user avatar couldn't be displayed.
+
 ### 2nd of Apr 2025 ([version 1.59](v1.59))
 - **ADDED** New Copilot feature to help change the tone of a ticket note or time entry before submission.  
 - **ADDED** New Copilot chat to allow agents to chat with Copilot for any service-related questions or questions regarding the current service ticket.  
