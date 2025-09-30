@@ -1,3 +1,36 @@
+### 30th of Sep 2025 (v21.31)
+{.release-note-list}
+- **ADDED** Introduced a restore ticket API.
+- **ADDED** Added an API to migrate tickets by queue.
+- **ADDED** Added an API to relocate a contact to a different account, including updating any associated tickets.
+- **FIXED** Removed IIS request filter, as ASP.NET Core no longer relies on IIS for serving static files.
+- **FIXED** Resolved inconsistent results from the state filter in the find contacts API.
+- **IMPROVED** Strengthened the permission requirements for the ticket modification API.
+- **IMPROVED** The deleted ticket API now always returns the updated (archived) ticket. Since this operation archives the ticket rather than removing it, a 404 Not Found is returned when the ticket does not exist.
+- **IMPROVED** Archived tickets can now be modified.
+
+### 18th of Sep 2025 (v21.30)
+{.release-note-list}
+- **ADDED** The ticket modification logic now includes a summary of the number of public comments for the current ticket. This value is returned in the ticket API response.
+- **ADDED** Added support for the patch ticket API to modify assigned agents. Unlike the legacy API, this enhancement allows batch modification of assigned agents and provides detailed audit logs.
+- **FIXED** Fixed an issue where the clone import feature populated incorrect contact data when saving tickets.
+- **IMPROVED** Enhanced the contact, contact group, and account reference models in the ticket API response to include additional properties, reducing the need for the UI to make extra server queries.
+- **IMPROVED** Temporary admin users can now query the ticket `$read` API. The API returns the patch result without making any modifications and avoids exceptions.
+- **IMPROVED** Added the ability to specify an agent ID when listing agents assignable to a given ticket.
+
+###### 18th of Sep - (v21.30.2)
+{.release-note-list}
+ **FIXED** Fixed an issue where the clone import feature populated incorrect contact data when saving tickets.
+
+### 5th of Sep 2025 (v21.29)
+{.release-note-list}
+- **ADDED** Introduced a new API to facet tickets by contact groups.
+- **ADDED** Introduced a new API to facet tickets by actual hours (hours spent).
+- **ADDED** Added a new API to bulk retrieve contact groups.
+- **IMPROVED** Enhanced the existing facet tickets API to include additional details.
+- **IMPROVED** Added account reference information to contact group references in the contact API.
+- **IMPROVED** Increased the maximum number of links that can be saved for an account entity to 10.
+
 ### 18th of Aug 2025 (v21.28)
 {.release-note-list}
 - **ADDED** New clone import feature that allows PSA server or 3rd party scripts to migrate data from customer's previous ticketing system, supporting both one-time and ongoing migrations
@@ -5,6 +38,25 @@
 - **FIXED** Event source reporting incorrect events
 - **IMPROVED** Ticket state flow email notifications are now enabled by default
 - **IMPROVED** OAuth login option has been disabled for email domains under Azure National Cloud
+
+###### 22nd of Aug (21.28.2)
+{.release-note-list}
+- **IMPROVED** Updated the calendar cache implementation to be immutable, following recent PSA server changes. This provides clearer developer intent.
+- **IMPROVED** Account-level approvers can no longer approve tickets belonging to a contact group unless they are also that contact group's manager. This establishes a clearer boundary and prevents unintended permission inheritance.
+- **IMPROVED** Enhanced the clone import feature to populate the actual hours spent on tickets during import.
+
+###### 26th of Aug (21.28.3)
+{.release-note-list}
+- **IMPROVED** Removed the logic that waits for non-stale results in the ticket actual hours resolver to avoid unexpected failure points. This change prioritizes performance over accuracy, as precise hours spent calculations are less critical for the nature of the data import feature.
+
+###### 26th of Aug (21.28.4)
+{.release-note-list}
+- **IMPROVED** Moved the logic for waiting on non-stale results from the last comment resolver to the clone import process for comments and time entries. The new implementation ignores exceptions caused by exceeding the wait limit.
+- **IMPROVED** Rounded the `ActualHours` property after importing a ticket to improve the accuracy of ticket query results.
+
+###### 27th of Aug (21.28.5)
+{.release-note-list}
+- **IMPROVED** Updated the Clone import API to ignore duplicate data caused by faulty ConnectWise records.
 
 ### 25th of Jun 2025 (v21.27)
 {.release-note-list}
