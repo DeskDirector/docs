@@ -1,3 +1,16 @@
+### 15th of Sep 2025 ([version 2.15](v2.15))
+
+{.release-note-list}
+- **IMPROVED** Improved date age calculation by changing from real-time difference to calendar date difference
+- **IMPROVED** Improved deep link functionality through intercommunication from Microsoft Teams integration app to match capabilities of direct deep link page access
+- **IMPROVED** Improved Copilot chat conversation to include session ID, enabling the system to store past conversations and analyze them
+- **FIXED** Fixed Copilot chat dialogue's auto scroll behavior pushing the whole dialog up in Chromium-based browsers
+
+###### 19th of Sep 2025 - 2.15.2
+
+{.release-note-list}
+- **FIXED** Fixed real-time user activity UI component in ticket page where the user name and user avatar couldn't be displayed.
+
 ### 8th of Jul 2025 ([version 2.14](v2.14))
 
 {.release-note-list}
