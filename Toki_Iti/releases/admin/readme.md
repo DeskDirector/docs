@@ -1,9 +1,52 @@
+### 30th of Sep 2025 ([version 2.27](v2.27))
+
+{.release-note-list}
+- **ADDED** Introduced a refactored ticket page with enhanced capabilities to modify multiple ticket properties and basic support for adding comments and time entries.
+- **ADDED** New UI to relocate a contact to another account, including transferring tickets associated with the contact.
+- **ADDED** Enabled ticket navigation via deep links.
+- **FIXED** Resolved an issue where the modify tag definition UI encountered HTTP request errors when tags ended with unexpected file extension formats (e.g., `.resources`) due to IIS filtering.
+- **IMPROVED** The new ticket page now saves comment drafts that persist through browser refreshes.
+- **IMPROVED** The new ticket composer design allows users to define deducted time when logging time.
+- **IMPROVED** Internal comments now have enhanced color coding, making it more obvious when adding an internal comment.
+- **IMPROVED** Contact group selection in the ticket composer now intelligently displays the ticket owner's associated contact group first, with optional account-wide group search.
+- **IMPROVED** Ticket status selection in the new ticket UI displays only queue-associated statuses by default, with the option to search all statuses.
+- **IMPROVED** When landing on a ticket, the UI now more reliably scrolls to the first unread comment.
+- **IMPROVED** The experience for modifying assigned agents in tickets has been enhanced, allowing selection or removal of multiple agents at once.
+- **IMPROVED** The ticket off-canvas now supports adding comments and logging time.
+- **IMPROVED** The ticket composer now intelligently determines whether to enable log time by default in the new ticket UI.
+- **IMPROVED** Ticket UI now supports tooltips displaying detailed information for contacts, agents, accounts, and contact groups. Actionable information such as links and emails can now be clicked directly from tooltips.
+- **IMPROVED** The new date time picker in the ticket UI now accurately maps displayed values, resolving discrepancies with background values present in the legacy AngularJS ticket UI.
+- **IMPROVED** Date age calculation has been improved by switching from real-time calculation to calendar day calculation.
+
+###### 1st of Oct - 2.27.2
+{.release-note-list}
+- **FIXED** Fixed an issue with time tracking form where the end time validation error couldn't be displayed
+- **IMPROVED** Improved date time picker to select all text when clicking on hours or minutes input, making value modification easier
+- **IMPROVED** Improved date time picker to close the dropdown when pressing Enter
+
+### 5th of Sep 2025 ([version 2.26](v2.26))
+
+{.release-note-list}
+- **ADDED** Added new UI for faceting tickets by age, activity, closure, and time spent
+- **ADDED** Added reactive tooltips for contact, account, and agent references that look up entity details from the server and display them instead of depending on pre-loaded detailed information
+- **IMPROVED** Improved existing facet tickets UI to include tooltips on contact, account, contact group, and other entities
+- **IMPROVED** Improved facet tickets by accounts to be expandable - when expanded, the UI displays contact and contact group facets for that account
+- **IMPROVED** Allow Shift + click to remove a conditional filter instead of having to remove individual elements in the filter
+- **IMPROVED** Allow middle mouse click on facet tickets UI to open associated entity pages in a separate tab, such as contact profile or account information page
+- **IMPROVED** When refreshing the tickets page, it now also triggers a refresh of the facet UI
+- **IMPROVED** Improved order display to make it easier to identify the current order
+- **IMPROVED** Allow certain tooltips such as account and contact tooltips to support mouse over interaction, enabling users to click on elements within the tooltip
+
 ### 18th of Aug 2025 ([version 2.25](v2.25))
 
 {.release-note-list}
 - **ADDED** New UI for clone import feature, allowing customers to enable data migration from other ticketing systems
 - **IMPROVED** Webhook schema now displays in JSON viewer with syntax highlighting and collapsible/expandable JSON structures
 - **IMPROVED** UI now restricts contact impersonation to admin and master admin users only
+
+###### 21st of Aug - 2.25.2
+{.release-note-list}
+- **IMPROVED** Copilot settings page now has microphone access permissions
 
 ### 26th of Jun 2025 ([version 2.24](v2.24))
 {.release-note-list}
