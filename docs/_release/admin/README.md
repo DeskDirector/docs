@@ -1,6 +1,20 @@
+### 25th of Aug 2025 ([1.60](v1.60.1))
+- **ADDED** Added additional facet UI in tickets page, including facet tickets by account, agent, priority, service type, and more
+- **ADDED** Added time-based facet UI in tickets page, including age, closure, and due time
+- **IMPROVED** Tickets page now supports additional filter options and improved ordering mechanism
+
+###### 27th of Aug - 1.60.2
+- **ADDED** Added tickets audit logs page that requires master admin permission to help diagnose client portal ticket creation failures
+
+###### 1st of Oct - 1.60.3
+- **FIXED** Fixed issue where tags ending with `.resources` caused API calls to be intercepted by IIS due to request filtering module
+
 ### 18th of Aug 2025 ([1.59](v1.59.1))
 - **ADDED** Implemented UI for new clone export feature, allowing customers to set up one-time or active data migration to standalone ticketing system Toki Iti
 - **ADDED** New UI to display member count organized by role
+
+###### 21st of Aug - 1.59.2
+- **IMPROVED** Copilot settings page now has microphone access permissions
 
 ### 10th of Apr 2025 ([1.58](v1.58.1))
 - **ADDED** Ticket Contact Group Policy setting now available for client portal configuration at both global and company levels.
