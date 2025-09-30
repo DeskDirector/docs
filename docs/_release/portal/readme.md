@@ -10,6 +10,13 @@
 
 - **IMPROVED** Extension page now has microphone access permissions through iframe's allow attribute
 
+##### 26th of Aug (3.47.5)
+- **FIXED** Fixed AI assistance UI auto-scroll behavior that incorrectly pushed the entire application viewport up in Chromium-based browsers
+
+##### 22nd of Sep (3.47.6)
+- **IMPROVED** Improved date age calculation by changing from real-time difference to calendar date difference 
+- **FIXED** Fixed inconsistent verification before and after launch of inline form dialog, resolving infinite loading behavior
+
 ### 2nd of Apr 2025 ([3.46](v3.46))
 - **ADDED** Added AI assistance widget, which provides AI chat assistance to help resolve service requests. It can be configured in the admin portal.
 
