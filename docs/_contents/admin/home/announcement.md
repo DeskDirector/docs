@@ -31,6 +31,6 @@ To address this, we have **disabled the impersonation feature for the following 
 
 Going forward, **only Admins and Master Admins** will be able to use the impersonation feature. These roles have the ability to modify board access within the client portal, and are therefore required as a minimum for impersonation privileges.
 
-Thank you for your understanding as we continue to improve platform security.
+Thank you for your understanding as we continue to improve our platform security.
 
 -- 29th of July 2025
