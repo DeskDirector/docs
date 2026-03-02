@@ -7,6 +7,12 @@
 ###### 19th of Sep - 1.60.2
 - **FIXED** Fixed real-time user activity UI component in ticket page where the user name and user avatar couldn't be displayed.
 
+###### 27th of Jan 2026 - 1.60.3
+- **IMPROVED** Updated PSA attachment downloads to use a JavaScript-based download flow when embedded in Microsoft Teams.
+
+###### 12th of Feb - 1.60.4
+- **IMPROVED** Copilot Chat now lets you copy AI responses in Markdown format.
+
 ### 2nd of Apr 2025 ([version 1.59](v1.59))
 - **ADDED** New Copilot feature to help change the tone of a ticket note or time entry before submission.  
 - **ADDED** New Copilot chat to allow agents to chat with Copilot for any service-related questions or questions regarding the current service ticket.  

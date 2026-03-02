@@ -1,3 +1,6 @@
+### 2nd of Mar 2026 ([1.61](v1.61.1))
+- **ADDED** Added an Availability Test Results page showing the last 6 days of availability checks for the current site, giving customers a single place to review recent site health history.
+
 ### 25th of Aug 2025 ([1.60](v1.60.1))
 - **ADDED** Added additional facet UI in tickets page, including facet tickets by account, agent, priority, service type, and more
 - **ADDED** Added time-based facet UI in tickets page, including age, closure, and due time
@@ -8,6 +11,18 @@
 
 ###### 1st of Oct - 1.60.3
 - **FIXED** Fixed issue where tags ending with `.resources` caused API calls to be intercepted by IIS due to request filtering module
+
+###### 6th of Nov - 1.60.5
+- **ADDED** Added the Solution Library, which lets you enable additional integrations (e.g., Digest).
+
+###### 15th of Jan - 1.60.6
+- **FIXED** Fixed an issue where the app could incorrectly identify its embedding ancestor.
+
+###### 27th of Jan - 1.60.7
+- **FIXED** Fixed an issue where non–master admins could download survey results as CSV without the required permissions.
+
+###### 23rd of Feb - 1.60.9
+- **FIXED** Fixed the navigation link for Service Type options in the Events feature.
 
 ### 18th of Aug 2025 ([1.59](v1.59.1))
 - **ADDED** Implemented UI for new clone export feature, allowing customers to set up one-time or active data migration to standalone ticketing system Toki Iti

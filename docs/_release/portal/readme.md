@@ -1,21 +1,36 @@
 ### 10th of Apr 2025 ([3.47](v3.47))
 - **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.
 
-##### 8th of July (3.47.2)
+###### 8th of July (3.47.2)
 
 - **FIXED** List display alignment in markdown generated HTML
 - **IMPROVED** Avatar two-letter name generation logic now better handles multiple spaces between first and last name
 
-##### 21th of Aug (3.47.4)
+###### 21th of Aug (3.47.4)
 
 - **IMPROVED** Extension page now has microphone access permissions through iframe's allow attribute
 
-##### 26th of Aug (3.47.5)
+###### 26th of Aug (3.47.5)
 - **FIXED** Fixed AI assistance UI auto-scroll behavior that incorrectly pushed the entire application viewport up in Chromium-based browsers
 
-##### 22nd of Sep (3.47.6)
+###### 22nd of Sep (3.47.6)
 - **IMPROVED** Improved date age calculation by changing from real-time difference to calendar date difference 
 - **FIXED** Fixed inconsistent verification before and after launch of inline form dialog, resolving infinite loading behavior
+
+###### 13th of Oct (3.47.7)
+- **IMPROVED** Improved the UI text in the Create Ticket widget for clarity and consistency.
+
+###### 19th of Jan 2026 (3.47.8)
+- **FIXED** Fixed an issue where native file downloads did not work when the app was embedded in Microsoft Teams.
+
+###### 27th of Jan (3.47.9)
+- **IMPROVED** Updated PSA attachment downloads to use a JavaScript-based download flow when embedded in Microsoft Teams.
+
+###### 29th of Jan (3.47.10)
+- **FIXED** Fixed an issue where the Date/Time and Time inputs did not update via two-way binding when the user pressed `A` or `P` to toggle between AM and PM.
+
+###### 27th of Feb (3.47.11)
+- **FIXED** Fixed Date/Time picker binding on mobile devices where the library falls back to native HTML inputs and does not fire the usual events. The app now listens to both event types to ensure values update correctly across devices.
 
 ### 2nd of Apr 2025 ([3.46](v3.46))
 - **ADDED** Added AI assistance widget, which provides AI chat assistance to help resolve service requests. It can be configured in the admin portal.

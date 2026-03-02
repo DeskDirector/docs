@@ -1,3 +1,7 @@
+#### Availability Test Results
+Availability Test Results provides a dedicated page where customers can review the **last 6 days of availability checks** for their current DeskDirector site—making it the go-to place to quickly confirm recent site health. Unlike a future public status page, this view is **site-specific** and includes per-check diagnostic insight such as **DNS resolution details, SSL certificate information, and failed request responses**, helping customers understand exactly what happened during an incident. Checks run **every 5 minutes** for platform/standard hostnames and **every 6 hours** for custom domains, with alerts triggered only after **2 consecutive failures** to reduce noise from one-off maintenance-related blips.  
+[Read full release notes](/configs/release-notes/admin/v1.61.1)
+
 ### AI Enhancements Across Portals
 AI-powered assistance is now available across both the TECH and client portals, bringing smarter and more efficient support experiences.
 - **Client Portal**: End users can now benefit from AI assistance, which leverages Retrieval-Augmented Generation (RAG) to find the most relevant knowledge base articles and provide accurate, AI-generated responses. This helps users resolve their requests faster and more effectively.
