@@ -11,6 +11,39 @@
 {.release-note-list}
 - **FIXED** Fixed real-time user activity UI component in ticket page where the user name and user avatar couldn't be displayed.
 
+###### 27th of Jan 2026 - 2.15.3
+
+{.release-note-list}
+- **FIXED** Fixed an issue where the Date/Time and Time inputs did not update via two-way binding when the user pressed `A` or `P` to toggle between AM and PM.
+
+###### 28th of Jan - 2.15.4
+
+{.release-note-list}
+- **ADDED** Added navigation to the v2 preview Ticket UI.
+- **ADDED** Added due date display in tickets and the ticket list, with a link to the v2 preview Ticket UI to edit the due date.
+- **ADDED** Added support for capturing photos or videos on supported mobile devices (via HTML file capture) when creating tickets or adding ticket comments.
+
+###### 28th of Jan - 2.15.5
+
+{.release-note-list}
+- **IMPROVED** Updated the UI to play mobile-captured `video/quicktime` videos.
+
+###### 29th of Jan - 2.15.6
+
+{.release-note-list}
+- **ADDED** Added support for capturing photos or videos in forms.
+- **FIXED** Fixed navigation links on the Contact, Account, and Agent pages.
+
+###### 9th of Feb - 2.15.7
+
+{.release-note-list}
+- **IMPROVED** Copilot Chat now lets you copy AI responses in Markdown format.
+
+###### 29th of Feb - 2.15.9
+
+{.release-note-list}
+- **FIXED** Fixed Date/Time picker binding on mobile devices where the library falls back to native HTML inputs and does not fire the usual events. The app now listens to both event types to ensure values update correctly across devices.
+
 ### 8th of Jul 2025 ([version 2.14](v2.14))
 
 {.release-note-list}

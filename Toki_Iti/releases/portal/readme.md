@@ -1,3 +1,13 @@
+### 29th of Jan 2026 ([4.7.1](v4.7))
+
+{.release-note-list}
+- **ADDED** Added support for capturing photos or videos on mobile devices (via HTML file capture). This can be used when creating tickets or adding ticket comments.
+
+###### 27th of Feb (4.7.2)
+
+{.release-note-list}
+- **FIXED** Fixed Date/Time picker binding on mobile devices where the library falls back to native HTML inputs and does not fire the usual events. The app now listens to both event types to ensure values update correctly across devices.
+
 ### 14th of Apr 2025 ([4.6.1](v4.6))
 {.release-note-list}
 - **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.

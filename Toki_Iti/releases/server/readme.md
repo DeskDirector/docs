@@ -1,3 +1,26 @@
+### 27th of Feb 2026 (v21.33)
+{.release-note-list}
+- **ADDED** Added a new set of Availability Results APIs to return availability test results for the current site.
+- **IMPROVED** Webhooks that fail delivery are now paused for 30 minutes instead of having their definitions deleted, allowing them to recover automatically.
+- **IMPROVED** The Get Phone Regions API now returns the default phone region based on the organization’s calendar settings.
+- **IMPROVED** Improved metrics reporting to Application Insights by replacing the `EventSource` implementation with a custom metric collector, providing more control over when and how often metrics are submitted.
+
+### 27th of Jan 2026 (v21.32)
+{.release-note-list}
+- **ADDED** Added a due date feature for the ticketing system, allowing users to assign a due date to open tickets. Due dates can also be queried and used as a facet via the API.
+- **ADDED** Added a new `IsPrimaryForEmail` flag for contacts, along with a mechanism to change the primary contact for a given email address.
+- **IMPROVED** Updated the archive APIs (contact, account, agent, ticket, time entry, comment, service type, form) to return the archived model instead of a 204 No Content response.
+- **IMPROVED** Updated the connector “find tickets” API to use the v4 API engine for search results, including support for searching by metadata and due date.
+- **IMPROVED** Updated the connector “find contacts” API to use the v4 API engine for search results.
+- **IMPROVED** Improved security for managing contact state so that only admins and master admins can activate or deactivate contacts.
+- **IMPROVED** Updated the connector to use Toki Iti service logic to create tickets instead of relying on the v2 API engine.
+- **IMPROVED** Parsed phone numbers now include region information.
+- **IMPROVED** Improved survey query logic to support role-specific filtering, enabling CSV exports for agents of any role (not just master admins).
+- **FIXED** Fixed an issue where the server did not report request and dependency metrics by enabling them in the Application Insights configuration.
+- **FIXED** Fixed an issue where the background event source could throw an error.
+- **FIXED** Fixed an issue where a category filter was incorrectly applied when searching for contacts under a specific account.
+- **FIXED** Fixed an issue where queue-specific survey configuration was not applied.
+
 ### 30th of Sep 2025 (v21.31)
 {.release-note-list}
 - **ADDED** Introduced a restore ticket API.
@@ -8,6 +31,21 @@
 - **IMPROVED** Strengthened the permission requirements for the ticket modification API.
 - **IMPROVED** The deleted ticket API now always returns the updated (archived) ticket. Since this operation archives the ticket rather than removing it, a 404 Not Found is returned when the ticket does not exist.
 - **IMPROVED** Archived tickets can now be modified.
+
+###### 26th of Nov - (v21.31.2)
+{.release-note-list}
+- **ADDED** Added new API to archive or restore accounts.
+- **ADDED** Added new API to deactivate or reactivate contacts.
+- **IMPROVED** For form results submitted by a disposable form, the form reference now uses the form result's name.
+- **IMPROVED** The server information API now returns the index version when instructed through a specific request header.
+
+###### 5th of Dec - (v21.31.3)
+{.release-note-list}
+- **FIXED** Blob storage usage is now calculated using a RavenDB facet query.
+
+###### 17th of Dec - (v21.31.4)
+{.release-note-list}
+- **IMPROVED** The system info API now supports including health information when instructed via a query parameter.
 
 ### 18th of Sep 2025 (v21.30)
 {.release-note-list}

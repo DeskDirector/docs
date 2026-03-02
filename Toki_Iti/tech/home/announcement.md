@@ -4,5 +4,6 @@ The feature release list has been an excellent way to share product updates, but
 
 * Global API Key (Admin [2.10](/configs/release-notes/admin/v2.10))
 * Personal API Key (Admin [2.10](/configs/release-notes/admin/v2.10))
+* Availability Test Results (Admin [2.30](/configs/release-notes/admin/v2.30))
 
 More information can be found on [the feature releases page](/configs/release-notes/feature-releases).

@@ -1,3 +1,44 @@
+### 2nd of Mar 2026 ([version 2.30](v2.30))
+
+{.release-note-list}
+- **ADDED** Added an Availability Test Results page showing the last 6 days of availability checks for the current site, giving customers a single place to review recent site health history.
+
+### 27th of Jan 2026 ([version 2.29](v2.29))
+
+{.release-note-list}
+- **ADDED** Added an indicator on the Contact profile page to show whether the contact is the primary contact for an email address, with an option to change it.
+- **ADDED** Added due date display in tickets and the ticket list, and enabled editing the due date in the UI.
+- **ADDED** Added a Due Date facet to the ticket list to help track upcoming work by due date.
+- **ADDED** Added a new Due Urgency chart to the ticket dashboard.
+
+###### 2nd of Feb - 2.29.2
+
+{.release-note-list}
+- **IMPROVED** Improved the phone input region selector so commonly used countries appear at the top.
+- **IMPROVED** Improved the expand/collapse behavior for the Queue facet on the ticket list page.
+- **IMPROVED** Prevented due date changes on archived tickets.
+- **FIXED** Fixed an issue where the phone input could select a region that shares the same country code as the United States.
+
+###### 5th of Feb - 2.29.3
+
+{.release-note-list}
+- **FIXED** Fixed a navigation link to the central server.
+- **FIXED** Fixed the `mailto` link for contact and agent email addresses.
+
+###### 23rd of Feb - 2.29.4
+
+{.release-note-list}
+- **FIXED** Fixed an issue where agent avatars were not displayed correctly.
+- **FIXED** Fixed the navigation link for Service Type options in the Events feature.
+
+### 15th of Jan 2026 ([version 2.28](v2.28))
+
+{.release-note-list}
+- **ADDED** Added bulk editing for tickets, including tags, assignees, state, owner, and other ticket properties.
+- **ADDED** Added a UI component to display entity metadata (e.g., contact, agent, account, ticket) for entities that support the `metadata` property.
+- **FIXED** Fixed an issue where the UI could not reset tags for contacts or agents.
+- **FIXED** Fixed an issue where the app could incorrectly identify its embedding ancestor.
+
 ### 30th of Sep 2025 ([version 2.27](v2.27))
 
 {.release-note-list}
