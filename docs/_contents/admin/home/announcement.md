@@ -1,3 +1,12 @@
+> Since early March, our US-2 database region has been experiencing elevated CPU usage, resulting in two service outages last weekend. During this time, we attempted to resolve the issue by increasing storage IOPS and restarting the database, however neither action resolved the underlying cause.
+>
+> Today, we downgraded the database to the stable version prior to January 12th, applied a Windows OS upgrade, and restarted the virtual machine. Following these changes, CPU utilisation has stabilised within normal operating parameters.
+>
+> Our engineering team is actively monitoring the US-2 region and we are in direct communication with our database vendor to conduct a further root cause analysis and determine the best path forward.
+>
+> We sincerely apologise for the inconvenience caused to customers on the US-2 region. We will keep you updated as our investigation progresses.
+
+
 ### PRODUCT UPDATE
 
 The feature release list has been an excellent way to share product updates, but it has gradually taken over the entire page and still lacks detailed context. As a result, we have moved them to a [separate page](/configs/release-notes/feature-releases) and are only highlighting three of the most recent features here. 
