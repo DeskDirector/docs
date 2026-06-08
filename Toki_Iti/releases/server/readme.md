@@ -1,3 +1,39 @@
+### 8th of Jun 2026 (v21.36)
+{.release-note-list}
+- **IMPROVED** Survey notification email now uses ticket deep link instead of a hardcoded URL path
+- **IMPROVED** Upgraded access token RSA key size from 2048-bit to 4096-bit for stronger encryption
+- **IMPROVED** Upgraded password hashing algorithm from SHA-1 (700k iterations) to SHA-512 (300k iterations) for stronger security while maintaining comparable performance
+- **IMPROVED** Updated multiple dependency libraries, including RavenDB to version 7.2.2
+- **IMPROVED** Added request timeout of 1 minute for RavenDB client configuration
+- **IMPROVED** Replaced `SpinLock` with `Interlocked` for aggregate metric values for better performance
+- **IMPROVED** Added metrics reporting on `ActionBlock<T>` usages to track when the queue reaches its maximum capacity via Application Insights logs
+- **IMPROVED** Task templates and task lists can now be created with items provided upfront
+- **IMPROVED** ETag is no longer required when modifying a task list; if provided, it will be used to validate against concurrent modifications
+
+### 24th of Mar 2026 (v21.35)
+{.release-note-list}
+- **ADDED** Implemented hard delete logic for archived tickets; archive action in audit log now uses a dedicated soft delete action type instead of the generic delete type
+- **ADDED** Introduced ticket insight as a separate document to store AI-generated ticket summaries, keeping the ticket object lean and preparing for vector search implementation
+- **IMPROVED** Introduced a get file API to allow file preview before attaching to a ticket or other object; file information now includes the purpose field to indicate the file's intended usage
+- **IMPROVED** Broadcast and ticket email delivery now generates an email record when an error occurs, such as when no email delivery account has been configured
+- **IMPROVED** Patching a comment or time entry now also marks the ticket as read for the given user
+- **IMPROVED** Added timeout configuration in CI/CD pipeline when publishing the server to the manager site
+
+###### 22nd of April (v21.35.2)
+{.release-note-list}
+- **ADDED** Added WebP file type detection to support uploading WebP images for logo and avatar
+- **FIXED** Fixed incorrect offset value in the magic bytes file type detection logic; the offset was targeting the source stream position instead of the destination array index, despite producing correct results
+- **FIXED** Fixed a route conflict between the newly introduced get file API and an existing API route on the public API endpoint (used by customers via API key)
+
+### 10th of Mar 2026 (v21.34)
+{.release-note-list}
+- **ADDED** Added API and Access Token usage metric reporter.
+- **ADDED** Added new optional request metric reporter.
+- **ADDED** Added survey triggered event support for webhook and workflow features.
+- **FIXED** Fixed email notification settings referencing a default email delivery account that does not exist.
+- **IMPROVED** Email delivery account in-memory cache is now immutable for easier and safer usage.
+- **IMPROVED** Sending email via API now throws an error when the email delivery account is invalid or does not exist, instead of failing silently.
+
 ### 27th of Feb 2026 (v21.33)
 {.release-note-list}
 - **ADDED** Added a new set of Availability Results APIs to return availability test results for the current site.
