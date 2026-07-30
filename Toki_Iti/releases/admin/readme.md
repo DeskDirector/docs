@@ -1,3 +1,56 @@
+### 17th of Jul 2026 ([version 2.35](v2.35))
+
+{.release-note-list}
+- **ADDED** Added a new API key scope, allowing users to permit their generated API keys to call the new Workspace API.
+- **ADDED** Added a Workspace UI, including a list of workspaces the user has joined or public workspaces available. Users can add tickets to a workspace through several different methods, view tickets within a workspace, and group or order them. A workspace is a place where an agent works, providing personalized ticket management.
+- **IMPROVED** The markdown editor now auto-capitalizes sentences and offers writing suggestions.
+- **IMPROVED** Email, phone, and URL inputs now have autocomplete and auto-capitalize disabled, preventing the browser from suggesting irrelevant data — since these fields are used to modify accounts, contacts, or agents rather than the user's own profile.
+
+###### 22nd of Jul 2026 (2.35.2)
+
+{.release-note-list}
+- **IMPROVED** Improved drag-and-drop behavior in the Workspace UI on mobile devices — touch screens are now automatically detected, and a drag-and-drop delay has been added to allow smoother scrolling.
+
+### 8th of Jun 2026 ([version 2.34](v2.34))
+
+{.release-note-list}
+- **ADDED** Ticket UI v2 now includes a task list feature, allowing users to create a task list from scratch or from a template, modify existing task lists, and view task list change history.
+
+### 26th of May 2026 ([version 2.33](v2.33))
+
+{.release-note-list}
+- **ADDED** New AI conversation UI for tickets.
+- **FIXED** Fixed an issue where adding a comment or time entry in Ticket v2 did not appear in the ticket timeline.
+
+### 14th of May 2026 ([version 2.32](v2.32))
+
+{.release-note-list}
+- **ADDED** Added help action buttons to the markdown editor, such as bold, list, quote, code, code block, etc.
+- **ADDED** Added more hotkey support for the markdown editor.
+- **ADDED** New markdown display mode that renders code blocks with the desired language, including JSON, TypeScript, JavaScript, C#, PowerShell, Shell, KQL, etc.
+- **ADDED** Implemented a KQL parser for CodeMirror to support syntax highlighting.
+
+### 24th of Mar 2026 ([version 2.31](v2.31))
+
+{.release-note-list}
+- **ADDED** Ticket v2 UI now supports attaching files when adding a comment or time entry.
+- **ADDED** Ticket v2 UI now supports editing comments and time entries.
+- **ADDED** Ticket v2 UI now allows hard deletion of a ticket after it has been archived for 7 days.
+- **FIXED** Fixed an issue where users were unable to delete a webhook or reset a menu item — the confirmation toast now displays properly.
+- **IMPROVED** Ticket drafts are now cached in local browser storage for only 6 hours, preventing submitted drafts from remaining cached if the browser is closed after submission.
+- **IMPROVED** Added a loading indicator before the Angular application is ready to be displayed.
+- **FIXED** Fixed the CodeMirror editor's replacement command to prevent errors caused by an incorrect range being used.
+
+###### 2nd of Apr (2.31.3)
+{.release-note-list}
+- **IMPROVED** Improved the logic used to detect absolute vs. relative URLs in HTML and markdown content, ensuring absolute URLs redirect directly while relative URLs are correctly navigated using the Angular router.
+
+###### 5th of Mar (2.31.4)
+{.release-note-list}
+- **IMPROVED** Deleting a ticket now requires the user to type in the ticket ID as an extra safety step.
+- **IMPROVED** Comments and time entries can now be copied as markdown, and can be quoted by auto-populating the quoted content into the input.
+- **IMPROVED** Ticket UI v2's assignee dropdown now includes the current user even if they are not yet assigned, allowing them to quickly assign themselves to the ticket.
+
 ### 2nd of Mar 2026 ([version 2.30](v2.30))
 
 {.release-note-list}
