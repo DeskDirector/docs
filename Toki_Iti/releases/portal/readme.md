@@ -8,6 +8,10 @@
 {.release-note-list}
 - **FIXED** Fixed Date/Time picker binding on mobile devices where the library falls back to native HTML inputs and does not fire the usual events. The app now listens to both event types to ensure values update correctly across devices.
 
+###### 11th of Mar (4.7.3)
+{.release-note-list}
+- **IMPROVED** The client portal dashboard (landing page), which auto-refreshes its charts every 5 minutes, will now skip refreshing when the browser tab is inactive or not visible, reducing unnecessary load on the server.
+
 ### 14th of Apr 2025 ([4.6.1](v4.6))
 {.release-note-list}
 - **ADDED** Client Portal now supports Ticket Contact Group Policy, letting customers control whether contact group selection is required when submitting new tickets.
