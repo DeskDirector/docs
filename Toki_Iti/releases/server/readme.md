@@ -1,3 +1,11 @@
+### 17th of Jul 2026 (v21.37)
+{.release-note-list}
+- **ADDED** New **Workspace** feature is now available, including support in the TECH portal API and public API.
+- **IMPROVED** Server upgraded to .NET 10, along with all associated dependencies.
+- **IMPROVED** WEBP images are now allowed for brand logos.
+- **IMPROVED** Public API keys for ticket, contact, contact group, account, agent, file, and workspace can now be accessed via agent personal API.
+- **IMPROVED** Added support for the `ML-DSA` algorithm for access token hash keys, in preparation for a planned switch to this post-quantum signature algorithm later this year.
+
 ### 8th of Jun 2026 (v21.36)
 {.release-note-list}
 - **IMPROVED** Survey notification email now uses ticket deep link instead of a hardcoded URL path
