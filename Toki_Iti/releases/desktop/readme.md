@@ -1,3 +1,9 @@
+### 13th of May (v5.4.5)
+- **FIXED** Fixed installer prerequisite from .NET 6 Desktop Runtime to .NET 10 Desktop Runtime
+- **FIXED** Fixed an application timeout issue that occurred when attempting to exit.
+- **IMPROVED** Upgraded application compilation target from .NET 8 Desktop to .NET 10 Desktop SDK
+- **IMPROVED** Upgraded dependent packages and resolved breaking changes introduced by newer versions of dependency libraries
+
 ### 18th of Mar, 2025 (v5.3.2)
 - Updated dependency libraries to the latest versions for improved performance and security
 - Signed the installer executable with a new certificate to enhance trust and security.
