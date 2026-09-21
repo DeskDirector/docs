@@ -26,3 +26,11 @@ Timesheets offer a structured view of time entries by week, broken down by day. 
 #### Ticket Side Panel
 The Ticket Side Panel enhances the user interface by allowing quick access to ticket details without switching to a new tab. Previously, clicking on elements like timesheets, time entries, or surveys would open a new tab with the ticket information. Now, with the Ticket Side Panel, users can view ticket details in a seamless, side-by-side panel, improving workflow and user experience.
 [Read full release notes](/configs/release-notes/admin/v2.16)
+
+#### Workspaces
+Introducing Workspaces — a brand-new way for agents to organize, manage, and collaborate on tickets. Instead of relying on assigned or status-based filter lists, agents can now build their own personalized, ordered lists of tickets, join shared workspaces for real-time team collaboration, and automate upkeep with webhook support.
+[Read full release notes](/configs/release-notes/admin/v2.35)
+
+#### OAuth 2.1 Support
+Introducing full OAuth 2.1 support, end-to-end, from day one — a new server-side engine built to the OAuth 2.1 specification, paired with a complete admin portal UI. Admins can manage app registrations and secrets, configure global OAuth settings (such as enforcing client secret authentication and setting consent modes per portal), and monitor or revoke consent grants and authorized sessions. Agents and contacts get self-service tools to manage their own connections, including personal secrets for safer, individually-owned application access.
+[Read full release notes](/configs/release-notes/admin/v2.37)
