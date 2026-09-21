@@ -1,3 +1,44 @@
+### 21st of Sep 2026 (v21.39)
+{.release-note-list}
+- **ADDED** Added OAuth-related APIs for the system level, client portal level, and TECH portal level.
+- **ADDED** Added well-known metadata for personal and system authorize endpoints.
+- **ADDED** Added a JSON Web Token keys API, so integrators can use it to verify OpenID.
+- **ADDED** Added support for OpenID-related scopes, such as `profile` and `email`.
+- **ADDED** When querying an API using an access token, unauthenticated or unauthorized responses will now include a `WWW-Authenticate` header containing the failure message.
+- **ADDED** Added personal secret support for app registration, so each user can have their own secret when performing OAuth against an organization-registered application.
+- **ADDED** Added new default consent grant levels at the TECH portal, client portal, and account level, so admins can now grant consent for all agents (TECH portal), all contacts (client portal), or contacts under a specific account.
+- **ADDED** Introduced agent read state for workspace, providing a way for the UI to display unread state for agents.
+- **FIXED** Fixed an issue where querying an API with DPoP did not verify the hashed value.
+- **FIXED** Fixed an issue where querying an API with DPoP checked the Bearer scheme instead of the DPoP scheme.
+- **IMPROVED** The OAuth exchange token API now allows retrieving the client secret from either the header or body form parameters. Previously, it only looked at the body.
+- **IMPROVED** Changed the HSTS header duration from 30 days to 2 years.
+- **IMPROVED** Added the `Referrer-Policy` header with value `strict-origin-when-cross-origin`.
+- **IMPROVED** Added the `X-Content-Type-Options` header with value `nosniff`.
+- **IMPROVED** Added `security.txt` and `robots.txt`.
+- **IMPROVED** Fixed an issue where the Angular `index.html` didn't return a content type, which, combined with the introduction of the `X-Content-Type-Options` header, caused the single page application to fail to load.
+- **IMPROVED** Allowed agents to modify the notes field on contacts or accounts.
+
+### 14th of Aug 2026 (v21.38)
+{.release-note-list}
+- **ADDED** Introduced scopes authorization requirement to all APIs, including the client portal and TECH portal APIs.
+- **ADDED** Added missing authorization scopes for all entities and configurations.
+- **ADDED** Added an additional tickets API for the on-behalf-of contact API route.
+- **ADDED** Added app registration as a new feature, along with its associated API.
+- **ADDED** Added OAuth as a new feature, allowing registered applications to request consent grants. Supports code authorization, OpenID, PKCE, and DPoP, matching OAuth specification version 2.1.
+- **ADDED** API requests that use OAuth authentication will now update the last-used time of their associated authorized session.
+- **IMPROVED** The `prompt=login` parameter is now correctly supported. Previously, users who were already logged in could bypass authentication and be automatically redirected to the consent page.
+- **IMPROVED** Removed the personal OAuth security definition from the Swagger definition, as it was redundant and misleading in Swagger UI. It required completing the OAuth consent flow, which relies on browser cookies for authentication, while API requests actually use the returned access token, making the OAuth login step in Swagger UI unnecessary and confusing.
+
+###### 17th of Aug 2026 (v21.38.5)
+{.release-note-list}
+- **ADDED** The create time entry API now allows specifying an internal flag, so internal time entries can be created.
+- **FIXED** Fixed an issue with actual hours calculation when creating a time entry.
+- **FIXED** Fixed an issue where some APIs using a scheme with policy were unable to respond.
+
+###### 18th of Aug 2026 (v21.38.6)
+{.release-note-list}
+- **ADDED** Power Automate connector APIs now also accept the relevant entity-specific scopes (such as `contact:read` or `ticket:read`) in addition to the `automate-connector` scope, allowing existing API keys created before the `automate-connector` scope requirement to continue working during migration.
+
 ### 17th of Jul 2026 (v21.37)
 {.release-note-list}
 - **ADDED** New **Workspace** feature is now available, including support in the TECH portal API and public API.
