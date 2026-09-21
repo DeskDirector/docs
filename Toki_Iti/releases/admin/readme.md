@@ -1,3 +1,21 @@
+### 21st of Sep 2026 ([version 2.37](v2.37))
+
+{.release-note-list}
+- **ADDED** Added read state for workspace.
+- **ADDED** The accounts, contacts, and agents list and individual pages are now displayed under the features route for normal agents, in preparation for merging the admin portal and TECH portal.
+- **ADDED** Added an app registration UI, where master admins can manage an organization application's secret.
+- **ADDED** Added an app registration UI for agents, allowing them to set up and manage their personal secret.
+- **ADDED** Added OAuth session and consent management UI for master admins to manage all consent grants and authorized sessions, allowing them to revoke a session, revoke a consent grant, or grant new consent at different levels.
+- **ADDED** Added consent session and consent UI for agents to manage their own sessions and consent granted to applications, so they can monitor or revoke connections to a given application.
+- **FIXED** Fixed an issue where the ticket off-canvas could not be launched due to a circular reference in TypeScript.
+
+### 18th of Aug 2026 ([version 2.36](v2.36))
+
+{.release-note-list}
+- **ADDED** The API Key configuration UI now supports the latest scopes.
+- **ADDED** The Ticket v2 UI now allows creating internal time entries.
+- **IMPROVED** Updated embedded videos to use `livid.com` instead of Vimeo.
+
 ### 17th of Jul 2026 ([version 2.35](v2.35))
 
 {.release-note-list}
