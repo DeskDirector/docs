@@ -1,3 +1,13 @@
+### 19th of Oct 2026 ([version 2.38](v2.38))
+
+{.release-note-list}
+- **ADDED** New Ticket Widget configuration UI for the client portal and tech portal.
+- **ADDED** New Ticket Widget UI in Ticket UI v2.
+- **ADDED** New ticket timesheet that shows the time entries logged for a ticket in a time-centric view. Entries are ordered and grouped by start time.
+- **FIXED** The select queue dialog did not respect the environment parameter, so admins could not select a newly created queue in the ticket access setting.
+- **IMPROVED** Toggling an ordered or unordered list in the markdown editor now keeps the cursor selection the same before and after the toggle.
+
+
 ### 21st of Sep 2026 ([version 2.37](v2.37))
 
 {.release-note-list}

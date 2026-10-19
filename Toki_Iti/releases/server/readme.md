@@ -1,3 +1,11 @@
+### 19th of Oct 2026 (v21.40)
+{.release-note-list}
+- **ADDED** New Feature ticket widget that replaces the existing dynamic content.
+- **IMPROVED** The `X-Content-Type-Options` header is no longer added to HTTP responses when the response is a redirect.
+- **IMPROVED** Tickets created by the Email Connector now respect the VIP setting. When the setting is enabled and the contact is marked as VIP, the ticket's primary priority is set to the VIP priority.
+- **IMPROVED** The Create Contact API no longer requires a role. If none is specified, the role defaults to regular.
+- **IMPROVED** The OAuth authorization page now returns a Content Security Policy header, so whether the page can be embedded matches the authentication page, based on the customer's setting.
+
 ### 21st of Sep 2026 (v21.39)
 {.release-note-list}
 - **ADDED** Added OAuth-related APIs for the system level, client portal level, and TECH portal level.

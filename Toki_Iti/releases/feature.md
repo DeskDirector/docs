@@ -27,6 +27,14 @@ Timesheets offer a structured view of time entries by week, broken down by day. 
 The Ticket Side Panel enhances the user interface by allowing quick access to ticket details without switching to a new tab. Previously, clicking on elements like timesheets, time entries, or surveys would open a new tab with the ticket information. Now, with the Ticket Side Panel, users can view ticket details in a seamless, side-by-side panel, improving workflow and user experience.
 [Read full release notes](/configs/release-notes/admin/v2.16)
 
+#### Ticket Widgets
+Ticket Widgets bring interactive content into the ticket in the TECH portal. Powered by any provider's API, a widget can show information, list items, report progress, or ask for a quick decision, so agents can act without leaving the ticket. Master admins can register widgets and choose when they appear through the new configuration UI.
+[Read full release notes](/configs/release-notes/admin/v2.38)
+
+#### Ticket Timesheet
+Ticket Timesheet is a new view that shows a ticket's time entries grouped by date and ordered by start time, with start and end times, duration, and daily totals visible at a glance. A side panel breaks down hours worked by agent, and the view is one click away from the time spent information in the ticket side panel.
+[Read full release notes](/configs/release-notes/admin/v2.38)
+
 #### Workspaces
 Introducing Workspaces — a brand-new way for agents to organize, manage, and collaborate on tickets. Instead of relying on assigned or status-based filter lists, agents can now build their own personalized, ordered lists of tickets, join shared workspaces for real-time team collaboration, and automate upkeep with webhook support.
 [Read full release notes](/configs/release-notes/admin/v2.35)
