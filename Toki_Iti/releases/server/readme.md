@@ -1,3 +1,9 @@
+### 19th of Nov 2026 (v21.41)
+{.release-note-list}
+- **ADDED** New form result attachment API for uploading and retrieving attachments on form results
+- **ADDED** New `serviceTypeCount` property on the form's `$info` object, reflecting the rename of "request type" to "service type" (service catalogue)
+- **DEPRECATED** The `requestTypeCount` property on the form's `$info` object; kept for backward compatibility — use `serviceTypeCount` instead
+
 ### 19th of Oct 2026 (v21.40)
 {.release-note-list}
 - **ADDED** New Feature ticket widget that replaces the existing dynamic content.
@@ -5,6 +11,12 @@
 - **IMPROVED** Tickets created by the Email Connector now respect the VIP setting. When the setting is enabled and the contact is marked as VIP, the ticket's primary priority is set to the VIP priority.
 - **IMPROVED** The Create Contact API no longer requires a role. If none is specified, the role defaults to regular.
 - **IMPROVED** The OAuth authorization page now returns a Content Security Policy header, so whether the page can be embedded matches the authentication page, based on the customer's setting.
+
+###### 9th of Nov 2026 (v21.40.2)
+{.release-note-list}
+- **ADDED** New custom base property `machine_name` to telemetry
+- **IMPROVED** Relaxed telemetry custom property value validation to allow empty values
+- **IMPROVED** Comments, time entries, and activities in ticket responses are now ordered by creation time
 
 ### 21st of Sep 2026 (v21.39)
 {.release-note-list}
