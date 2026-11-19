@@ -1,3 +1,20 @@
+### 19th of Nov 2026 ([version 2.40](v2.40))
+
+{.release-note-list}
+- **ADDED** Form results can now be rendered and viewed in both the forms UI and ticket UI v2.
+- **FIXED** Fixed a focus issue in ticket UI v2 where comments, descriptions, and time entries focused via a URL fragment could not be unfocused. Unfocusing now works correctly.
+- **IMPROVED** The form result list now includes a dropdown menu to navigate to the associated form or ticket, and displays progress information in a tooltip.
+- **IMPROVED** Ticket UI v2 now navigates to the local form result page instead of redirecting to the TECH portal v1.
+- **IMPROVED** The storage analytics page's uploaded file list now navigates to the associated ticket or form result in the local application instead of redirecting to the TECH portal v1.
+
+### 12th of Nov 2026 ([version 2.39](v2.39))
+
+{.release-note-list}
+- **ADDED** Agents can now attach a predefined form to a ticket in UI v2, requesting the contact to provide additional information through the client portal.
+- **ADDED** Pending forms on a ticket can now be renamed in UI v2.
+- **ADDED** Pending forms on a ticket can now be removed in UI v2.
+- **FIXED** Fixed an issue where the ticket page could display both the full header and the trimmed (scrolled) header side by side. This occurred when the viewport size changed suddenly, causing the visibility observer to process only the first of two rapid events and incorrectly conclude the full header was hidden.
+
 ### 19th of Oct 2026 ([version 2.38](v2.38))
 
 {.release-note-list}
@@ -7,6 +24,10 @@
 - **FIXED** The select queue dialog did not respect the environment parameter, so admins could not select a newly created queue in the ticket access setting.
 - **IMPROVED** Toggling an ordered or unordered list in the markdown editor now keeps the cursor selection the same before and after the toggle.
 
+###### 30th of Oct 2026 (2.38.2)
+{.release-note-list}
+- **ADDED** CSV attachments can now be previewed directly in the portal. Files under 1 MB preview automatically; files between 1 MB and 10 MB can be previewed on demand.
+- **ADDED** The rephrase feature now displays diagnostic information, including the AI model used, token usage (input and output), and the time taken for each step (e.g., loading configuration, calling the AI model), making it easier to diagnose issues.
 
 ### 21st of Sep 2026 ([version 2.37](v2.37))
 
